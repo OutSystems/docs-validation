@@ -1,0 +1,7 @@
+# Based on OpenStack.SentenceLength
+message: "Write short sentences (less than 40 words)."
+extends: occurrence
+scope: sentence
+level: suggestion
+max: 40
+token: \b(\w+)\b
