@@ -1,5 +1,7 @@
 # OutSystems Documentation Validation Rules
 
+![Latest GitHub release](https://img.shields.io/github/v/release/OutSystems/docs-validation) ![Commits since latest release](https://img.shields.io/github/commits-since/OutSystems/docs-validation/latest?label=commits%20since%20release)
+
 Contains a set of rules used to validate OutSystems documentation.
 
 Each release (`OutSystems.zip` file) contains a set of rules defining the **OutSystems** style for [vale](https://github.com/errata-ai/vale).
