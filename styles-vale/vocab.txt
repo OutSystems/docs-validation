@@ -1,0 +1,17 @@
+Android
+boolean
+chatbot
+Ctrl
+datacenter
+Excel
+enum
+denormalization
+denormalize
+keystore
+iOS
+MindTouch
+reinstall
+reinstallation
+scrollable
+uncheck
+unescaped
