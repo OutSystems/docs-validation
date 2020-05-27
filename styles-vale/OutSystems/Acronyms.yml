@@ -25,14 +25,18 @@ exceptions:
   - HTTPS
   - IDE
   - JSON
+  - LDAP
   - LESS
+  - MABS
   - NET
+  - OKTA
   - PATH
   - PDF
   - PHP
   - POST
   - RAM
   - REST
+  - SAML
   - SCSS
   - SDK
   - SOAP
@@ -45,7 +49,11 @@ exceptions:
   - URL
   - USB
   - UTF
+  - WSDL
   - XML
   - XSS
   - YAML
   - ZIP
+  - DEV
+  - PP
+  - PROD
