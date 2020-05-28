@@ -29,6 +29,7 @@ exceptions:
   - LESS
   - MABS
   - NET
+  - NTLM
   - OKTA
   - PATH
   - PDF

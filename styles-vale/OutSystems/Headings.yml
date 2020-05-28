@@ -86,6 +86,7 @@ exceptions:
   - Link
   - List Item
 # Third Party
+  - Active Directory
   - Android
   - Apple Developer
   - Azure
@@ -96,6 +97,7 @@ exceptions:
   - Excel
   - Google Play
   - iOS
+  - Integrated Authentication
   - Kubernetes
   - Package
   - Store
