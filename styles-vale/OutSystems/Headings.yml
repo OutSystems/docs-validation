@@ -22,11 +22,13 @@ exceptions:
   - Aggregate
   - Ajax
   - App
-  - Application Template
+  - Application
   - Area
   - Attribute
+  - Block
   - Callback
-  - Client 
+  - Client
+  - Email
   - Entity
   - Entities
   - Exception
@@ -37,6 +39,7 @@ exceptions:
   - Mobile
   - Mobile Apps Build Service
   - Module
+  - Parameter
   - Personal
   - Process
   - Progressive
@@ -44,14 +47,18 @@ exceptions:
   - Reactive
   - Record
   - Refresh
+  - Resource
   - Role
   - Screen
   - Server
+  - Service
+  - Session
   - Site Property
   - SQL
   - Static
   - Structure
   - Taskbox
+  - Template
   - Theme
   - Timer
   - Traditional
@@ -95,6 +102,7 @@ exceptions:
   - Code
   - Docker
   - Excel
+  - Git
   - Google Play
   - iOS
   - Integrated Authentication
