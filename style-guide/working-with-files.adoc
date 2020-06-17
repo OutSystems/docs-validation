@@ -1,0 +1,253 @@
+Working with files
+===================
+:toc:
+
+== Working with files
+
+Read this section to learn more about the Markdown file structure, naming conventions, and how to add files to the table of content.
+
+=== Structure of a Markdown file 
+
+Markdown files have the following sections:
+
+* *Header* or *front-matter*. Contains topic metadata.
+* *Title*. The topic title that by default also defines the page URL when published. Always use a Heading 1 to define the title (check "Headings"). After the header, insert two line breaks and then write the title of the topic as Heading 1. Leave an empty line after this heading and then write the body of the topic.
+* *Body*. The content of the topic. Can contain text, tables, images, videos, and similar.
+
+=== File header of a Markdown file 
+
+The file header or front-matter of a Markdown file contains metadata that's not rendered as body text. The header starts in the first line with `---` (three hyphen characters), has one entry per line, and ends with `---` (three hyphen characters), followed by two line breaks and one empty line. Insert two line breaks after the header.
+
+Even though none of the entries are mandatory, make sure that the front-matter contains at least a summary.
+
+The front-matter can contain the following entries:
+
+* *Summary* (`summary`). A sentence or two describing the topic. The readers see it in "Articles in this section", when there's a list of available child topics. Summaries also show in search engine results.
+* *Tag list* (`tags`, with values separated by `;`). The tags define topic properties and populate Mindtouch tags. Find reserved words to define the page properties in the section "Reserved words for tags".
+* *English title* (`en_title`): The title of the page in English, for translated content and to define the page URL in Mindtouch. By default, the English title has the same text as the Heading 1 of the topic. Spaces are replaced with underscores. Add this entry manually *only if the URL must be different from the topic title*.
+* *HelpID list* (`helpids`, with values separated by `,`): One or more Help IDs mapping to the current topic. This front-matter entry is found in the reference topics generated from the product source code. You don't need to edit this field.
+
+*Examples*
+
+
+A beginning of Markdown file with summary and tags:
+
+[source, markdown]
+----
+---
+summary: Screens and Blocks follow a lifecycle composed by a set of stages. Learn what those stages are and what you can do at each one.
+tags: runtime-mobileandreactiveweb; support-application_development; support-Application_Troubleshooting-featured; support-Mobile_Apps
+---
+
+# Screen and Block Lifecycle Events
+----
+
+A beginning of Markdown file with tags and the English title:
+
+[source, markdown]
+----
+---
+tags: version-11
+en_title: OutSystems Platform side effects and breaking changes
+---
+
+# OutSystems 11 side effects and breaking changes
+----
+
+=== Reserved words for tags
+
+These are the tags you can use in the file front-matter. 
+
+[options="header"]
+|=======================
+| Tag(s) | Description | Applicable to
+| `runtime-mobile`, `runtime-reactiveweb`, `runtime-traditionalweb`, `runtime-mobileandreactiveweb` | Only one of these tags is allowed. Use it to add a disclaimer on top of the page, stating that the page applies only to one type of app. For example, to add "Applies to Mobile Apps only." to the page, insert `runtime-mobile` in the file header tags. | Product documentation KB
+| `article-page`, `article-section` | Defines the type of the current topic: normal page (`article-page`) or section intro topic (`article-section`). The section intro topics don't have a mini table of content, unlike normal topics. By default, all topics with child topics in the table of content are defined as `article-section`, while every other topic is defined as `article-page`. | All KBs
+| `support-*` | Used only internally. No visual impact on the published topic. These tags help users find relevant content in Support Portal, according to the searches they perform. | All KBs
+| `version-10`, `version-11` |  Displays a disclaimer saying that the topic applies to a version, and that if it doesn't work, you should tell us about it. | Support KB
+|=======================
+
+=== Related links
+
+Add links related to the current topic in a separate file — related.yml — and not directly at the end of the file.
+
+There are three kinds of related links:
+
+* *Normal related link*. The relationship between two topics is defined once. Topic A lists topic B in its related links section, and Topic B also lists Topic A in its corresponding related links section. 
+* *One-way related link*. The relationship between two topics is defined once. Only Topic A lists Topic B as a related link, Topic B doesn't contain a related link to Topic A. 
+* *External related link*. Link to a page outside the current documentation repository, or a link pointing to an external URL from another company. In this case,  you must provide both the link and the text.
+
+For the normal and one-way related links, the link text is inferred from the destination topic title, and the summary of that topic is used as the link's `title` attribute (displayed when hovering the link).
+
+*Syntax*
+
+Here is the link syntax.
+
+[source, yaml]
+----
+# normal related link
+- path/to/topic-a.md:
+    - path/to/topic-b.md
+
+# one-way related link
+- path/to/topic-a.md:
+    - one-way: path/to/topic-b.md
+
+# external related link
+- path/to/topic-a.md:
+    - external:
+        - <displayed link text>:
+            <external-link-url>
+----
+
+IMPORTANT: Mind the indentation and the `:` (colon characters).
+
+*Examples*
+
+Here are sample entries that show in the "See more" section of the documents:
+
+[source, yaml]
+----
+- enterprise/maintenance/cache-invalidation/intro.md:
+    - enterprise/maintenance/cache-invalidation/enable-tls.md
+
+- develop/data/modeling/relationship/delete-rules.md:
+    - one-way: ref/lang/auto/Class.Entity Attribute.final.md
+
+- enterprise/maintenance/cache-invalidation/high-availability.md:
+    - external:
+        - Installing RabbitMQ on Windows:
+            https://www.rabbitmq.com/install-windows.html
+----
+
+=== Naming conventions
+
+Here are some conventions you should follow for file and folder names:
+
+* Write file and folder names in lowercase with word-separating hyphens. Do not use underscores or spaces for this purpose.
+* Folder names should be short and descriptive. They don't have to match the topic name, and may abbreviate some words (for example, "application" to "app").
+* Topics on similar subjects, when placed in the same folder, may share the same short prefix. This makes them easier to find.
+* Limit the number of files at the folder level. Review the list of files and organize them into subfolders, if needed.
+* Image filenames should be in lowercase and should only contain dashes, not underscores.
+
+Also, the image file names should include the following:
+
+* One keyword from the topic filename at the beginning, especially if there are a few topics in the same folder. 
+* A few words describing the image (not too many)
+* Suffix to identify the source of the image:
+** `ss` — includes user interface elements from Service Studio, even if it's not a simple screenshot
+** `is` — includes user interface elements from Integration Studio
+** `lt` — includes user interface elements from LifeTime
+** `sc` — includes user interface elements from Service Center
+** `usr` — includes user interface elements from Users
+** `ct` — includes user interface elements from Configuration Tool
+** `diag` — the image contains a diagram, a workflow, or similar, with no elements from the product tools user interface
+** (none) — screenshots from sample apps, or other unspecified cases
+
+If necessary, image filenames may include a number before the suffix, but adding another word is preferable.
+
+*Examples*
+
+Here are some sample image file names:
+
+* roles-create-lt.png
+* roles-edit-lt.png
+* application-architecture-diag.png
+* flow-editor-1-ss.png
+* flow-editor-2-ss.png
+* flow-editor-properties-ss.png
+
+=== File organization
+
+Each documentation area or a section in a repository should have a specific folder. Check below for the folder naming conventions and recommendations.
+
+Each section should have an overview topic, placed inside the section folder. The topic name should be `intro.md` or `intro-<some-keywords>.md`.
+
+Put:
+
+* All images of a single topic in an `images/subfolder`.
+* Resources related to a topic, for example, downloadable files, samples, demos, in a `resources/` folder.
+* Any images or icons reused throughout the documentation in a common `/shared/` folder at the root of the repository.
+
+*Examples*
+
+A sample folder structure:
+
+----
+src/
+    intro-doc-10.md
+    getting-started.md
+    images/
+        getting-started-overview-ss.png
+    apps-lifecycle/
+        intro.md
+        role-create.md
+        role-permissions.md
+        team-create.md
+        team-app-permissions.md
+        images/
+            overview-diag.png
+            roles-lt.png
+        resources/
+            cheatsheet.pdf
+----
+
+Here is a possible folder organization with a folder for shared images:
+
+----
+src/
+    shared/
+        icons-tools/
+            <...>.png
+        icons-elements/
+            <...>.png
+----
+
+=== Table of contents
+
+After creating a new topic you must add it to the table of contents (TOC) so that it can be published. The table of contents is defined per repository in the *toc.yml* file, available in the root folder.
+
+Each entry is defined by a hyphen, a space, the `href: ` text and the UNIX-style path (using `/` forward slashes to separate parts) from the `src/` folder up to the Markdown filename.
+
+Child topics are defined after a `- topics` entry, using an extra level of indentation (four spaces).
+
+[source, yaml]
+----
+- href: app-lifecycle/intro.md
+- topics:
+    - href: app-lifecycle/app-deploy.md
+    - href: app-lifecycle/troubleshooting.md
+----
+
+There's a special entry called a *placeholder entry* for topics that aren't available in Markdown yet (topics that were created directly in the Mindtouch CMS), but must be part of the TOC. Instead of the path, placeholder entries contain the text used for the TOC entry itself:
+
+[source, yaml]
+----
+- placeholder: Deploying Apps with Dependencies
+----
+
+=== Reference topics
+
+Many reference topics have part of their content extracted from the platform source code using internal tools. This content is later joined with other content maintained by the Technical Knowledge team, namely introductory content and other notes at the end of the reference material. This process is called "assembling the reference".
+
+The folders where this reference assembly process runs are listed in the *config.sample.yml* file:
+
+[source, yaml]
+----
+reference:
+    assemble-folder: 
+        - src/ref/lang/auto
+        - src/ref/apis/auto
+----
+
+The reference assembly process consists of the following:
+
+1. For each reference topic `<name>.md` (for example, `lifetimeapi.md`), search for files `<name>.begin.md` or `<name>.end.md` in the same folder and prepend or append them to the corresponding topic in the following order:
+
+* `<assemble-folder>\<name>.begin.md`  (header, usually an introduction)
+* `<assemble-folder>\<name>.md` (main reference content)
+* `<assemble-folder>\<name>.end.md`  (footer, with additional notes)
+
+2. Generate the final version of the reference topic at `<assemble-folder>\<ref-topic-name>.final.md`. These *.final.md* files are the ones referenced in the *toc.yml* file for the Language Reference. 
+
+IMPORTANT: When updating the content of a reference topic make sure you update one of the committed files, either `<name>.begin.md` , `<name>.md` or `<name>.end.md`. The `*.final.md` files are generated by an internal tool, and they're not available in version control (Git).

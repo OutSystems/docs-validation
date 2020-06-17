@@ -1,0 +1,109 @@
+Content structure
+=================
+:toc:
+
+== Content structure
+
+This section is about organizing content in documentation and training.
+
+== Structure in documentation
+
+Notes about different parts of documents.
+
+=== Place prerequisites near the top
+
+Place prerequisites at the beginning of the document. This sets the users' expectations because they immediately know if they can use this document or not. Keep in mind that prerequisites might end up as preview snippets in search engines’ results page.
+
+=== Use infoboxes sparingly
+
+Only use infoboxes (info, warnings) when you need to emphasize a particular piece of information. The overuse of infoboxes has the opposite effect, as readers start ignoring them. 
+
+=== Limit the number of steps in procedures
+
+Try limiting procedures to seven to nine steps. This is to prevent us from writing endless procedures that are difficult to follow.  If you need more steps, consider reorganizing the content.
+
+=== Use links in paragraphs occasionally
+
+Having too many links distracts the reader from understanding the content. Additionally, those links are difficult to maintain. Limit the number of links in a text to ones that are necessary for users to achieve a task.
+
+Don't add links to every concept just because you have content about it. Use the See Also section to list related documents.
+
+*Example*
+
+Yes:  Use http://example.com/[Extract to Action] to create a new Action with that piece of logic.
+
+No:  Use http://example.com/[Extract to Action] to create a http://example.com/[new Action] with that piece of http://example.com/[logic].
+
+=== Limit to third-level heading
+
+Avoid using more than three levels of headings. If you think that you need more levels to structure the content, consider separating the content into smaller documents. 
+
+=== Add content after a heading
+
+Add at least a sentence between a heading and an image or table, describing what follows.
+
+*Example*
+
+Yes:
+
+*Create a New Mobile App*
+
+Follow the following steps to create a new mobile app.
+
+1. ...
+2. ...
+3. ...
+
+No:
+
+*Create a New Mobile App*
+
+1. ...
+2. ...
+3. ...
+
+=== Add a summary
+
+Add a summary to your document/video explaining why users might need the content. The summary shows in Google results pages.
+
+*Example*
+
+Develop a Progressive Web App (PWA) by creating a Mobile App and toggling on the option to distribute the app as PWA. Try your app in Android and iOS.
+
+=== Differentiate content for early access features
+
+Documentation for early access (EA) features is typically self-contained. Here's how a document for an AE feature is different from a document for a feature that's in a generally available release.
+
+* *Title*. The title is "Early Access - <title>".
+* *Early access infobox*. Place an infobox at the beginning of the page clarifying that it's an Early Access feature. The default message is: "Read how early access to OutSystems features works. We encourage you to try these features out and to http://example.com/[send us your feedback].". Check with the Technical Knowledge team where the "send us your feedback" should link to, or if the message should be different.
+* *Table of content listing*. Check with the Technical Knowledge team if you should include the page in the table of content or to have it accessible as a direct link only.
+
+*Example*
+
+See https://success.outsystems.com/Documentation/11/Managing_the_Applications_Lifecycle/Deploy_Applications/Early_Access_-_Configure_Site_Properties_During_Deployment[Early Access - Configure Site Properties During Deployment].
+
+== Structure in training
+
+How to structure videos in training to make them useful and engaging.
+
+=== Slide decks
+
+Limit the length of videos to four minutes. Avoid using screenshots in videos created from slide decks to show steps. Show the steps through the demo videos instead.
+
+=== Demos
+
+Each demo should be self-contained. Use a pre-built demo for a quick start, as it has a scenario that focuses on the topic.
+
+=== Quizzes
+
+Each question is a multiple-choice question and has between two and four (preferred) choices.
+
+For each answer, give a rationale and explain to the user why the answer is correct or incorrect.
+
+Within a question, two answers cannot be mutually exclusive. Logically, this doesn't apply to the questions with only two answers.
+
+All choices should be plausible enough to be considered possibly correct.
+
+=== Exercises
+
+Ideally, provide a sample app for a quick start and explain how to install it. The sample app should be self-contained, without dependencies,, and have all the resources users need for following the training video.

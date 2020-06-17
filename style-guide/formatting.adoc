@@ -1,0 +1,112 @@
+Formatting
+==========
+:toc:
+
+== Formatting
+
+Use consistent formatting across all content.
+
+=== Typographical emphasis
+
+Bold. Use bold to denote the text as it's in the user interface. You can also use bold for occasional emphasis.
+
+Italic. Don't use italic. Don't mix italic and bold.
+
+Underline. Don't use underline, as browsers use it to show links.
+
+*Examples*
+
+In the *New Application* window select *Phone App* or *Tablet App* app template. 
+
+Click *Generate App*.
+
+Enter the information for the *Basics* blade and click *OK* to proceed to the next blade.
+
+Choose *USERS* and click the *New User* link.
+
+=== User inputs and interface labels
+
+Use bold for interface labels, and write them with the same capitalization as they appear on the user interface.
+
+To identify the text users need to enter, use a monospace font.  If you're using Markdown, use inline code to get a monospace font.
+
+*Examples*
+
+Enter `"display-flex"` in the input field.
+
+Create a Container. Enter `MyContainer` in the *Name* property.
+
+=== Variables and properties: names and values
+
+Use bold for variable/property names and write them with the same capitalization as they appear on the UI. Use inline code for variable values.
+
+*Example*
+
+To restrict the elements to internal network access, set the *Internal Access Property* to `Yes`.
+
+=== Keyboard shortcuts
+
+Use sentence capitalization and spell the key name as it appears on the keyboard. Use bold when the shortcut appears in the sentence.
+
+*Examples*
+
+Ctrl+Shift+S
+
+Esc
+
+F1
+
+To select all files, use *Ctrl+A*.
+
+=== Code examples
+
+Use code blocks for code examples. Specify the programming language of the example code, if your text editor has that option.
+
+*Example*
+
+A JavaScrip code snippet:
+
+[source, javascript]
+----
+// Return success in GlobalAsyncAction client action
+$parameters.Success = true;
+$parameters.Out1 = 5.0;
+$resolve();
+----
+
+A JSON code snippet:
+
+----
+{
+    "plugin": {
+        // Use only one the following ways to reference a plugin
+        "url": "<The url to a public git repository containing your plugin>",
+        // or
+        "identifier": "<The identifier for your plugin>",
+        // or
+        "resource": "<The path to the plugin folder inside the resources file ZIP>",
+        // If the plugin requires additional settings
+        "variables": [
+            {
+                "name": "<The attribute name for your plugin variable>",
+                "value": "<The attribute value for your plugin variable>"
+            },
+            /* ...more variables, if needed... */
+        ]
+    }
+}
+----
+
+=== Screenshots and illustrations
+
+Screenshots and illustrations should be a useful addition to the content, and not critical to the understanding of the content or following a procedure.
+
+* Use screenshots to guide users in a complicated or long procedure, to show complex windows or dialog boxes, or to emphasize a new feature.
+* The screenshot should show the relevant part of the user interface and some of the surrounding interface, for the users to know where to locate the relevant part. For example, if you need a screenshot with an input field, include the form or a window where the field shows. However, don't use the screenshot of the entire desktop.
+* Mask the internal domain names and user names of OutSystems employees in your screenshots.
+* The maximum screenshot size is 800 pixels wide, with screen scale set at 100%. When highlighting an area on a screenshot,  only use boxes and arrows. Use "Soft Red" (#db2400) and stroke dimension 2pt.
+* Give unique and meaningful names to the screenshot files. Use lowercase and hyphens between words. For example, "vpn-your-outsystems-cloud.png".
+* Add alternative text to screenshots, first and foremost for web accessibility. The alt tags also provide image descriptions to search engine crawlers, helping them to index an image properly.
+* For public content, only use products that are generally available.
+* If you're using screenshots from a third-party product, check the copyright notes for the product and the rules for the screenshot use.
+
