@@ -61,7 +61,7 @@ These are the tags you can use in the file front-matter.
 [options="header"]
 |=======================
 | Tag(s) | Description | Applicable to
-| `runtime-mobile`, `runtime-reactiveweb`, `runtime-traditionalweb`, `runtime-mobileandreactiveweb` | Only one of these tags is allowed. Use it to add a disclaimer on top of the page, stating that the page applies only to one type of app. For example, to add "Applies to Mobile Apps only." to the page, insert `runtime-mobile` in the file header tags. | Product documentation KB
+| `runtime-mobile`, `runtime-reactiveweb`, `runtime-traditionalweb`, `runtime-mobileandreactiveweb`, `runtime-traditionalwebandreactiveweb` | Only one of these tags is allowed. Use it to add a disclaimer on top of the page, stating that the page applies only to some type(s) of apps. For example, to add "Applies to Mobile Apps only." to the page, insert `runtime-mobile` in the file header tags. | Product documentation KB
 | `article-page`, `article-section` | Defines the type of the current topic: normal page (`article-page`) or section intro topic (`article-section`). The section intro topics don't have a mini table of content, unlike normal topics. By default, all topics with child topics in the table of content are defined as `article-section`, while every other topic is defined as `article-page`. | All KBs
 | `support-*` | Used only internally. No visual impact on the published topic. These tags help users find relevant content in Support Portal, according to the searches they perform. | All KBs
 | `version-10`, `version-11` |  Displays a disclaimer saying that the topic applies to a version, and that if it doesn't work, you should tell us about it. | Support KB
