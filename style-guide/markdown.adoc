@@ -64,17 +64,21 @@ This is content under Heading 3.
 
 Put links inline. If the URL contains spaces, replace them with %20.
 
+Don't write bare links in the middle of a sentence, without any markup (for example, by just pasting a URL). To make the link text the same as the URL, include the URL between `<>` characters.
+
 Use relative paths to specify the destination. To help you build this path, use the https://marketplace.visualstudio.com/items?itemName=jakob101.RelativePath[Relative Path] extension for VSCode and always open the repository folder in the editor, not in individual Markdown files.
 
 Every relative link, if its destination is present in the toc.yml file, is validated when it is published. If the final URL of a relative link cannot be determined, and that link won't work, you get a warning message.
 
 *Example*
 
-A sample link in Markdown:
+Sample links in Markdown:
 
 [source, markdown]
 ----
 Check the [Integration Studio overview](../integration-studio/intro.md).
+
+A link whose text is the URL itself: <https://example.com>
 ----
 
 === The URL of the documentation pages
