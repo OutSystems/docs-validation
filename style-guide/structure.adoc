@@ -70,17 +70,17 @@ Add a summary to your document/video explaining why users might need the content
 
 Develop a Progressive Web App (PWA) by creating a Mobile App and toggling on the option to distribute the app as PWA. Try your app in Android and iOS.
 
-=== Differentiate content for early access features
+=== Differentiate content for technical preview features
 
-Documentation for early access (EA) features is typically self-contained. Here's how a document for an AE feature is different from a document for a feature that's in a generally available release.
+Documentation for Technical Preview (TP) features is typically self-contained. Here's how a document for a TP feature is different from a document for a feature that's Generally Available (GA).
 
-* *Title*. The title is "Early Access - <title>".
-* *Early access infobox*. Place an infobox at the beginning of the page clarifying that it's an Early Access feature. The default message is: "Read how early access to OutSystems features works. We encourage you to try these features out and to http://example.com/[send us your feedback].". Check with the Technical Knowledge team where the "send us your feedback" should link to, or if the message should be different.
+* *Title*. The title is "Technical Preview - <title>".
+* *Technical Preview infobox*. Place an infobox at the beginning of the page clarifying that it's a Technical Preview feature. The default message is: "Read https://success.outsystems.com/Support/Enterprise_Customers/Upgrading/Technical_Preview_features[how features in Technical Preview work]. We encourage you to try these features out and to http://example.com/[send us your feedback].". Check with the Technical Knowledge team where the "send us your feedback" should link to, or if the message should be different.
 * *Table of content listing*. Check with the Technical Knowledge team if you should include the page in the table of content or to have it accessible as a direct link only.
 
 *Example*
 
-See https://success.outsystems.com/Documentation/11/Managing_the_Applications_Lifecycle/Deploy_Applications/Early_Access_-_Configure_Site_Properties_During_Deployment[Early Access - Configure Site Properties During Deployment].
+See https://success.outsystems.com/Documentation/11/Managing_the_Applications_Lifecycle/Deploy_Applications/Technical_Preview-_Configure_Site_Properties_During_Deployment[Technical Preview - Configure Site Properties During Deployment].
 
 == Structure in training
 
@@ -106,4 +106,4 @@ All choices should be plausible enough to be considered possibly correct.
 
 === Exercises
 
-Ideally, provide a sample app for a quick start and explain how to install it. The sample app should be self-contained, without dependencies,, and have all the resources users need for following the training video.
+Ideally, provide a sample app for a quick start and explain how to install it. The sample app should be self-contained, without dependencies, and have all the resources users need for following the training video.
