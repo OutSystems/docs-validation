@@ -20,6 +20,7 @@ exceptions:
   - GDB
   - GET
   - GUI
+  - GPS
   - HTML
   - HTTP
   - HTTPS
