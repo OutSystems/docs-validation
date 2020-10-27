@@ -18,7 +18,7 @@ Your stakeholders should have more information about the audience. In product te
 
 What's the purpose of the content, not only for the audience, but in the context of customer business goals? The answer helps you choose the type of content, the level of detail, and where the content will live. Here are some examples:
 
-* Documents about early access features: create awareness and enthusiasm and get early feedback from businesses about the feature
+* Documents about technical previews: create awareness and enthusiasm and get early feedback from businesses about a feature
 * Support article about the platform upgrade: prevent loss of data
 
 === Prioritize for correct, complete, good-looking
