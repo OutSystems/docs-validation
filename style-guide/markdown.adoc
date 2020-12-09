@@ -250,7 +250,7 @@ GFM Markdown table syntax is straightforward and doesn't allow row or cell spann
 | col 3 is | right-aligned |    $1 |
 ----
 
-To insert a new line inside a table cell, use a `<br>` HTML tag.
+To insert a new line inside a table cell, use a `<br/>` HTML tag.
 For more complex situations involving row or column spans, use HTML tags. In this case, add a `markdown="1"` attribute to the table element so that the build tool also parses the text inside the `<table>` as Markdown-formatted content.
 
 [source, html]
