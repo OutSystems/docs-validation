@@ -70,7 +70,7 @@ Use relative paths to specify the destination. To help you build this path, use 
 
 Every relative link, if its destination is present in the toc.yml file, is validated when it is published. If the final URL of a relative link cannot be determined, and that link won't work, you get a warning message.
 
-*Example*
+*Examples*
 
 Sample links in Markdown:
 
@@ -80,6 +80,28 @@ Check the [Integration Studio overview](../integration-studio/intro.md).
 
 A link whose text is the URL itself: <https://example.com>
 ----
+
+Another example, with external and internal links:
+
+[source, markdown]
+----
+# Sample links
+
+A arkdown links demo.
+
+* This is an [external link](http://example.com/).
+* This is an internal link [pointing to a file in an upper directory](../../sample/sample.md).
+* This is an anchor to a [subtopic](#subtopic-2-with-a-really-long-name).
+
+## Subtopic 1
+
+Some content.
+
+## Subtopic 2 with a really long name
+
+Some content.
+----
+
 
 === The URL of the documentation pages
 
