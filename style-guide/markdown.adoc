@@ -87,7 +87,7 @@ Another example, with external and internal links:
 ----
 # Sample links
 
-A arkdown links demo.
+A markdown links demo.
 
 * This is an [external link](http://example.com/).
 * This is an internal link [pointing to a file in an upper directory](../../sample/sample.md).
