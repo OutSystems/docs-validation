@@ -92,6 +92,7 @@ A markdown links demo.
 * This is an [external link](http://example.com/).
 * This is an internal link [pointing to a file in an upper directory](../../sample/sample.md).
 * This is an anchor to a [subtopic](#subtopic-2-with-a-really-long-name).
+* This is an anchor to a [subtopic in another file](../../sample/sample.md#subtopic).
 
 ## Subtopic 1
 
