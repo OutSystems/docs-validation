@@ -24,7 +24,7 @@ When writing a process,  include the following sections and follow the guideline
    <td>
 <ul>
 
-<li>A sentence that introduces the process and provides a definition of what a user creates (the final output)
+<li>A sentence that introduces the process and provides a definition of what a user creates (the final output).
 </li>
 </ul>
    </td>

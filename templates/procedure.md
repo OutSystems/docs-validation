@@ -37,8 +37,8 @@ content you might want to link to that topic).
 <ul>
 <li>If explained in the introductory paragraph to the procedure, and the
 procedure follows the paragraph, then no lead-in sentence is necessary.
-<li>If a lead-in sentence is necessary use “To  ________________, follow these
-steps:
+<li>If a lead-in sentence is necessary use "To  ________________, follow these
+steps:"
 </li>
 </ul>
    </td>
@@ -100,7 +100,6 @@ The following shows an example of how to create a new empty Screen topic.
 
 To create a new Screen, follow these steps:
 
-
 1. From Service Studio, select the **Interface** tab and then
 expand the **UI Flows** folder.
 2. From the **UI Flows** folder, right-click **MainFlow**, then from the menu, select **Add Screen**.
@@ -109,7 +108,6 @@ expand the **UI Flows** folder.
 **REMEMBER TO DELETE THIS LINE AND EVERYTHING ABOVE**
 
 # Creating a procedure
-
 
 [Add introductory paragraph for the procedure here]
 

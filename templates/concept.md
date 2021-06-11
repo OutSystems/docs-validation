@@ -36,9 +36,9 @@ When writing a concept, include the following sections and answer the questions 
 
 <li>What does this feature enable the reader to accomplish?
 
-<li>Optionally, you can add a link to another topic for context. But, it might be better to have that information as part of the recommended knowledge
+<li>Optionally, you can add a link to another topic for context. But, it might be better to have that information as part of the recommended knowledge.
 
-<li>Use graphics or screenshots to help the reader visualize what you are describing
+<li>Use graphics or screenshots to help the reader visualize what you are describing.
 </li>
 </ul>
    </td>
