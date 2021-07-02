@@ -236,7 +236,7 @@ Second term here, after an empty line
 
 *Example*
 
-An example of a list definition you can crate with our tools:
+An example of a list definition you can create with our tools:
 
 [source, markdown]
 ----
