@@ -72,13 +72,18 @@ Every relative link, if its destination is present in the toc.yml file, is valid
 
 *Examples*
 
-Sample links in Markdown:
+An example with a link to a file in the *same* folder:
 
 [source, markdown]
 ----
-Check the [Integration Studio overview](../integration-studio/intro.md).
+For more information, see the [introduction](intro.md).
+----
 
-A link whose text is the URL itself: <https://example.com>
+An example with a link to a file in a *different* folder:
+
+[source, markdown]
+----
+Check out the [Integration Studio overview](../integration-studio/intro.md).
 ----
 
 An example with links to a subtopic:
@@ -96,6 +101,14 @@ A markdown links demo.
 Some content.
 
 ----
+
+An example where the URL and the text of the link are the same:
+
+[source, markdown]
+----
+See the URL: <https://example.com>
+----
+
 
 Another example, with external and internal links:
 
