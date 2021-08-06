@@ -104,7 +104,7 @@ Screenshots and illustrations should be a useful addition to the content, and no
 * Use screenshots to guide users in a complicated or long procedure, to show complex windows or dialog boxes, or to emphasize a new feature.
 * The screenshot should show the relevant part of the user interface and some of the surrounding interface, for the users to know where to locate the relevant part. For example, if you need a screenshot with an input field, include the form or a window where the field shows. However, don't use the screenshot of the entire desktop.
 * Mask the internal domain names and user names of OutSystems employees in your screenshots.
-* The maximum screenshot size is 800 pixels wide, with screen scale set at 100%. When highlighting an area on a screenshot,  only use boxes and arrows. Use "Soft Red" (#db2400) and stroke dimension 2pt.
+* The maximum screenshot size is 1200 pixels wide, with screen scale set at 100%. When highlighting an area on a screenshot, only use boxes and arrows. Use "Bright Red" (#F22800) and stroke dimension 2pt.
 * Give unique and meaningful names to the screenshot files. Use lowercase and hyphens between words. For example, "vpn-your-outsystems-cloud.png".
 * Add alternative text to screenshots, first and foremost for web accessibility. The alt tags also provide image descriptions to search engine crawlers, helping them to index an image properly.
 * For public content, only use products that are generally available.
