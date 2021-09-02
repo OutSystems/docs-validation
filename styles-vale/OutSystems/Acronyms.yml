@@ -10,21 +10,25 @@ first: '\b([A-Z]{3,5})\b'
 second: '(?:\b[A-Z][a-z]+ )+\(([A-Z]{3,5})\)'
 # ... with the exception of these:
 exceptions:
+  - AAB
   - API
+  - APK
   - ASP
   - CPU
   - CSS
   - CSV
+  - DEV
   - DOM
   - FAQ
   - GDB
   - GET
-  - GUI
   - GPS
+  - GUI
   - HTML
   - HTTP
   - HTTPS
   - IDE
+  - IPA
   - JSON
   - LDAP
   - LESS
@@ -36,6 +40,8 @@ exceptions:
   - PDF
   - PHP
   - POST
+  - PP
+  - PROD
   - PWA
   - RAM
   - REST
@@ -49,6 +55,7 @@ exceptions:
   - SSL
   - SVG
   - TCP
+  - TEST
   - TLS
   - URI
   - URL
@@ -59,6 +66,5 @@ exceptions:
   - XSS
   - YAML
   - ZIP
-  - DEV
-  - PP
-  - PROD
+  - VPN
+  - IIS
