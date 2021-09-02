@@ -172,16 +172,16 @@ To add a line break:
 
 === Images
 
-Images in documentation should be in PNG (static images) or GIF (for animated images) format.
+Images in documentation should be in PNG (static images) or GIF (for animated images) format. In the image isn't decorative, supply the alternate text so the screen readers can read out the content.
 
 Include an image in a topic using the following syntax:
 
 [source, markdown]
 ----
-![alt text](images/my-image.png)
+![a description of the image content](images/my-image.png)
 ----
 
-To define the width of an image, add `?width=<size>` to the image URL, and the height resizes accordingly. When published, this results in a new HTML attribute of the `<img>` element.
+WARNING: Setting the width like `my-image.png?width=<size>` is *deprecated*. Instead of forcing the image width, edit the image so it has the width you need.
 
 *Example*
 
@@ -189,14 +189,14 @@ A Markdown snippet:
 
 [source, markdown]
 ----
-![alt text](images/my-image.png?width=300)
+![alt text](images/my-image.png)
 ----
 
 The resulting HTML:
 
 [source, html]
 ----
-<img src="images/my-image.png" width="300" alt="alt text" />
+<img src="images/my-image.png" alt="alt text" />
 ----
 
 === Lists: order, unordered, nested
