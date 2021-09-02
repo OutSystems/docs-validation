@@ -1,5 +1,5 @@
 # Based on OpenStack.SentenceLength
-message: "Write shorter sentences (less than 30 words)."
+message: "Write sentences shorter than 30 words."
 extends: occurrence
 scope: sentence
 level: suggestion

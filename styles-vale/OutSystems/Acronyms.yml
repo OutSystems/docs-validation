@@ -17,6 +17,7 @@ exceptions:
   - CPU
   - CSS
   - CSV
+  - CRUD
   - DEV
   - DOM
   - FAQ
