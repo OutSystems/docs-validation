@@ -1,7 +1,6 @@
-# Suggests meaningful text for image alts. 
 extends: existence
 message: "Consider adding alt description for non-decorative images."
 level: suggestion
-scope: alt
+scope: raw
 raw:
-  - '\s*'
+  - '\!\[\]'
