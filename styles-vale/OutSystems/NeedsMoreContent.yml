@@ -1,0 +1,8 @@
+extends: occurrence
+message: "Content too short. Provide at least 400 characters."
+level: warning
+scope: raw
+min: 400
+max: 1000000
+raw:
+  - '[\w-]+'
