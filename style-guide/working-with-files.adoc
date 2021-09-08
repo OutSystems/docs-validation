@@ -122,6 +122,8 @@ Here are sample entries that show in the "See more" section of the documents:
 
 === Naming conventions
 
+===== Files and folders
+
 Here are some conventions you should follow for file and folder names:
 
 * Write file and folder names in lowercase with word-separating hyphens. Do not use underscores or spaces for this purpose.
@@ -129,6 +131,8 @@ Here are some conventions you should follow for file and folder names:
 * Topics on similar subjects, when placed in the same folder, may share the same short prefix. This makes them easier to find.
 * Limit the number of files at the folder level. Review the list of files and organize them into subfolders, if needed.
 * Image filenames should be in lowercase and should only contain dashes, not underscores.
+
+===== Image file names
 
 Also, the image file names should include the following:
 
@@ -158,6 +162,14 @@ Here are some sample image file names:
 * flow-editor-1-ss.png
 * flow-editor-2-ss.png
 * flow-editor-properties-ss.png
+
+===== Branches
+
+Suggested names:
+
+* Prefix with **update-** to update existing content
+* Prefix with **feature-** to add new content
+
 
 === File organization
 
