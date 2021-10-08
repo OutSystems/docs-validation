@@ -10,6 +10,10 @@ This section is about organizing content in documentation and training.
 
 Notes about different parts of documents.
 
+=== Include an introduction / overview
+
+Begin the document with an introduction / overivew to let readers know what to expect in the document and this confirms they are reading the correct content.
+
 === Place prerequisites near the top
 
 Place prerequisites at the beginning of the document. This sets the users' expectations because they immediately know if they can use this document or not. Keep in mind that prerequisites might end up as preview snippets in search engines’ results page.
