@@ -12,7 +12,7 @@ Notes about different parts of documents.
 
 === Include an introduction / overview
 
-Begin the document with an introduction / overivew to let readers know what to expect in the document and this confirms they are reading the correct content.
+Begin the document with an introduction / overivew to let readers know what to expect in the document and confirms they found what they were looking for. 
 
 === Place prerequisites near the top
 
