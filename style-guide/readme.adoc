@@ -16,7 +16,7 @@ This style guide is also:
 * A reference document. Read it once, come back to it often.
 * A formal enablement tool. We want to empower people to create high-quality content.
 
-=== Table of content
+=== Table of contents
 
 The style guide consists of several sections. Here is an overview.
 
