@@ -15,15 +15,15 @@ Below is a list of the type of content you can create:
 
 * **Concept**, to explain what something is. See [TK Template for a Concept](../concept.md). For all developers.
 * **Process**, to explain in an overview or introduction how to do something. See [this example](https://github.com/OutSystems/docs-product/blob/master/src/extensibility-and-integration/mobile-plugins/camera/intro.md#creating-logic-to-take-a-picture). For proficient developers.
-* **Procedure**, to explain how to do something in detail (setp-by-step). See [TK Template for a Procedure](../procedure.md). For new developers.
-* **Reference**. to explain in detail how the options work and the informationo is usually shown in a table format. For proficient developers.
+* **Procedure**, to explain how to do something in detail (step-by-step). See [TK Template for a Procedure](../procedure.md). For new developers.
+* **Reference**. to explain in detail how the options work, this information is usually shown in a table format. For proficient developers.
 
 Replace the following list of placeholders with the correct terms.
 
 * PLUGIN_NAME - the name of the plugin
 * PLUGIN_NAME sample app - the name of the sample app for this plugin
 
-After you add content, you delete all:
+After you add content, delete all:
 
 * Template instructions in parenthesis `()` 
 * HTML comments with instructions `<!-- -->`
