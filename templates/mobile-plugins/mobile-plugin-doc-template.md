@@ -9,12 +9,12 @@ DELETE THIS SECTION
 **Template for mobile plugins**
 
 
-Use this document template as a guide fo create content. Focus on what developers want to achieve with the plugin. See a full example for [Camera Plugin](https://github.com/OutSystems/docs-product/blob/master/src/extensibility-and-integration/mobile-plugins/camera/intro.md).
+Use this document template as a guide to create content. Focus on what developers want to achieve with this plugin. See a full example for [Camera Plugin](https://github.com/OutSystems/docs-product/blob/master/src/extensibility-and-integration/mobile-plugins/camera/intro.md).
 
 Below is a list of the type of content you can create:
 
 * **Concept**, to explain what something is. See [TK Template for a Concept](../concept.md). For all developers.
-* **Process**, to explain in an overview how to do something. See [this example](https://github.com/OutSystems/docs-product/blob/master/src/extensibility-and-integration/mobile-plugins/camera/intro.md#creating-logic-to-take-a-picture). For proficient developers.
+* **Process**, to explain in an overview or introduction how to do something. See [this example](https://github.com/OutSystems/docs-product/blob/master/src/extensibility-and-integration/mobile-plugins/camera/intro.md#creating-logic-to-take-a-picture). For proficient developers.
 * **Procedure**, to explain how to do something in detail (setp-by-step). See [TK Template for a Procedure](../procedure.md). For new developers.
 * **Reference**. to explain in detail how the options work and the informationo is usually shown in a table format. For proficient developers.
 
