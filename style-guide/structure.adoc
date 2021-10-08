@@ -38,9 +38,9 @@ Yes:  Use http://example.com/[Extract to Action] to create a new Action with tha
 
 No:  Use http://example.com/[Extract to Action] to create a http://example.com/[new Action] with that piece of http://example.com/[logic].
 
-=== Limit to third-level heading
+=== Use heading levels but limit to three levels
 
-Avoid using more than three levels of headings. If you think that you need more levels to structure the content, consider separating the content into smaller documents. 
+Use heading levels to show the relationship of ideas and to enable readers to easily scan and read selectively. Avoid using more than three levels of headings. If you think that you need more levels to structure the content, consider separating the content into smaller documents. 
 
 === Add content after a heading
 
