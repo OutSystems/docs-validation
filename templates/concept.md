@@ -74,7 +74,7 @@ Delete the header and add the text here.
 
 ## Overview
 
-Heading is optional -put text here
+Heading is optional - put text here
 
 ## Example
 
