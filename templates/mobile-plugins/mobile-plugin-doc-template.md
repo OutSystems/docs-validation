@@ -9,26 +9,26 @@ DELETE THIS SECTION
 **Template for mobile plugins**
 
 
-Use this document template as a guidance for creating content. Focus on what developers want to achieve with the plugin. See a full example for [Camera Plugin](https://github.com/OutSystems/docs-product/blob/master/src/extensibility-and-integration/mobile-plugins/camera/intro.md).
+Use this document template as a guide to create content. Focus on what developers want to achieve with this plugin. See a full example for [Camera Plugin](https://github.com/OutSystems/docs-product/blob/master/src/extensibility-and-integration/mobile-plugins/camera/intro.md).
 
-Here are the types of content you can create:
+Below is a list of the type of content you can create:
 
 * **Concept**, to explain what something is. See [TK Template for a Concept](../concept.md). For all developers.
-* **Explainer**, to explain an overview on how to do something. See [this example](https://github.com/OutSystems/docs-product/blob/master/src/extensibility-and-integration/mobile-plugins/camera/intro.md#creating-logic-to-take-a-picture). For proficient developers.
-* **Procedure**, to explain how to do something in detail. See [TK Template for a Procedure](../procedure.md). For new developers.
-* **Reference**. Usually a table with details about options. For proficient developers.
+* **Process**, to explain in an overview or introduction how to do something. See [this example](https://github.com/OutSystems/docs-product/blob/master/src/extensibility-and-integration/mobile-plugins/camera/intro.md#creating-logic-to-take-a-picture). For proficient developers.
+* **Procedure**, to explain how to do something in detail (step-by-step). See [TK Template for a Procedure](../procedure.md). For new developers.
+* **Reference**. to explain in detail how the options work, this information is usually shown in a table format. For proficient developers.
 
-Here is the list of placeholders. Replace them with correct terms.
+Replace the following list of placeholders with the correct terms.
 
 * PLUGIN_NAME - the name of the plugin
-* PLUGIN_NAME sample app - the sample app of the plugin
+* PLUGIN_NAME sample app - the name of the sample app for this plugin
 
-After you add content, you should delete:
+After you add content, delete all:
 
-* All template instructions in parenthesis `()` 
-* All HTML comments with instructions `<!-- -->`
-* All text in *italic*, as it's part of the instructions on how to write a document
-* This section :) 
+* Template instructions in parenthesis `()` 
+* HTML comments with instructions `<!-- -->`
+* Text in *italic*, as it's part of the instructions on how to write a document
+* ontent in this section :) 
 
 ------------------------
 
@@ -107,7 +107,7 @@ A list of known issues and possible workarounds.
 
 ### Know issue 1 
 
-<!-- delete extra lines so you have only one "Applies to" --->
+<!-- delete the extra Applies to lines so you have one "Applies to" --->
 
 **Applies to native apps and PWAs.**
 
@@ -121,7 +121,7 @@ A list of known issues and possible workarounds.
 
 **Issue description**
 
-*From user and developer perspective, what's happening and it shouldn't as it's not an expected behavior.*
+*From a user and developer perspective, what's happening and shouldn't happen as it's not an expected behavior.*
 
 **Rationale**
 
