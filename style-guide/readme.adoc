@@ -16,7 +16,7 @@ This style guide is also:
 * A reference document. Read it once, come back to it often.
 * A formal enablement tool. We want to empower people to create high-quality content.
 
-=== Table of contents
+== Table of contents
 
 The style guide consists of several sections. Here is an overview.
 
@@ -28,4 +28,5 @@ The style guide consists of several sections. Here is an overview.
 * link:./markdown.adoc[Writing in Markdown]
 * link:./working-with-files.adoc[Working with files]
 * link:./resources.adoc[Additional resources]
-* link:./changelog.adoc[Changelog]
+
+NOTE: See the https://github.com/OutSystems/docs-validation/tree/master/templates[templates] for detailed instructions on how to write procedure, concept, or process.
