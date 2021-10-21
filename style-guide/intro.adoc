@@ -45,6 +45,8 @@ Depending on what the goal of the content is, you may choose to create one of th
 * Troubleshooting document about a product defect
 * A mix of content types
 
+NOTE: See the https://github.com/OutSystems/docs-validation/tree/master/templates[templates] for detailed instructions on how to write procedure, concept, or process.
+
 === Know your style guide
 
 Style guides help us write consistently and efficiently. As well as the Technical Style guide (you're reading it!), you should also be familiar with the https://docs.google.com/document/d/13iTl65xGOp3raxMU2-60rO4qocRO31xupaIjzIQEaOQ[Editorial Style Guide].

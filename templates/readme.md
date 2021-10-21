@@ -1,9 +1,21 @@
-# Technical Knowledge templates
+# Technical Knowledge content templates
 
 These are the templates you can use to create and edit your content.
 
-| Template                  | Description                                                                                        |
-| ------------------------- | -------------------------------------------------------------------------------------------------- |
-| [Concept](concept.md)     | Create a concept that provides background information.                                             |
-| [Process](process.md)     | Create a process that explains what users accomplish and why it's important to complete this task. |
-| [Procedure](procedure.md) | Create a procedure that provides users with instructions on how to create a task.                  |
+## Content-generic templates
+
+You can use content-generic templates for any given content that fits the purpose.
+
+| Template                  | Description                                                                  |
+| ------------------------- | ---------------------------------------------------------------------------- |
+| [Concept](concept.md)     | Provides background information.                                             |
+| [Process](process.md)     | Explains what users accomplish and why it's important to complete this task. |
+| [Procedure](procedure.md) | Procedure that instructs users how to do something.                          |
+
+## Content-specific templates
+
+Use content-specific templates as a guidance for creating content with predefined structure. These templates are a mixture of different content types. 
+
+| Template                                                         | Description                                                           |
+| ---------------------------------------------------------------- | --------------------------------------------------------------------- |
+| [Mobile plugins](./mobile-plugins/mobile-plugin.md) | Create a document to help developers use an OutSystems mobile plugin. |
