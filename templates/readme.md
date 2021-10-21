@@ -18,4 +18,4 @@ Use content-specific templates as a guidance for creating content with predefine
 
 | Template                                                         | Description                                                           |
 | ---------------------------------------------------------------- | --------------------------------------------------------------------- |
-| [Mobile plugins](./mobile-plugins/mobile-plugin-doc-template.md) | Create a document to help developers use an OutSystems mobile plugin. |
+| [Mobile plugins](./mobile-plugins/mobile-plugin.md) | Create a document to help developers use an OutSystems mobile plugin. |
