@@ -60,6 +60,19 @@ This is content under Heading 2.
 This is content under Heading 3.
 ----
 
+=== Anchors
+
+You can create anchors to headings to be used in links. Choose a short expression for you anchor, representative of the heading.
+
+A Markdown snippet with an anchor on a heading:
+
+[source, markdown]
+----
+## Overview { #overview }
+----
+
+Check the links section for examples on how to link to an anchor on a subtopic.
+
 === Links
 
 Put links inline. If the URL contains spaces, replace them with %20.
