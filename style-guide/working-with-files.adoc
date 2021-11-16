@@ -143,7 +143,7 @@ Also, the image file names should include the following:
 ** `is` — includes user interface elements from Integration Studio
 ** `lt` — includes user interface elements from LifeTime
 ** `sc` — includes user interface elements from Service Center
-** `csl` — includes user interface elements from the Consoles
+** `pl` — includes user interface elements from the Portal
 ** `usr` — includes user interface elements from Users
 ** `ct` — includes user interface elements from Configuration Tool
 ** `af` — includes user interface elements from App Feedback Tool
