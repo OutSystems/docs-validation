@@ -23,7 +23,7 @@ Even though none of the entries are mandatory, make sure that the front-matter c
 The front-matter can contain the following entries:
 
 * *Summary* (`summary`). A sentence or two describing the topic. The readers see it in "Articles in this section", when there's a list of available child topics. Summaries also show in search engine results.
-* *Tag list* (`tags`, with values separated by `;`). The tags define topic properties and populate Mindtouch tags. Find reserved words to define the page properties in the section "Reserved words for tags".
+* *Tag list* (`tags`, with values separated by `;`). The tags define topic properties and populate Mindtouch tags. Use them only with the values and for the purposes defined in the section "Reserved words for tags".
 * *English title* (`en_title`): The title of the page in English, for translated content and to define the page URL in Mindtouch. By default, the English title has the same text as the Heading 1 of the topic. Spaces are replaced with underscores. Add this entry manually *only if the URL must be different from the topic title* otherwise, do not add the `en_title` entry. Empty `en_title` entries cannot exist.
 * *HelpID list* (`helpids`, with values separated by `,`): One or more Help IDs mapping to the current topic. This front-matter entry is found in the reference topics generated from the product source code. You don't need to edit this field.
 
@@ -63,7 +63,7 @@ These are the tags you can use in the file front-matter.
 | Tag(s) | Description | Applicable to
 | `runtime-mobile`, `runtime-reactiveweb`, `runtime-traditionalweb`, `runtime-mobileandreactiveweb`, `runtime-traditionalwebandreactiveweb` | Only one of these tags is allowed. Use it to add a disclaimer on top of the page, stating that the page applies only to some type(s) of apps. For example, to add "Applies to Mobile Apps only." to the page, insert `runtime-mobile` in the file header tags. | Product documentation KB
 | `article-page`, `article-section` | Defines the type of the current topic: normal page (`article-page`) or section intro topic (`article-section`). The section intro topics don't have a mini table of content, unlike normal topics. By default, all topics with child topics in the table of content are defined as `article-section`, while every other topic is defined as `article-page`. When you want a topic with child topics to show the table of contents, you must explicitly add the `article-page` tag. | All KBs
-| `support-*` | Used only internally. No visual impact on the published topic. These tags help users find relevant content in Support Portal, according to the searches they perform. | All KBs
+| `support-*` | Under deprecation, keep these tags on existing files but don't add them on new files. Used only internally. No visual impact on the published topic. These tags help users find relevant content at the Support homepage. | All KBs
 | `version-10`, `version-11` |  Displays a disclaimer saying that the topic applies to a version, and that if it doesn't work, you should tell us about it. | Support KB
 |=======================
 
