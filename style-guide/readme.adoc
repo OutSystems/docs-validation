@@ -3,9 +3,9 @@ Technical Knowledge style guide
 
 The main purpose of this style guide is to help us *create consistent content*, and consistent content aids readability and understanding.
 
-This style guide is based on *best industry standards* and can be used as a tool that helps us improve our writing and editing skills.
+This style guide is based on the *best industry standards* and can be used as a tool that helps us improve our writing and editing skills.
 
-It should also *make collaboration more efficient*. We expect from our authors to adopt the style guide. Following the style guide lets us edit faster, publish sooner, and help our users quicker.
+It should also *make collaboration more efficient*. We expect our authors to adopt the style guide. Following the style guide lets us edit faster, publish sooner, and help our users quicker.
 
 This style guide is also:
 
