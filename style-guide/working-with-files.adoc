@@ -10,7 +10,7 @@ Read this section to learn more about the Markdown file structure, naming conven
 
 Recommendations to follow when naming.
 
-===== Document names
+===== Document titles
 
 Use letters, numbers and dashes. Avoid other special chars, even `(`, `)`, or `_`.
 
