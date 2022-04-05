@@ -12,7 +12,7 @@ Recommendations to follow when naming.
 
 ===== Document titles
 
-Use letters, numbers and dashes. Avoid other special chars, even `(`, `)`, or `_`.
+Use only letters, numbers and dashes. Never use other special chars, even `(`, `)`, or `_`.
 
 ===== Files and folders
 
