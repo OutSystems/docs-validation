@@ -100,17 +100,6 @@ tags: runtime-mobileandreactiveweb; support-application_development; support-App
 # Screen and Block Lifecycle Events
 ----
 
-A beginning of Markdown file with tags and the English title:
-
-[source, markdown]
-----
----
-tags: version-11
-en_title: OutSystems Platform side effects and breaking changes
----
-
-# OutSystems 11 side effects and breaking changes
-----
 
 === Reserved words for tags
 
