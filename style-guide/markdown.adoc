@@ -400,7 +400,7 @@ for (i=0; i<5; i++) {
 
 === Code block alternative syntax
 
-Indent the code text with at least four spaces more than the current indentation level. The alternative syntax for code blocks doesn't let you specify the language for syntax highlighting. 
+Indent the code text with at least four spaces more than the current indentation level and don't use the code block syntax (```). The alternative syntax for code blocks doesn't let you specify the language for syntax highlighting. 
 
 For example, in body text, indent any code with four spaces. Inside a level-1 list item, indent your code with eight spaces to obtain a code block formatting, since extra paragraphs for the list item are defined using four spaces. For list items in deeper levels, follow the same approach, adding four spaces to the required indentation for adding more paragraphs to the list item.
 
