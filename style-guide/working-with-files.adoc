@@ -41,6 +41,7 @@ Also, the image file names should include the following:
 ** `af` — includes user interface elements from App Feedback Tool
 ** `gc` — includes user interface elements from Google Console
 ** `fg` — includes user interface elements from Forge
+** `ad` — includes user interface elements from Architecture Dashboard
 ** `diag` — the image contains a diagram, a workflow, or similar, with no elements from the product tools user interface
 ** (none) — screenshots from sample apps, or other unspecified cases
 
