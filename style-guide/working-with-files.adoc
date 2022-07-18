@@ -44,6 +44,7 @@ Also, the image file names should include the following:
 ** `ad` — includes user interface elements from Architecture Dashboard
 ** `ib` — includes user interface elements from Integration Builder
 ** `az` — includes user interface elements from Microsoft Azure
+** `ok` — includes user interface elements from Okta
 ** `diag` — the image contains a diagram, a workflow, or similar, with no elements from the product tools user interface
 ** (none) — screenshots from sample apps, or other unspecified cases
 
