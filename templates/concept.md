@@ -1,81 +1,29 @@
+# [Concept title - use a noun] 
+**Example:** "UI screen design". Don’t use generic titles like “Introduction”, “Overview”, “Use cases” or “How it works”. Instead, use a more specific noun or phrase that someone would search for.
 
-# TK Template for a Concept
+## *[Optional Paragraph]*   
+*[Background information or recommended knowledge. Something people must know or do prior to working with this feature.]*  
 
-Use this template to create a concept topic.
+## [Paragraph] *(Heading is optional)*  
+[**A high-level statement** about **how people can use the feature** to accomplish common tasks, instead of what a feature does.]
 
-A concept provides general explanation, background information, or terminology to help readers understand broader ideas. A concept is typically one to several paragraphs.
+**Example**  
+Use the cards widget to create the tiles on an employee directory portal. To express your brand personality, customize the text color inside the card widgets and match it to you brand color theme. For example, use color text on headlines to draw attention to an employee's name on a tile. 
 
-When writing a concept, include the following sections and answer the questions to create each section. Headers are optional and should be used only if you think they add value.
+## [Paragraph] *(Heading is optional)*  
+[**The benefits** of using the feature.]
 
-<table>
-  <tr>
-   <td><strong>Section</strong>
-   </td>
-   <td><strong>Guidelines</strong>
-   </td>
-  </tr>
-  <tr>
-   <td>Recommended knowledge
-   </td>
-   <td>
-<ul>
+**Example**  
+A benefit of OutSystems UI Screens is that you can focus on design rather than development. Focusing on accessibility and usefulness makes it easier to use your app.
 
-<li>Is there something readers must know prior to working with this feature - this can include information they should read or actions they should have completed.
+## [Paragraph] *(Heading is optional)* 
+[A **use case** that draws a picture in the mind of the reader and demonstrates any benefits.]
 
-<li>Place this information first in the opening paragraph.</li>
-</ul>
-   </td>
-  </tr>
-  <tr>
-   <td>Overview
-   </td>
-   <td>Answer these questions:
-<ul>
+**Example**  
+Design an employee directory portal by dragging and dropping different widgets from the Service Studio Toolbox into an empty screen in your app. For a simple layout, use cards and images to display tiles on screen that contain the employee's picture, name, role, and location. This enables you to create and preview a quick demo of a functioning UI screen, which you can further customize to include things like a Search bar, filters, pagination, and much more.
+_______________________________________________________________________________________________________________________________  
+**DELETE THIS SECTION:**  
+Remember, if you start to describe another concept, stop yourself. Each concept should talk about one concept only.
+Start a new concept with its own title (and link to it, as needed). 
 
-<li>Why is this feature important?
-
-<li>What does this feature enable the reader to accomplish?
-
-<li>Optionally, you can add a link to another topic for context. But, it might be better to have that information as part of the recommended knowledge.
-
-<li>Use graphics or screenshots to help the reader visualize what you are describing.
-</li>
-</ul>
-   </td>
-  </tr>
-  <tr>
-   <td>Example
-   </td>
-   <td>
-<ul>
-
-<li>Include an example that draws a picture in the mind of the reader and demonstrates any benefits.
-</li>
-</ul>
-   </td>
-  </tr>
-</table>
-
-## UI Screens
-
-An OutSystems Screen is a user interface (UI) element that contains other elements in which users interact. When working in a Reactive Web App, the Screen you create can render as a web page, or mobile Screens in a reactive web app. You can access UI screens in Service Studio on the **Interface** tab in the **UI Flows** folder.
-
-You can create a Screen either by starting with an empty Screen by using a Screen template. An empty Screen contains the basic layout for you to add widgets. A Screen template has predefined layouts, widgets, components, styles, and logic.
-
-Screens enable you to create a standard look and feel for your applications making it easier for users to navigate your application. The benefit of an empty Screen is that you can design the layout any way you want. The benefit of a screen template is that you can quickly create a demo that shows a working UI.  
-
-**REMEMBER TO DELETE THIS LINE AND EVERYTHING ABOVE**
-
-# Replace with concept title
-
-## Introduction
-
-Delete the header and add the text here.
-
-## Overview
-
-Heading is optional - put text here
-
-## Example
-
-The heading is optional - put text here.  
+For more instructions and examples, go to the [TK Template Confluence](https://outsystemsrd.atlassian.net/wiki/spaces/TK/pages/2488336658/Technical+Knowledge+Templates#Concept) page.
