@@ -28,7 +28,7 @@ After you add content, delete all:
 * Template instructions in parenthesis `()` 
 * HTML comments with instructions `<!-- -->`
 * Text in *italic*, as it's part of the instructions on how to write a document
-* ontent in this section :) 
+* Content in this section :) 
 
 ------------------------
 
