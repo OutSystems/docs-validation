@@ -32,6 +32,7 @@ Also, the image file names should include the following:
 * A few words describing the image (not too many)
 * Suffix to identify the source of the image:
 ** `ss` — includes user interface elements from Service Studio, even if it's not a simple screenshot
+** `odcs` — includes user interface elements from OutSystems Developer Cloud Studio
 ** `is` — includes user interface elements from Integration Studio
 ** `lt` — includes user interface elements from LifeTime
 ** `sc` — includes user interface elements from Service Center
