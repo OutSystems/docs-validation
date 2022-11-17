@@ -35,13 +35,13 @@ Also, the image file names should include the following:
 ** `is` — includes user interface elements from Integration Studio
 ** `lt` — includes user interface elements from LifeTime
 ** `sc` — includes user interface elements from Service Center
-** `pl` — includes user interface elements from the Neo Portal
+** `pl` — includes user interface elements from the ODC Portal
 ** `usr` — includes user interface elements from Users
 ** `ct` — includes user interface elements from Configuration Tool
 ** `af` — includes user interface elements from App Feedback Tool
 ** `gc` — includes user interface elements from Google Console
 ** `fg` — includes user interface elements from Forge
-** `ad` — includes user interface elements from Architecture Dashboard
+** `ams` — includes user interface elements from AI Mentor Studio
 ** `ib` — includes user interface elements from Integration Builder
 ** `az` — includes user interface elements from Microsoft Azure
 ** `ok` — includes user interface elements from Okta
