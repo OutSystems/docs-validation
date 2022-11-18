@@ -40,5 +40,6 @@ Do the following:
 
 1. Review the automatically generated changelog, editing it if necessary.
 
-1. Publish the release to make it public.
+1. Zip contents of `styles-vale/OutSystems` into `OutSystems.zip`. Attach `OutSystems.zip` as binary file to release.
 
+1. Publish the release to make it public.
