@@ -14,6 +14,8 @@ exceptions:
   - API
   - APK
   - ASP
+  - AWS
+  - CDN
   - CPU
   - CSS
   - CSV
@@ -36,7 +38,10 @@ exceptions:
   - MABS
   - NET
   - NTLM
+  - ODC
   - OKTA
+  - OML
+  - NATS
   - PATH
   - PDF
   - PHP
@@ -69,4 +74,3 @@ exceptions:
   - ZIP
   - VPN
   - IIS
-  
