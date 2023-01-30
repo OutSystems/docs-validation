@@ -60,6 +60,30 @@ This is content under Heading 2.
 This is content under Heading 3.
 ----
 
+=== The URL of the documentation pages
+
+By default, the URL of the topic is defined by the topic title. The topic title is the first Heading 1 line in the file.
+If you change the title of a topic, *you also change the final URL of the topic*. 
+
+*Example*
+
+Here's a sample Markdown snippet, with a file header and title.
+
+[source, markdown]
+----
+---
+summary: <page summary>
+tags: <page tags>
+---
+
+# The title of the page
+----
+
+Once the page is published, these are the URL and title:
+
+* Title: The title of the Page
+* URL: /the_title_of_the_page
+
 === Anchors
 
 You can create anchors to headings to be used in links. Choose a short expression for you anchor, representative of the heading.
@@ -145,30 +169,6 @@ Some content.
 Some content.
 ----
 
-
-=== The URL of the documentation pages
-
-By default, the URL of the topic is defined by the topic title. The topic title is the first Heading 1 line in the file.
-If you change the title of a topic, *you also change the final URL of the topic*. If you've already published the topic, check with the Technical Knowledge team how to publish the updated document.
-
-*Example*
-
-Here's a sample Markdown snippet, with a file header and title.
-
-[source, markdown]
-----
----
-summary: <page summary>
-tags: <page tags>
----
-
-# The title of the page
-----
-
-Once the page is published, these are the title and the URL:
-
-* URL: /The_title_of_the_page
-* Title: The title of the page
 
 === Writing body text
 
