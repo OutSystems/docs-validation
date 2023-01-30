@@ -37,7 +37,7 @@ Headings are defined using one or more # (hash) characters placed at the first c
 
 General rules for headings:
 
-* Use only one Heading 1 in a topic, because Heading 1 defines the topic title.
+* Use only one Heading 1 in a topic, because Heading 1 defines the topic title. Titles must only contain letters of the English alphabet , numbers, dashes, and periods.
 * Don't skip the heading levels. For example, don't use a Heading 3 right after a Heading 1, without a Heading 2 in-between.
 * Always leave an empty line before and after a heading line.
 
