@@ -1,5 +1,5 @@
 ---
-summary: <error-message>
+summary: "<error-message>"
 tags:
 guid:
 locale: en-us
@@ -9,7 +9,7 @@ app_type: traditional web apps, mobile apps, reactive web apps
 # OS-AAAA-BBBB-09999
 
 <!--
-In summary, replace <error-message> with the error message (without error code).
+In summary, replace <error-message> with the error message (without error code) and make sure you wrap the error message in quotation marks, `""`.
 After the #, replace OS-AAAA-BBBB-09999 with the error code.
 -->
 
