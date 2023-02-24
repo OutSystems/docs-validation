@@ -9,36 +9,37 @@ platform-version: o11
 
 # <title>
 
-<--!
+<!--
      
 * The <title> should speak to the error message or symptom that the user sees. 
   
 For example:
 "ORA-01000: maximum open cursors exceeded" or "Application deployment takes too long after adding a new Entity Attribute".
+     
 -->
   
 ## Symptoms
 
-<--!
+<!--
 
  * Describe the impact of the issue as it presents to the end-user or to the developer. Think of all the manifestations and symptoms as opposed to the root cause.
      
 For example:
-"When publishing you may encounter the following error: <error>. You may see it when publishing a module in Service Studio, when publishing a solution in Service Center, or when deploying an app in LifeTime."
+"When publishing you may encounter the following error: error-message. You may see it when publishing a module in Service Studio, when publishing a solution in Service Center, or when deploying an app in LifeTime."
 
 -->
 
 ## Causes
 
-<--!
+<!--
 
 * If there is more than one cause, order the causes from the easiest to confirm to the most complex to confirm.
-     
--->
-  
-### <Cause n>
 
-<--!
+-->
+
+### <Cause 1>
+
+<!--
 
 * Replace <Cause n> with a short sentence that describes the cause
 * Describe the root cause
@@ -62,7 +63,7 @@ You can create an entity diagram that includes both tables in the error, to conf
 
 #### Resolution
 
-<--!
+<!--
 
 * Describe how to solve the issue so that the symptom disappears:
   * Describe the steps that the user needs to do to avoid or resolve the issue
@@ -77,6 +78,6 @@ For example:
 
 -->
   
-### <Cause n+1>
+### <Cause 2>
 
 #### Resolution
