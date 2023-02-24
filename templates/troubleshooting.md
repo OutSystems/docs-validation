@@ -1,6 +1,5 @@
 ---
 summary: 
-tags:
 guid:
 locale: en-us
 app_type: traditional web apps, mobile apps, reactive web apps
@@ -22,7 +21,7 @@ For example:
 
 <!--
 
- * Describe the impact of the issue as it presents to the end-user or to the developer. Think of all the manifestations and symptoms as opposed to the root cause.
+* Describe the impact of the issue as it presents to the end-user or to the developer. Think of all the manifestations and symptoms as opposed to the root cause.
      
 For example:
 "When publishing you may encounter the following error: error-message. You may see it when publishing a module in Service Studio, when publishing a solution in Service Center, or when deploying an app in LifeTime."
