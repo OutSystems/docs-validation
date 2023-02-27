@@ -18,9 +18,9 @@ Begin the document with an introduction / overivew to let readers know what to e
 
 Place prerequisites at the beginning of the document. This sets the users' expectations because they immediately know if they can use this document or not. Keep in mind that prerequisites might end up as preview snippets in search engines’ results page.
 
-=== Use infoboxes sparingly
+=== Use admonitions sparingly
 
-Only use infoboxes (info, warnings) when you need to emphasize a particular piece of information. The overuse of infoboxes has the opposite effect, as readers start ignoring them. 
+Only use adminitions (infoboxes, warnings, errors) when you need to emphasize a piece of information. The overuse of adminitions has the opposite effect, as readers start ignoring them. 
 
 === Limit the number of steps in procedures
 
