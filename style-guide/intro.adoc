@@ -29,12 +29,6 @@ A prerequisite for content being useful is that it is technically correct. Techn
 
 Content you create lives alongside existing content. In which repository should you commit it? Where in the table of contents should you place it and why? Does the content have correct headings and sections, with alternative text for images, and page summary, so search engines can crawl it properly? Does it compete with other resources on our website? 
 
-=== Assess the maintenance effort
-
-Sometimes it's better not to create content, than to create content that is difficult to maintain. Assess whether the creation of content justifies audience goals and business needs, as well as the content lifecycle.
-
-If you do create content, keep in mind that screenshots and videos are costly for content maintenance because once the product changes, you must update the screenshots and videos.
-
 === Select the right content type
 
 Depending on what the goal of the content is, you may choose to create one of the following:
