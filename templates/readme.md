@@ -20,3 +20,4 @@ Use content-specific templates as a guidance for creating content with predefine
 | ---------------------------------------------------------------- | --------------------------------------------------------------------- |
 | [Mobile plugins](./mobile-plugins/mobile-plugin-doc-template.md) | Create a document to help developers use an OutSystems mobile plugin. |
 | [Troubleshooting](troubleshooting.md) | Create an article that helps users to understand how to get out of an error or troubleshoot an issue. |
+| [Error codes](aaaa-bbbb-09999.md] | For errors identified with OutSystems error codes, explain why they occur and how to solve them. |
