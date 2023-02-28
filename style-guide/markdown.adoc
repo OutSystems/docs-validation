@@ -377,12 +377,12 @@ Here is a block with JavaScript:
 [source, markdown]
 ----
 ```javascript
-// This is a sample JavaScript code snippet
-var index = 0;
+   // This is a sample JavaScript code snippet
+   var index = 0;
 
-for (i=0; i<5; i++) {
-    console.log('Am I being repetitive?');
-}
+   for (i=0; i<5; i++) {
+       console.log('Am I being repetitive?');
+   }
 ```
 ----
 
