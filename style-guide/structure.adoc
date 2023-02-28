@@ -12,15 +12,17 @@ Notes about different parts of documents.
 
 === Include an introduction / overview
 
-Begin the document with an introduction / overivew to let readers know what to expect in the document and it confirms they found what they were looking for. 
+Begin the document with an introduction / overview to let readers know what to expect in the document and it confirms they found what they were looking for. 
 
 === Place prerequisites near the top
 
-Place prerequisites at the beginning of the document. This sets the users' expectations because they immediately know if they can use this document or not. Keep in mind that prerequisites might end up as preview snippets in search engines’ results page.
+Place prerequisites at the beginning of the document. This sets the users' expectations because they immediately know if they can use this document or not. Keep in mind that prerequisites might end up as preview snippets in search engines results page.
 
 === Use admonitions sparingly
 
-Only use adminitions (infoboxes, warnings, errors) when you need to emphasize a piece of information. The overuse of adminitions has the opposite effect, as readers start ignoring them. 
+Only use admonitions ("infoboxes", warnings, errors) when you need to emphasize a piece of information. The overuse of admonitions has the opposite effect, as readers start ignoring them.
+
+For the list of admonitions you can use, see: link:markdown.adoc[Warning and information boxes]
 
 === Limit the number of steps in procedures
 

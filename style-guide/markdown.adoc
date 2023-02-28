@@ -425,7 +425,7 @@ Check the following code sample:
 
 === Warning and information sections
 
-To insert a warning or information box, use a HTML `<div>` element with `class="warning"` or `class="info"`. Include a `markdown="1"` attribute in the `<div>` element so that the build script parses the text as Markdown-formatted content.
+Warning and information sections are highlights in text also know as admonitions. To insert a warning or information box, use a HTML `<div>` element with `class="warning"` or `class="info"`. Include a `markdown="1"` attribute in the `<div>` element so that the build script parses the text as Markdown-formatted content.
 
 Add a blank newline after the opening `<div>` tag and before the corresponding closing tag so that the VS Code previewer parses the `<div>` content as Markdown.
 
