@@ -8,11 +8,22 @@ This section is about organizing content in documentation and training.
 
 == Structure in documentation
 
-Notes about different parts of documents.
+This section describes the different types of content you might include. Most of the content applies to any document, such as an introduction. Other sections may be very specific, such as the number of steps to include in a procedure. 
+
+The following are types of technical documents you can include in your document set. 
+
+* *Concept* -  can introduces a topic, identifies and audience, explains what this thing is and how it benefits the reader.
+
+* *Process* - is a series of steps (that are interdependent) that readers follow to complete a task. Process diagrams help users to understand how the parts fit together. The overall picture. 
+
+* *Procedure* - is a way of doing something to complete a task. THese steps must be followed in the order specified.  Screenshots are used to help explain the sequence of steps readers  follow to reach the goal.  
+
 
 === Include an introduction / overview
 
-Begin the document with an introduction / overivew to let readers know what to expect in the document and it confirms they found what they were looking for. 
+A good technical document should always have an introduction that  may include conceptual information. 
+
+Use the introduction / overview to let readers know what to expect in the document and it confirms they found what they were looking for. 
 
 === Place prerequisites near the top
 
