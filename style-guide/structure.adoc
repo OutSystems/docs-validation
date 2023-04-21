@@ -8,11 +8,33 @@ This section is about organizing content in documentation and training.
 
 == Structure in documentation
 
-Notes about different parts of documents.
+This section describes the different types of content you might include. Most of the content applies to any document, such as an introduction. Other sections may be very specific, such as the number of steps to include in a procedure. 
+
+The following are types of technical documents you can include in your document set. 
+
+* *Concept* -  can introduces a topic, identifies the audience, and explains what the feature or function is and how it benefits the reader. You might also introduce the use case that this feature solves. A concept describes the purpose of the feature. It may also include information about where this feature is used in the product. 
+** To name a concept, use a noun for the title, such as Forge.
+
+* *Process* - is a series of paragraphs that are related so readers learn how to complete a task. A process doesn't include step-by-step instructions or instructions on how to complete the fields on a screen. Drawings showing the process are helpful for users to understand how the parts fit together and provide a good overview. A process provides the information a user might need to move from a concept to a procedure. 
+** To name a process document, use gerunds in the title, such as *Installing a Forge app*. 
+
+* *Procedure* - is a series of related steps users follow to complete a task. These steps must be followed in the order specified. Screenshots help explain the sequence of steps readers follow to reach the goal.  
+** Prerequisites should be at the top of the document below the introduction. 
+** If the procedure doesn't immediately follow the introduction, then write a lead-in sentence, such as *To install an app, follow these steps*:
+** Use numbered steps to indicate the order in wich, users complete a task. 
+** Write the step following the 3W rule (Where, What, and Why - the result)
+. Where positions the user the so they know where the item is located that they need to select. 
+. What indicates what the user needs to select, such as the name of a link or button. 
+. Why (the result) indicates the objective of the users action. 
+** To name a procedural document, use an active verb and noun such as *Create a screen*.
 
 === Include an introduction / overview
 
-Begin the document with an introduction / overivew to let readers know what to expect in the document and it confirms they found what they were looking for. 
+A good technical document should always have an introduction that may include conceptual information. 
+
+Use the introduction / overview to let readers know what to expect in the document and it confirms they found what they were looking for. Identify the audience or the developer level such an experienced developer.
+
+The introduction, should be the first paragraph of your document. 
 
 === Place prerequisites near the top
 
@@ -24,7 +46,7 @@ Only use infoboxes (info, warnings) when you need to emphasize a particular piec
 
 === Limit the number of steps in procedures
 
-Try limiting procedures to seven to nine steps. This is to prevent us from writing endless procedures that are difficult to follow.  If you need more steps, consider reorganizing the content.
+Try limiting procedures to seven to nine steps. This is to prevent us from writing endless procedures that are difficult to follow.  If you need more steps, consider reorganizing the content. Break the procedure into smaller procedures and use Heading 2's or 3's to separate the content. 
 
 === Use links in paragraphs occasionally
 
@@ -48,7 +70,7 @@ Avoid using more than three levels of headings. If you think that you need more 
 
 === Add content after a heading
 
-Add at least a sentence between a heading and an image or table, describing what follows.
+Add at least a sentence between a heading and an image or table, describing what follows. Introduce images and tables, so users know what they are looking at.  
 
 *Example*
 
@@ -56,7 +78,7 @@ Yes:
 
 *Create a New Mobile App*
 
-Follow the following steps to create a new mobile app.
+Follow the steps below to create a new mobile app.
 
 1. ...
 2. ...
@@ -72,7 +94,7 @@ No:
 
 === Add a summary
 
-Add a summary to your document/video explaining why users might need the content. The summary shows in Google results pages.
+Add a summary to your document/video explaining why users might need the content. The summary shows in Google results pages. Make sure the summary is succint, contains important information, and is not more than 150 characters. 
 
 *Example*
 
