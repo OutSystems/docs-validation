@@ -12,29 +12,29 @@ This section describes the different types of content you might include. Most of
 
 The following are types of technical documents you can include in your document set. 
 
-* *Concept* -  can introduces a topic, identifies and audience, explains what this feature or function is and how it benefits the reader. You might also introduce the use case that this feature solves. A concept describes the purpose of feature. It may also include information about where this feature is used in the product. 
+* *Concept* -  can introduces a topic, identifies the audience, and explains what the feature or function is and how it benefits the reader. You might also introduce the use case that this feature solves. A concept describes the purpose of the feature. It may also include information about where this feature is used in the product. 
 ** To name a concept, use a noun for the title, such as Forge.
 
-* *Process* - is a series of paragraphs that are related readers learn how to complete the process. A process doesn't include step-by-step instructions or instructions on how to complete the fields in a screen. Drawings showing the process are helpful so users understand how the parts fit together and provide a good overview. A process provides the information a user might need to move from a concept to a procedure. 
-** To name a process document, use gerunds in the title, such as Installing a Forge app. 
+* *Process* - is a series of paragraphs that are related so readers learn how to complete a task. A process doesn't include step-by-step instructions or instructions on how to complete the fields on a screen. Drawings showing the process are helpful for users to understand how the parts fit together and provide a good overview. A process provides the information a user might need to move from a concept to a procedure. 
+** To name a process document, use gerunds in the title, such as *Installing a Forge app*. 
 
-* *Procedure* - is a series of related steps users follow to complete a task. These steps must be followed in the order specified.  Screenshots are used to help explain the sequence of steps readers follow to reach the goal.  
+* *Procedure* - is a series of related steps users follow to complete a task. These steps must be followed in the order specified. Screenshots help explain the sequence of steps readers follow to reach the goal.  
 ** Prerequisites should be at the top of the document below the introduction. 
-** If the procedure doesn't immediately follow the introduction, then write a lead-in sentence, such as To do "To install an app, follow these steps:"
+** If the procedure doesn't immediately follow the introduction, then write a lead-in sentence, such as *To install an app, follow these steps*:
 ** Use numbered steps to indicate the order in wich, users complete a task. 
 ** Write the step following the 3W rule (Where, What, and Why - the result)
-. Where positions the user the so they know where the item is that they need to select. 
-. What indicates what the user needs to select, such as the name of a lin or button. 
+. Where positions the user the so they know where the item is located that they need to select. 
+. What indicates what the user needs to select, such as the name of a link or button. 
 . Why (the result) indicates the objective of the users action. 
-** To name a procedural document, use an active verb and noun.
+** To name a procedural document, use an active verb and noun such as *Create a screen*.
 
 === Include an introduction / overview
 
 A good technical document should always have an introduction that may include conceptual information. 
 
-Use the introduction / overview to let readers know what to expect in the document and it confirms they found what they were looking for. 
+Use the introduction / overview to let readers know what to expect in the document and it confirms they found what they were looking for. Identify the audience or the developer level such an experienced developer.
 
-It should be the first paragraph of your document. 
+The introduction, should be the first paragraph of your document. 
 
 === Place prerequisites near the top
 
