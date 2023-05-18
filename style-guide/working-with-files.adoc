@@ -119,59 +119,6 @@ These are the tags you can use in the file front-matter.
 | `version-10`, `version-11` |  Displays a disclaimer saying that the topic applies to a version, and that if it doesn't work, you should tell us about it. | Support KB
 |=======================
 
-=== Related links
-
-Add links related to the current topic in a separate file — related.yml — and not directly at the end of the file.
-
-There are three kinds of related links:
-
-* *Normal related link*. The relationship between two topics is defined once. Topic A lists topic B in its related links section, and Topic B also lists Topic A in its corresponding related links section. 
-* *One-way related link*. The relationship between two topics is defined once. Only Topic A lists Topic B as a related link, Topic B doesn't contain a related link to Topic A. 
-* *External related link*. Link to a page outside the current documentation repository, or a link pointing to an external URL from another company. In this case,  you must provide both the link and the text.
-
-For the normal and one-way related links, the link text is inferred from the destination topic title, and the summary of that topic is used as the link's `title` attribute (displayed when hovering the link).
-
-*Syntax*
-
-Here is the link syntax.
-
-[source, yaml]
-----
-# normal related link
-- path/to/topic-a.md:
-    - path/to/topic-b.md
-
-# one-way related link
-- path/to/topic-a.md:
-    - one-way: path/to/topic-b.md
-
-# external related link
-- path/to/topic-a.md:
-    - external:
-        - <displayed link text>:
-            <external-link-url>
-----
-
-IMPORTANT: Mind the indentation and the `:` (colon characters).
-
-*Examples*
-
-Here are sample entries that show in the "See more" section of the documents:
-
-[source, yaml]
-----
-- enterprise/maintenance/cache-invalidation/intro.md:
-    - enterprise/maintenance/cache-invalidation/enable-tls.md
-
-- develop/data/modeling/relationship/delete-rules.md:
-    - one-way: ref/lang/auto/Class.Entity Attribute.final.md
-
-- enterprise/maintenance/cache-invalidation/high-availability.md:
-    - external:
-        - Installing RabbitMQ on Windows:
-            https://www.rabbitmq.com/install-windows.html
-----
-
 
 === File organization
 
