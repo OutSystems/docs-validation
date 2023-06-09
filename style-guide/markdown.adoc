@@ -23,15 +23,6 @@ The following informaiton should be at the top of each Markdown file. Copy every
 * app_type: identifies the the type of app
 * platform version:odc or o11 
 
----
-summary: Install, learn and use Forge, a repository of libraries, and apps to create and share your projects.
-tags:
-locale: en-us
-guid: 8a1edbeb-2a5c-48f6-a5c2-8b2b15a538bf
-app_type: mobile apps, reactive web apps
-platform-version: odc
----
-
 === Basic formatting
 
 Bold. Surround the words with ** (two asterisks), no spaces.
