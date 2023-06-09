@@ -16,7 +16,7 @@ See https://daringfireball.net/projects/markdown/syntax[Daring Fireball] for mor
 
 The following informaiton should be at the top of each Markdown file. Copy everything from the first --- to the ending ---.  Use the information below to enter your content in each field. 
 
-* summary:  Should be less than 160 characters and explain what the reader will learn.  G\
+* summary:  Should be less than 160 characters and explain what the reader will learn.  
 * tags:  leave blank
 * locale: leave as en-us
 * guid:  must be unique for each file, press Ctrl + Shift + P and enter the guid
