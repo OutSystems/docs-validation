@@ -12,6 +12,26 @@ Keep it simple. Remember to let the text "breathe" — when in doubt, add empty 
 
 See https://daringfireball.net/projects/markdown/syntax[Daring Fireball] for more information about Markdown syntax.
 
+=== Summary information
+
+The following informaiton should be at the top of each Markdown file. Copy everything from the first --- to the ending ---.  Use the information below to enter your content in each field. 
+
+* summary:  Should be less than 160 characters and explain what the reader will learn.  G\
+* tags:  leave blank
+* locale: leave as en-us
+* guid:  must be unique for each file, press Ctrl + Shift + P and enter the guid
+* app_type: identifies the the type of app
+* platform version:odc or o11 
+
+---
+summary: Install, learn and use Forge, a repository of libraries, and apps to create and share your projects.
+tags:
+locale: en-us
+guid: 8a1edbeb-2a5c-48f6-a5c2-8b2b15a538bf
+app_type: mobile apps, reactive web apps
+platform-version: odc
+---
+
 === Basic formatting
 
 Bold. Surround the words with ** (two asterisks), no spaces.
