@@ -6,10 +6,6 @@ Changelog
 
 An overview of the changes in this document. Minor improvements are not included in this list.
 
-=== August 2023
-
-* Review content for accuracy
-* Added info about peer review 
 
 === June 2020
 
