@@ -33,11 +33,12 @@ Content you create lives alongside existing content. In which repository should 
 
 Depending on what the goal of the content is, you may choose to create one of the following:
 
-* Document or video explaining what something is
-* Document or video explaining steps to complete a task
-* Reference document, with additional information about a feature
-* Troubleshooting document about a product defect
-* A mix of content types
+* Document or video explaining what something is, a concept.
+* Document or video  explaining how you might complete a task, a process. 
+* Document or video providing the steps to complete a task, a procedure.
+* Reference document, with additional information about a feature.
+* Troubleshooting document about a product defect.
+* Document or video that includes a mix of content types.
 
 NOTE: See the https://github.com/OutSystems/docs-validation/tree/master/templates[templates] for detailed instructions on how to write procedure, concept, or process.
 
@@ -51,7 +52,7 @@ Try asking the target users if the content is helpful. Depending on the type of 
 
 === Reuse content carefully
 
-Use common sense when reusing content across documentation and training. Ideally, we shouldn't repeat content, but sometimes we need to repeat important information to make it more visible.
+Use common sense when reusing content across documentation and training. Ideally, we shouldn't repeat content, but sometimes we need to repeat important information to make it more visible. Think about linking to content rather than repeating content. 
 
 === Respect attribution
 
