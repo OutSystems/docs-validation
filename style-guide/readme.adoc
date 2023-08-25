@@ -1,7 +1,7 @@
 Technical Knowledge style guide
 ==============================
 
-The main purpose of this style guide is to help us *create consistent content*, and consistent content aids readability and understanding.
+The goal of this style guide is to help us *create consistent content*, and consistent content aids readability and understanding.
 
 This style guide is based on the *best industry standards* and can be used as a tool that helps us improve our writing and editing skills.
 

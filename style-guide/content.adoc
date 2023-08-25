@@ -28,7 +28,7 @@ No: The Style Guide is a document with your brand theme colors and patterns read
 
 === Use American English
 
-Use American English. This applies to spelling, word use, writing dates.
+Use American English. This applies to spelling, word use, and writing dates.
 
 === Use the present tense
 
@@ -128,7 +128,7 @@ No: How can a developer prevent accidental activations? (This is from an FAQ sec
 
 === Be clear and precise
 
-The language in technical content must be  clear and precise. Clarity and precision make content useful to the audience. Check out the examples  that demonstrate how being vague, blaming users, or taking their time and skills for granted weakens clarity.
+The language in technical content must be clear and precise. Clarity and precision make content useful to the audience. Check out the examples that demonstrate how being vague, blaming users, or taking their time and skills for granted weakens clarity.
 
 *Examples*
 
@@ -156,7 +156,7 @@ No: Just create a package with all the applications, and deploy it to your enter
 
 ''''
 
-Yes: If you activate this option, and your connection is poor,  debugging takes longer.
+Yes: If you activate this option, and your connection is poor, debugging takes longer.
 
 No: By activating this option, it's possible that the debugger will feel slower. (Using the verb "feel" is claiming that the slower performance is a subjective observation. It's not subjective.)
 
@@ -207,7 +207,7 @@ When the coordinating conjunctions "and" or "or" precede the last item in a seri
 
 Yes: Consider an infrastructure with the following environments: development, preproduction, and production.
 
-No: Consider an infrastructure with the following environments: development, preproduction and production. (It may seem that there are two environments, the first running the apps in "development", and the second in "preproduction and production". However, there are  three different environments.)
+No: Consider an infrastructure with the following environments: development, preproduction and production. (It may seem that there are two environments, the first running the apps in "development", and the second in "preproduction and production". However, there are three different environments.)
 
 ''''
 
@@ -229,7 +229,7 @@ No: Service Center provides a set of metrics regarding a specific environment. I
 
 === Keep it international and straightforward to translate
 
-Ensure your content is accessible to people of different cultures and with speakers of various levels of the English language. The following  are some guidelines to help you with that:
+Ensure your content is accessible to people of different cultures and with speakers of various levels of the English language. The following are some guidelines to help you with that:
 
 * Use plain English.
 * Be consistent.
@@ -296,13 +296,15 @@ Don't use documentation, training videos, or other technical content to inform u
 
 *Example*
 
+Yes: This feature currently has the following limitations. Check the release notes page for information about the updates.
+
 No: This feature currently has the following limitations that will be removed next month, in version 11.9.
 
-Yes: This feature currently has the following limitations. Check the release notes page for information about the updates.
+
 
 === Avoid Latin abbreviations
 
-Use "that is" instead of "i.e." and "for example" instead of "e.g.".
+Use "that is" instead of "i.e." and "for example" or "such as" instead of "e.g.".
 
 *Examples*
 
