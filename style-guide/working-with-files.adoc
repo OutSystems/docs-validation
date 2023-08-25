@@ -4,7 +4,7 @@ Working with files
 
 == Working with files
 
-Read this section to learn more about the Markdown file structure, naming conventions, and how to add files to the table of content.
+Read this section to learn more about the Markdown file structure, naming conventions, and how to add files to the table of contents.
 
 === Naming conventions
 
@@ -76,7 +76,7 @@ Suggested names:
 Markdown files have the following sections:
 
 * *Header* or *front-matter*. Contains topic metadata.
-* *Title*. The topic title that by default also defines the page URL when published. Always use a Heading 1 to define the title (check "Headings"). After the header, insert two line breaks and then write the title of the topic as Heading 1. Leave an empty line after this heading and then write the body of the topic.
+* *Title*. The topic title that by default also defines the page URL when published. Always use a Heading 1 to define the title (check "Headings"). After the header (front matter), insert two blank line s and then write the title of the topic as Heading 1. Leave an blank line after the heading 1  and then write the body of the topic.
 * *Body*. The content of the topic. Can contain text, tables, images, videos, and similar.
 
 === File header of a Markdown file 
@@ -85,7 +85,7 @@ The file header or front-matter of a Markdown file contains metadata that's not 
 
 Even though none of the entries are mandatory, make sure that the front-matter contains at least a summary.
 
-The front-matter can contain the following entries:
+The front-matter always includes a summary but the ther metadata is subject to change. The header can include the following entries:
 
 * *Summary* (`summary`). A sentence or two describing the topic. The readers see it in "Articles in this section", when there's a list of available child topics. Summaries also show in search engine results.
 * *Tag list* (`tags`, with values separated by `;`). The tags define topic properties and populate Mindtouch tags. Use them only with the values and for the purposes defined in the section "Reserved words for tags".
