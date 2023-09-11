@@ -15,7 +15,6 @@ Use the appropriate tone and voice in your content. Your content must be:
 * Inclusive and respectful
 * Free of jargon and sales talk
 
-
 === Be brief and concise
 
 Write short sentences and well-structured paragraphs. Don't repeat yourself.
@@ -96,6 +95,17 @@ Yes: OutSystems handles unforeseen or unhandled errors in applications.
 
 No: OutSystems handles unforeseen or unhandled errors that might occur in applications. (If errors do happen, there's nothing hypothetical about their existence.)
 
+=== Avoid unclear pronouns
+
+An unclear pronoun (often _it_, _that_, _this_, or _they_) reference occurs when the reader is unsure what word the pronoun refers to (its antecedent).
+To avoid unclear pronouns, substitute the correct noun for the pronoun or reword the sentence.
+
+No: You must regenerate the app and then distribute the updated version to end users. 
+This allows them to download and install the new version.
+
+Yes: You must regenerate the app and then distribute the updated version to end users. 
+The end users can then download and install the new version of the app.
+
 === Use second person
 
 Use the second person "you" to address the reader or readers. However, don't overuse it.
@@ -125,6 +135,15 @@ No: Keep in mind that, for a successful adoption of containers technology, custo
 Yes: How can I prevent accidental activations?
 
 No: How can a developer prevent accidental activations? (This is from an FAQ section, where "I" fits well as it's a developer who's asking the question.)
+
+=== Make users your subject in sentences
+
+Your users want to know what they can do with the product and not what the product can do for them. 
+Avoid product-centric sentences. Rewrite sentences that use product-centric words such as _enable_, _let_, _allow_ to make users the subject
+
+Yes: You can build mobile apps using OutSystems low-code platform.
+
+No: OutSystems low-code platform enables you to build mobile apps.
 
 === Be clear and precise
 
@@ -296,9 +315,10 @@ Don't use documentation, training videos, or other technical content to inform u
 
 *Example*
 
-No: This feature currently has the following limitations that will be removed next month, in version 11.9.
+Yes: This feature has the following limitations. For more information about the updates, refer to the Release notes.
 
-Yes: This feature currently has the following limitations. Check the release notes page for information about the updates.
+No: This feature has the following limitations that will be removed next month, in version 11.9.
+
 
 === Avoid Latin abbreviations
 
