@@ -19,5 +19,5 @@ swap:
   javascript: JavaScript
   SS: Service Studio
   KeyCloak: Keycloak
-  PaaS: OutSystems Cloud
-  O11: OutSystems 11
+  'paas': OutSystems Cloud
+  'o11': OutSystems 11
