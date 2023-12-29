@@ -44,6 +44,7 @@ Also, the image file names should include the following:
 ** `fg` — includes user interface elements from Forge
 ** `ams` — includes user interface elements from AI Mentor Studio
 ** `ib` — includes user interface elements from Integration Builder
+** `eb` — includes user interface elements from Experience Builder
 ** `az` — includes user interface elements from Microsoft Azure
 ** `ok` — includes user interface elements from Okta
 ** `fc` — includes user interface elements from Factory Configuration
