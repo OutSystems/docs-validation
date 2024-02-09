@@ -106,31 +106,7 @@ Screenshots and illustrations should be a useful addition to the content, and no
 * Mask the internal domain names and user names of OutSystems employees in your screenshots.
 * The maximum screenshot size is 1200 pixels wide, with screen scale set at 100%. When highlighting an area on a screenshot, only use boxes and arrows. Use "Bright Red" (#F22800) and stroke dimension 2pt.
 * Give unique and meaningful names to the screenshot files. Use lowercase and hyphens between words. For example, "vpn-your-outsystems-cloud.png".
+* Add Alt text fo each image that explains what the image is showing.  This enables screen readers to describe images to a visually impaired reader, which improves accessibility
 * For public content, only use products that are generally available.
 * If you're using screenshots from a third-party product, check the copyright notes for the product and the rules for the screenshot use.
-
-=== Writing ALT Text
-
-There are several benefits to using Alt text, such as:
-
-* Helps to create a better user experience for all users
-* Displays in place of an image on a web page when the image doesn't load
-* Enables screen readers to describe images to a visually impaired reader, which improves accessibility
-* Helps to improve our rankings with search engines by surfacing our images
-
-=== How to write alt-text for images
-
-When writing alt-text, keep the following in mind: 
-
-* Describe the image and be specific - use the image subject and some context 
-* Add context that relates to the topic of the page. 
-* Include the content and purpose of an image.  Keep the text to a sentence or two. Try to limit the number of characters to between 125 and 150. Think about what is important in the image. What are you trying to convey? If you have a complex image  (screenshot), add information before the image. 
-* Don't start alt text with "picture of..." or "Image of..." or “Screenshot of” - these words don’t add value; instead, start with the description. Explain what the image shows, such as “ODC studio logic tab. Screen-reading tools (and Google, for that matter) will identify it as an image from the article's HTML source code. 
-* Prioritize information - put the most important information at the beginning
-* Use text that is in the image in the alt-text
-* Capitalize the first letter
-* End whole sentences with a period
-* Don’t include superfluous information
-
-=== Alt text examples
 
