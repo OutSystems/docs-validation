@@ -106,7 +106,7 @@ Screenshots and illustrations should be a useful addition to the content, and no
 * Mask the internal domain names and user names of OutSystems employees in your screenshots.
 * The maximum screenshot size is 1200 pixels wide, with screen scale set at 100%. When highlighting an area on a screenshot, only use boxes and arrows. Use "Bright Red" (#F22800) and stroke dimension 2pt.
 * Give unique and meaningful names to the screenshot files. Use lowercase and hyphens between words. For example, "vpn-your-outsystems-cloud.png".
-* Add alternative text to screenshots, first and foremost for web accessibility. The alt tags also provide image descriptions to search engine crawlers, helping them to index an image properly.
+* Add Alt text fo each image that explains what the image is showing.  This enables screen readers to describe images to a visually impaired reader, which improves accessibility
 * For public content, only use products that are generally available.
 * If you're using screenshots from a third-party product, check the copyright notes for the product and the rules for the screenshot use.
 

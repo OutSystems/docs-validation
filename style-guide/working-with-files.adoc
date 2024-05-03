@@ -12,17 +12,17 @@ Recommendations to follow when naming.
 
 ===== Document titles
 
-Use only letters, numbers and dashes. Never use other special chars, even `(`, `)`, or `_`.
+Use only letters, numbers, and hyphens. Never use other special chars, even `(`, `)`, or `_`.
 
 ===== Files and folders
 
 Here are some conventions you should follow for file and folder names:
 
+* Use only letters, numbers, and hyphens. Never use other special chars.
 * Write file and folder names in lowercase with word-separating hyphens. Do not use underscores or spaces for this purpose.
 * Folder names should be short and descriptive. They don't have to match the topic name, and may abbreviate some words (for example, "application" to "app").
 * Topics on similar subjects, when placed in the same folder, may share the same short prefix. This makes them easier to find.
 * Limit the number of files at the folder level. Review the list of files and organize them into subfolders, if needed.
-* Image filenames should be in lowercase and should only contain dashes, not underscores.
 
 ===== Image file names
 
@@ -44,6 +44,7 @@ Also, the image file names should include the following:
 ** `fg` — includes user interface elements from Forge
 ** `ams` — includes user interface elements from AI Mentor Studio
 ** `ib` — includes user interface elements from Integration Builder
+** `eb` — includes user interface elements from Experience Builder
 ** `az` — includes user interface elements from Microsoft Azure
 ** `ok` — includes user interface elements from Okta
 ** `fc` — includes user interface elements from Factory Configuration
@@ -82,49 +83,14 @@ Markdown files have the following sections:
 === File header of a Markdown file 
 
 The file header or front-matter of a Markdown file contains metadata that's not rendered as body text. The header starts in the first line with `---` (three hyphen characters), has one entry per line, and ends with `---` (three hyphen characters), followed by two line breaks and one empty line. Insert two line breaks after the header.
-
-Even though none of the entries are mandatory, make sure that the front-matter contains at least a summary.
-
-The front-matter can contain the following entries:
-
-* *Summary* (`summary`). A sentence or two describing the topic. The readers see it in "Articles in this section", when there's a list of available child topics. Summaries also show in search engine results.
-* *Tag list* (`tags`, with values separated by `;`). The tags define topic properties and populate Mindtouch tags. Use them only with the values and for the purposes defined in the section "Reserved words for tags".
-* *HelpID list* (`helpids`, with values separated by `,`): One or more Help IDs mapping to the current topic. This front-matter entry is found in the reference topics generated from the product source code. You don't need to edit this field.
-
-*Examples*
-
-
-A beginning of Markdown file with summary and tags:
-
-[source, markdown]
-----
----
-summary: Screens and Blocks follow a lifecycle composed by a set of stages. Learn what those stages are and what you can do at each one.
-tags: runtime-mobileandreactiveweb; support-application_development; support-Application_Troubleshooting-featured; support-Mobile_Apps
----
-
-# Screen and Block Lifecycle Events
-----
-
-
-=== Reserved words for tags
-
-These are the tags you can use in the file front-matter. 
-
-[options="header"]
-|=======================
-| Tag(s) | Description | Applicable to
-| `runtime-mobile`, `runtime-reactiveweb`, `runtime-traditionalweb`, `runtime-mobileandreactiveweb`, `runtime-traditionalwebandreactiveweb` | Only one of these tags is allowed. Use it to add a disclaimer on top of the page, stating that the page applies only to some type(s) of apps. For example, to add "Applies to Mobile Apps only." to the page, insert `runtime-mobile` in the file header tags. | Product documentation KB
-| `support-*` | Under deprecation, keep these tags on existing files but don't add them on new files. Used only internally. No visual impact on the published topic. These tags help users find relevant content at the Support homepage. | All KBs
-| `version-10`, `version-11` |  Displays a disclaimer saying that the topic applies to a version, and that if it doesn't work, you should tell us about it. | Support KB
-|=======================
+For more information about the front-matter, see [Validate markdown frontmatter](https://outsystemsrd.atlassian.net/wiki/spaces/TK/pages/3602121571/Validate+markdown+frontmatter).
 
 
 === File organization
 
 Each documentation area or a section in a repository should have a specific folder. Check below for the folder naming conventions and recommendations.
 
-Each section should have an overview topic, placed inside the section folder. The topic name should be `intro.md` or `intro-<some-keywords>.md`.
+Each section should have an overview topic, placed inside the section folder. The topic name should be `intro-<some-keywords>.md`.
 
 Put:
 
@@ -180,12 +146,5 @@ Child topics are defined after a `- topics` entry, using an extra level of inden
 - topics:
     - href: app-lifecycle/app-deploy.md
     - href: app-lifecycle/troubleshooting.md
-----
-
-There's a special entry called a *placeholder entry* for topics that aren't available in Markdown yet (topics that were created directly in the Mindtouch CMS), but must be part of the TOC. Instead of the path, placeholder entries contain the text used for the TOC entry itself:
-
-[source, yaml]
-----
-- placeholder: Deploying Apps with Dependencies
 ----
 
