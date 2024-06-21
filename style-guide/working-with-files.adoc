@@ -38,6 +38,7 @@ Also, the image file names should include the following:
 ** `sc` — includes user interface elements from Service Center
 ** `pl` — includes user interface elements from the ODC Portal
 ** `usr` — includes user interface elements from Users
+** `at` — includes user interface elements from Assessment Tool
 ** `ct` — includes user interface elements from Configuration Tool
 ** `af` — includes user interface elements from App Feedback Tool
 ** `gc` — includes user interface elements from Google Console
