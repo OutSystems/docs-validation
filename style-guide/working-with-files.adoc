@@ -46,6 +46,7 @@ Also, the image file names should include the following:
 ** `ams` — includes user interface elements from AI Mentor Studio
 ** `ib` — includes user interface elements from Integration Builder
 ** `eb` — includes user interface elements from Experience Builder
+** `we` — includes user interface elements from Workflow Editor
 ** `az` — includes user interface elements from Microsoft Azure
 ** `vs` — includes user interface elements from Visual Studio
 ** `ok` — includes user interface elements from Okta
