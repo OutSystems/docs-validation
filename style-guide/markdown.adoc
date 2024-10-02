@@ -14,7 +14,7 @@ See https://daringfireball.net/projects/markdown/syntax[Daring Fireball] for mor
 
 === Summary information
 
-The following informaiton should be at the top of each Markdown file. Copy everything from the first --- to the ending ---.  Use the information below to enter your content in each field. 
+The following information should be at the top of each Markdown file. Copy everything from the first --- to the ending ---.  Use the information below to enter your content in each field. 
 
 * summary:  Should be less than 160 characters and explain what the reader will learn.  
 * tags:  leave blank
@@ -144,7 +144,7 @@ A markdown links demo.
 
 * This is an anchor to the [Subtopic](#subtopic).
 
-## Subtopic
+## Subtopic  { #subtopic }
 
 Some content.
 
@@ -171,11 +171,11 @@ A markdown links demo.
 * This is an anchor to a [subtopic](#subtopic-2-with-a-really-long-name).
 * This is an anchor to a [subtopic in another file](../../sample/sample.md#subtopic).
 
-## Subtopic 1
+## Subtopic 1  { #subtopic-1 }
 
 Some content.
 
-## Subtopic 2 with a really long name
+## Subtopic 2 with a really long name { subtopic-2-with-a-really-long-name }
 
 Some content.
 ----
