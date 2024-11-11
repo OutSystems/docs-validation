@@ -1,14 +1,14 @@
 # [Overview title - use a noun] 
 
-**Example:** "Introduction to UI screen design" or "About log streaming". Don’t use generic titles like “Introduction”, “Overview”, “Use cases” or “How it works”. Instead, use a more specific noun or phrase that someone would search for.
+**Example:** "Introduction to UI screen design" or "About log streaming". Don’t use generic titles like “Introduction”, “Overview”. Instead, use a more specific noun or phrase that someone would search for.
 
 **[Optional Paragraph]**   
 
 {The first sentence should concisely explain what the feature does, how users can use the feature to accomplish a task and the pain point that the feature solves.  Optionally, provide any background information such as standards followed, examples or recommended knowledge. Something that the readers must know or do prior to working with this feature.}
 
 {<Feature name> is a <core function of the feature> that enables you to <main use case>}.
-
-{With <feature name>, you can <describe what the user can do with the product and how it helps them solve their pain point>}.
+(or)
+{With <feature name>, you can <describe what the user can do with this new capability and how it helps them solve their pain point>}.
 
 **Example**  
 
@@ -18,10 +18,10 @@ Use the cards widget to create the tiles on an employee directory portal. To exp
 
 {If you prefer to use descriptive title, consider titles such as **Benefits of using <feature name>**,}
 
-{List the most important benefits of this feature. Consider the benefits from the user's point of view. Describe how the feature benefits the stakeholder. You might ask yourself, “Why is this valuable? How does it benefit the user or business?” briefly describing how each feature benefits the user.}
+{List the most important benefits of this feature. Consider the benefits from the user's point of view. Describe how the feature benefits the user. You might ask yourself, “Why is this valuable? How does it benefit the user or business?”}
 
 With <feature name>, you can:
-* {Explain how the feature benefits the user}
+* {Explain each benefit from the user's perspective}
 * ...
 * ...
 
@@ -50,7 +50,7 @@ Design an employee directory portal by dragging and dropping different widgets f
 {You can modify the title depending on the feature you document. Some examples are **Implementing <feature name>}
 
 {In this section, provide the following:
-* A high-level diagram to help readers gain overall understanding of the functioning of the feature.
+* A high-level diagram to help readers gain overall understanding of how the feature works.
 * The different components of the feature and how each component is related to one another.
 * A high-level end-to-end workflow. Optionally, you can provide a link to the procedure.
 }
@@ -73,19 +73,21 @@ Design an employee directory portal by dragging and dropping different widgets f
 
 Here are some additional resources, guides, links, and related articles:
 
-* Overview
+Demos
+* Demo 1
+* Demo 2
 
-Procedures
-Item 1
-Item 2
+Procedures 
+* Item 1
+* Item 2
 
 Concepts
-Item 1
-Item 2
+* Item 1
+* Item 2
 
 External resources
-Item 1
-Item 2
+* Item 1
+* Item 2
 
 _______________________________________________________________________________________________________________________________  
 **DELETE THIS SECTION:**  
