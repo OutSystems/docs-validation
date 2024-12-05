@@ -54,6 +54,7 @@ Also, the image file names should include the following:
 ** `diag` — the image contains a diagram, a workflow, or similar, with no elements from the product tools user interface
 ** `app` — includes user interface elements from sample apps
 ** `cp` — includes user interface elements from the Customer Portal
+** `sh` — includes user interface elements from ODC self hosted operator (installed via RedHat OpenShift marketplace)
 
 If necessary, image filenames may include a number before the suffix, but adding another word is preferable.
 
