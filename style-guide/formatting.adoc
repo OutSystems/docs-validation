@@ -34,7 +34,7 @@ To identify the text users need to enter, use a monospace font.  If you're using
 
 Enter `"display-flex"` in the input field.
 
-Create a Container. Enter *MyContainer* in the *Name* property.
+Create a Container. Enter `MyContainer` in the *Name* property.
 
 === Variables and properties: names and values
 
