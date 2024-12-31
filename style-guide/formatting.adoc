@@ -28,7 +28,7 @@ Choose *USERS* and click the *New User* link.
 
 Use *bold* for interface labels, and write them using the same capitalization as they display on the user interface.
 
-To identify the text users need to enter, use a monospace font.  If you're using Markdown, use inline code to get a monospace font.
+To identify the text users need to enter, use a monospace font. If you're using Markdown, use inline code to get a monospace font.
 
 *Examples*
 

@@ -82,7 +82,7 @@ Suggested names:
 Markdown files have the following sections:
 
 * *Header* or *front-matter*. Contains topic metadata.
-* *Title*. The topic title that by default also defines the page URL when published. Always use a Heading 1 to define the title (check "Headings"). After the header (front matter), insert two blank line s and then write the title of the topic as Heading 1. Leave an blank line after the heading 1  and then write the body of the topic.
+* *Title*. The topic title that by default also defines the page URL when published. Always use a Heading 1 to define the title (check "Headings"). After the header (front matter), insert two line breaks and then write the title of the topic as Heading 1. Leave a blank line after the Heading 1 and then write the body of the topic.
 * *Body*. The content of the topic. Can contain text, tables, images, videos, and similar.
 
 === File header of a Markdown file 
