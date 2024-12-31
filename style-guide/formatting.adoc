@@ -42,7 +42,7 @@ Use *bold* for variable/property names and write them using the same capitalizat
 
 *Example*
 
-To restrict the elements to internal network access, set the *Internal Access Property* to *Yes*.
+To restrict the elements to internal network access, set the *Internal Access Property* to `Yes`.
 
 === Keyboard shortcuts
 
