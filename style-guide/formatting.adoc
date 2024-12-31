@@ -8,7 +8,7 @@ Use consistent formatting across all content.
 
 === Typographical emphasis
 
-*Bold*. Use bold to denote the things users clicks like buttons or links, and things users type in the user interface (UI). You can also use bold for occasional emphasis.
+*Bold*. Use bold to denote the text as it's in the user interface (UI), such as labels, buttons, or links. You can also use bold for occasional emphasis.
 
 *Italic*. Don't use italic. Don't mix italic and bold.
 
