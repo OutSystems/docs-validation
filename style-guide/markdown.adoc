@@ -113,7 +113,7 @@ Check the links section for examples on how to link to an anchor on a subtopic.
 
 Put links inline. If the URL contains spaces, replace them with %20.
 
-Don't write bare links in the middle of a sentence, without any markup (for example, by just pasting a URL). To make the link text the same as the URL, include the URL between `<>` characters.
+Don't write bare links in the middle of a sentence, without any markup (for example, by just pasting a URL). 
 
 Use relative paths to specify the destination. To help you build this path, use the https://marketplace.visualstudio.com/items?itemName=jakob101.RelativePath[Relative Path] extension for VSCode and always open the repository folder in the editor, not in individual Markdown files.
 
@@ -145,7 +145,7 @@ A markdown links demo.
 
 * This is an anchor to the [Subtopic](#subtopic).
 
-## Subtopic
+## Subtopic  { #subtopic }
 
 Some content.
 
@@ -155,7 +155,7 @@ An example where the URL and the text of the link are the same:
 
 [source, markdown]
 ----
-See the URL: <https://example.com>
+See the URL: [https://example.com](https://example.com)
 ----
 
 
@@ -172,11 +172,11 @@ A markdown links demo.
 * This is an anchor to a [subtopic](#subtopic-2-with-a-really-long-name).
 * This is an anchor to a [subtopic in another file](../../sample/sample.md#subtopic).
 
-## Subtopic 1
+## Subtopic 1  { #subtopic-1 }
 
 Some content.
 
-## Subtopic 2 with a really long name
+## Subtopic 2 with a really long name { subtopic-2-with-a-really-long-name }
 
 Some content.
 ----
