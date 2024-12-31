@@ -12,18 +12,9 @@ Keep it simple. Use white space, to let the text "breathe." When in doubt, add b
 
 See https://daringfireball.net/projects/markdown/syntax[Daring Fireball] for more information about Markdown syntax.
 
-=== Summary information
+=== Markdown files
 
-The following information should be at the top of each Markdown file. Copy everything from the first --- to the ending ---.  Use the information below to enter your content in each field. 
-
-Note:  The information at the top of the markdown file is subject to change. You must enter content in the summary field. 
-
-* summary:  Should be less than 160 characters and explain what the reader will learn.  
-* tags:  leave blank
-* locale: leave as en-us
-* guid:  must be unique for each file, press Ctrl + Shift + P and enter the guid
-* app_type: identifies the the type of app
-* platform version:odc or o11 
+When creating a new Markdown file, make sure you follow the structure and naming conventions described in link:./working-with-files.adoc[Working with files].
 
 === Basic formatting
 
