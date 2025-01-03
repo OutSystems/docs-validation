@@ -53,7 +53,7 @@ As a last resort, recommend to open a support case.
 
 -->
 
-## More info
+## Related resources
 
 <!-- 
 
