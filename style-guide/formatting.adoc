@@ -8,15 +8,15 @@ Use consistent formatting across all content.
 
 === Typographical emphasis
 
-Bold. Use bold to denote the text as it's in the user interface. You can also use bold for occasional emphasis.
+*Bold*. Use bold to denote the text as it's in the user interface (UI), such as labels, buttons, or links. You can also use bold for occasional emphasis.
 
-Italic. Don't use italic. Don't mix italic and bold.
+*Italic*. Don't use italic. Don't mix italic and bold.
 
-Underline. Don't use underline, as browsers use it to show links.
+*Underline*. Don't use underline, as browsers use it to show links.
 
 *Examples*
 
-In the *New Application* window select *Phone App* or *Tablet App* app template. 
+In the *New Application* window, select *Phone App* or *Tablet App* app template. 
 
 Click *Generate App*.
 
@@ -26,9 +26,9 @@ Choose *USERS* and click the *New User* link.
 
 === User inputs and interface labels
 
-Use bold for interface labels, and write them with the same capitalization as they appear on the user interface.
+Use *bold* for interface labels, and write them using the same capitalization as they display on the user interface.
 
-To identify the text users need to enter, use a monospace font.  If you're using Markdown, use inline code to get a monospace font.
+To identify the text users need to enter, use a monospace font. If you're using Markdown, use inline code to get a monospace font.
 
 *Examples*
 
@@ -38,7 +38,7 @@ Create a Container. Enter `MyContainer` in the *Name* property.
 
 === Variables and properties: names and values
 
-Use bold for variable/property names and write them with the same capitalization as they appear on the UI. Use inline code for variable values.
+Use *bold* for variable/property names and write them using the same capitalization as they appear on the UI. Use inline code for variable values.
 
 *Example*
 
@@ -102,11 +102,11 @@ A JSON code snippet:
 Screenshots and illustrations should be a useful addition to the content, and not critical to the understanding of the content or following a procedure.
 
 * Use screenshots to guide users in a complicated or long procedure, to show complex windows or dialog boxes, or to emphasize a new feature.
-* The screenshot should show the relevant part of the user interface and some of the surrounding interface, for the users to know where to locate the relevant part. For example, if you need a screenshot with an input field, include the form or a window where the field shows. However, don't use the screenshot of the entire desktop.
+* The screenshot should show the relevant part of the user interface and some of the surrounding interface, to help users locate the relevant part. For example, if you need a screenshot with an input field, include the form or a window where the field shows. However, don't use the screenshot of the entire desktop.
 * Mask the internal domain names and user names of OutSystems employees in your screenshots.
 * The maximum screenshot size is 1200 pixels wide, with screen scale set at 100%. When highlighting an area on a screenshot, only use boxes and arrows. Use "Bright Red" (#F22800) and stroke dimension 2pt.
 * Give unique and meaningful names to the screenshot files. Use lowercase and hyphens between words. For example, "vpn-your-outsystems-cloud.png".
 * Add Alt text fo each image that explains what the image is showing.  This enables screen readers to describe images to a visually impaired reader, which improves accessibility
 * For public content, only use products that are generally available.
-* If you're using screenshots from a third-party product, check the copyright notes for the product and the rules for the screenshot use.
+* It is recommended that you don't use screenshots from a third-party product as we have no control over changes.  
 
