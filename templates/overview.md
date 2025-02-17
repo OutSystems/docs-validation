@@ -47,7 +47,7 @@ With log streaming, you can:
 
 {This section is optional}
 
-{If you prefer to use descriptive title, consider titles such as **Where <feature name> can be used**, **Use cases**}
+{If you prefer to use descriptive title, consider titles such as **Where {capability name} can be used**, **Use cases**}
 
 {Use this section to identify real-world examples to help users grasp the practical applications of the new capability.}
 
@@ -86,7 +86,7 @@ In this section, provide the following:
 
 {This section is optional.}
 
-{List any known limitations or specific constraints of the product}
+{List any known limitations or specific constraints of the capability.}
 
 ## Related resources
 
@@ -109,10 +109,3 @@ Concepts
 External resources
 * Item 1
 * Item 2
-
-_______________________________________________________________________________________________________________________________  
-**DELETE THIS SECTION:**  
-Remember, if you start to describe another concept, stop yourself. Each concept should talk about one concept only.
-Start a new concept with its own title (and link to it, as needed). 
-
-For more instructions and examples, go to the [TK Template Confluence](https://outsystemsrd.atlassian.net/wiki/spaces/TK/pages/2488336658/Technical+Knowledge+Templates#Concept) page.

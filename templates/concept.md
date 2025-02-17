@@ -1,9 +1,60 @@
 # [Concept title - use a noun] 
 
-**Example:** "About business processes". Don’t use generic titles like “Introduction”, “Overview”, “Use cases” or “How it works”. Instead, use a more specific noun or phrase that someone would search for.
+{A concept document serves as a comprehensive guide, offering clear, concise, and consistent information on a specific concept. By providing essential background information, it enables readers to align their existing knowledge with the tasks they need to perform and gain valuable insights into the new OutSystems capability. For example, a conceptual document on business process provides the context and rationale for workflows in ODC. It helps users and developers grasp the bigger picture before diving into specifics.}
 
 ## *[Optional Paragraph]*   
-*[Background information or recommended knowledge. Something people must know or do prior to working with this feature.]*  
+{Define the concept so that you and your reader will have a shared understanding of the language used throughout the document. Think of it as a glossary definition. Also, define the scope of the concept - define its boundaries, what you'll cover in a document and how deep into details you will dive and the extent of the details you will provide.}
+
+{Sometimes, concepts are explained by using analogies that the user should be familiar with.
+For example, while explaining the complex topic of how electricity goes through wires, you could relate it to a more familiar topic, such as how water goes through pipes.
+It helps to bridge knowledge gaps.}
+
+{Stick to problem-solution or benefit-focused language.}
+
+{Address the key questions of what, when, who, why, where, and how (5W and 1H), placing these explanations near the beginning of your document.}
+
+**Example** 
+
+
+## Use case
+
+{List some common use cases and business scenarios where the concept can be used. }
+
+**Example**  
+
+## Related resources
+
+{Use this section to provide links to documentation related to the concept that the reader can read for more information. If there are multiple resources, consider grouping them by the content type.
+
+How-to guides
+* Procedure 1
+* Procedure 2
+
+External resources
+* Resource 1
+* Resource 2
+
+Related concepts
+* Concept 1
+* Concept 2
+
+}
+
+
+
+Item 1
+
+Item 2
+
+
+Linked concepts
+
+Concept 1
+Concept 2
+
+External resources
+Resource 1
+Resource 2
 
 ## [Paragraph] *(Heading is optional)*  
 [**A high-level statement** about **how people can use the feature** to accomplish common tasks, instead of what a feature does.]
