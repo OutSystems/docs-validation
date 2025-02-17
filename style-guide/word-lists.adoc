@@ -10,23 +10,29 @@ Not sure how to capitalize a product name or if you should use a certain word? C
 
 The following are the OutSystems product names. Use them verbatim.
 
-* Architecture Dashboard
-* Case Management framework
-* Development Environment
-* Experience Builder
-* Factory Configuration
-* Forge 
-* Integration Builder
-* Integration Studio
-* LifeTime 
-* MABS, Mobile Apps Build Service
-* OutSystems UI
-* Platform Server
-* Service Center
-* Service Studio Beta
-* Service Studio
-* Users (The app for end user management.)
-* Workflow Builder
+* For OutSystems 11:
+
+  * AI Mentor Studio 
+  * Case Management framework
+  * Factory Configuration
+  * Forge 
+  * Integration Builder
+  * Integration Studio
+  * LifeTime 
+  * Platform Server
+  * Service Center
+  * Service Studio
+  * Users (The app for end user management.)
+  * Workflow Builder
+
+* For ODC:
+  * ODC, OutSystems Developer Cloud
+  * ODC Studio
+  * ODC Portal, Portal
+
+* For both O11 and ODC:
+  * MABS, Mobile Apps Build Service
+  * OutSystems UI
 
 === OutSystems concepts and abbreviations
 

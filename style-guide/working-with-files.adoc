@@ -4,7 +4,7 @@ Working with files
 
 == Working with files
 
-Read this section to learn more about the Markdown file structure, naming conventions, and how to add files to the table of content.
+Read this section to learn more about the Markdown file structure, naming conventions, and how to add files to the table of contents.
 
 === Naming conventions
 
@@ -38,6 +38,7 @@ Also, the image file names should include the following:
 ** `sc` — includes user interface elements from Service Center
 ** `pl` — includes user interface elements from the ODC Portal
 ** `usr` — includes user interface elements from Users
+** `at` — includes user interface elements from Assessment Tool
 ** `ct` — includes user interface elements from Configuration Tool
 ** `af` — includes user interface elements from App Feedback Tool
 ** `gc` — includes user interface elements from Google Console
@@ -45,11 +46,15 @@ Also, the image file names should include the following:
 ** `ams` — includes user interface elements from AI Mentor Studio
 ** `ib` — includes user interface elements from Integration Builder
 ** `eb` — includes user interface elements from Experience Builder
+** `we` — includes user interface elements from Workflow Editor
 ** `az` — includes user interface elements from Microsoft Azure
+** `vs` — includes user interface elements from Visual Studio
 ** `ok` — includes user interface elements from Okta
 ** `fc` — includes user interface elements from Factory Configuration
 ** `diag` — the image contains a diagram, a workflow, or similar, with no elements from the product tools user interface
-** (none) — screenshots from sample apps, or other unspecified cases
+** `app` — includes user interface elements from sample apps
+** `cp` — includes user interface elements from the Customer Portal
+** `sh` — includes user interface elements from ODC self hosted operator (installed via RedHat OpenShift marketplace)
 
 If necessary, image filenames may include a number before the suffix, but adding another word is preferable.
 
@@ -77,14 +82,14 @@ Suggested names:
 Markdown files have the following sections:
 
 * *Header* or *front-matter*. Contains topic metadata.
-* *Title*. The topic title that by default also defines the page URL when published. Always use a Heading 1 to define the title (check "Headings"). After the header, insert two line breaks and then write the title of the topic as Heading 1. Leave an empty line after this heading and then write the body of the topic.
+* *Title*. The topic title that by default also defines the page URL when published. Always use a Heading 1 to define the title (check "Headings"). After the header (front matter), insert two line breaks and then write the title of the topic as Heading 1. Leave a blank line after the Heading 1 and then write the body of the topic.
 * *Body*. The content of the topic. Can contain text, tables, images, videos, and similar.
 
 === File header of a Markdown file 
 
 The file header or front-matter of a Markdown file contains metadata that's not rendered as body text. The header starts in the first line with `---` (three hyphen characters), has one entry per line, and ends with `---` (three hyphen characters), followed by two line breaks and one empty line. Insert two line breaks after the header.
-For more information about the front-matter, see [Validate markdown frontmatter](https://outsystemsrd.atlassian.net/wiki/spaces/TK/pages/3602121571/Validate+markdown+frontmatter).
 
+For more information about the front-matter, see [Validate markdown frontmatter](https://outsystemsrd.atlassian.net/wiki/spaces/TK/pages/3602121571/Validate+markdown+frontmatter).
 
 === File organization
 

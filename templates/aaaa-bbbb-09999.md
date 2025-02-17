@@ -3,7 +3,7 @@ summary: "<error-message>"
 tags:
 guid:
 locale: en-us
-app_type: traditional web apps, mobile apps, reactive web apps
+app_type: 
 ---
 
 # OS-AAAA-BBBB-09999
@@ -11,6 +11,7 @@ app_type: traditional web apps, mobile apps, reactive web apps
 <!--
 In summary, replace <error-message> with the error message (without error code) and make sure you wrap the error message in quotation marks, `""`.
 After the #, replace OS-AAAA-BBBB-09999 with the error code.
+You may, and are encouraged to provide here any additional context.
 -->
 
 ## Error message
@@ -52,12 +53,12 @@ As a last resort, recommend to open a support case.
 
 -->
 
-## More info
+## Related resources
 
 <!-- 
 
 Optional, delete "## More info" if you're not using it.
 
-Links to other documentation/assets that provide more info (like code samples or exemplification of the issue) that can be added for certain scenarios that will need even more information to the customer.
+Links to other documentation/assets that provide more info (like code samples or exemplification of the issue) that can be added for certain scenarios that will need even more information to the user. Use it only as a complement. It shouldn't replace inline links in context.
 
 -->

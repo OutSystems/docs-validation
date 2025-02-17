@@ -12,7 +12,7 @@ This section describes the different types of content you might include. Most of
 
 The following are types of technical documents you can include in your document set. 
 
-* *Concept* -  can introduces a topic, identifies the audience, and explains what the feature or function is and how it benefits the reader. You might also introduce the use case that this feature solves. A concept describes the purpose of the feature. It may also include information about where this feature is used in the product. 
+* *Concept* - introduces a topic, identifies the audience, and explains what the feature or function is and how it benefits the reader. You might also introduce the use case that this feature solves. A concept describes the purpose of the feature. It may also include information about where this feature is used in the product. 
 ** To name a concept, use a noun for the title, such as Forge.
 
 * *Process* - is a series of paragraphs that are related so readers learn how to complete a task. A process doesn't include step-by-step instructions or instructions on how to complete the fields on a screen. Drawings showing the process are helpful for users to understand how the parts fit together and provide a good overview. A process provides the information a user might need to move from a concept to a procedure. 
@@ -21,7 +21,7 @@ The following are types of technical documents you can include in your document 
 * *Procedure* - is a series of related steps users follow to complete a task. These steps must be followed in the order specified. Screenshots help explain the sequence of steps readers follow to reach the goal.  
 ** Prerequisites should be at the top of the document below the introduction. 
 ** If the procedure doesn't immediately follow the introduction, then write a lead-in sentence, such as *To install an app, follow these steps*:
-** Use numbered steps to indicate the order in wich, users complete a task. 
+** Use numbered steps to indicate the order in which, users complete a task. 
 ** Write the step following the 3W rule (Where, What, and Why - the result)
 . Where positions the user the so they know where the item is located that they need to select. 
 . What indicates what the user needs to select, such as the name of a link or button. 
@@ -52,13 +52,25 @@ Try limiting procedures to seven to nine steps. This is to prevent us from writi
 
 Having too many links distracts the reader from understanding the content. Additionally, those links are difficult to maintain. Limit the number of links in a text to ones that are necessary for users to achieve a task.
 
-Don't add links to every concept just because you have content about it. Use the See Also section to list related documents.
+Don't add links to every concept just because you have content about it. Instead, use one of the following options:
+
+* For additional information related to a specific paragraph or section, refer to that information at the end of the paragraph or section.
+* For additional information related to the entire document, list those links in a *Related resources* section at the end of the document.
 
 *Example*
 
-Yes:  Use http://example.com/[Extract to Action] to create a new Action with that piece of logic.
+Yes: Use http://example.com/[Extract to Action] to create a new Action with that piece of logic. For more information about actions, refer to http://example.com/[Actions in OutSystems].
 
-No:  Use http://example.com/[Extract to Action] to create a http://example.com/[new Action] with that piece of http://example.com/[logic].
+Yes:
+
+Use http://example.com/[Extract to Action] to create a new Action with that piece of logic.
+
+*Related resources*
+
+* http://example.com/[Actions]
+* http://example.com/[Logic]
+
+No: Use http://example.com/[Extract to Action] to create a http://example.com/[new Action] with that piece of http://example.com/[logic].
 
 === Use heading levels 
 
@@ -106,7 +118,7 @@ Documentation for Technical Preview (TP) features is typically self-contained. H
 
 * *Title*. The title is "Technical Preview - <title>".
 * *Technical Preview infobox*. Place an infobox at the beginning of the page clarifying that it's a Technical Preview feature. The default message is: "Read https://success.outsystems.com/Support/Enterprise_Customers/Upgrading/Technical_Preview_features[how features in Technical Preview work]. We encourage you to try these features out and to http://example.com/[send us your feedback].". Check with the Technical Knowledge team where the "send us your feedback" should link to, or if the message should be different.
-* *Table of content listing*. Check with the Technical Knowledge team if you should include the page in the table of content or to have it accessible as a direct link only.
+* *Table of contents listing*. Check with the Technical Knowledge team if you should include the page in the table of contents or to have it accessible as a direct link only.
 
 *Example*
 
