@@ -68,6 +68,7 @@ When the process completes, select **Open in Browser** to view the screen. Next,
 * Concept
 * Relevant external link
 }
-_______________________________________________________________________________________________________________________________________________________________________
+
+______________________________________________________________________________________________________________________________________________________________________
 **DELETE THIS SECTION:**   
 For more instructions and examples, go to the [TK Template Confluence](https://outsystemsrd.atlassian.net/wiki/spaces/TK/pages/2488336658/Technical+Knowledge+Templates#Procedure) page.

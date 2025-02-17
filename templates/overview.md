@@ -1,26 +1,35 @@
 # [Overview title - use a noun] 
 
-**Example:** "Introduction to UI screen design" or "About log streaming". Don’t use generic titles like “Introduction”, “Overview”. Instead, use a more specific noun or phrase that someone would search for.
+**Example:** "Introduction to UI screen design" or "About log streaming" or "Workflows in ODC". Don’t use generic titles like “Introduction”, “Overview”. Instead, use a more specific noun or phrase that someone would search for.
 
-**[Optional Paragraph]**   
+**[Optional Paragraph]**  
 
-{The first sentence should concisely explain what the feature does, how users can use the feature to accomplish a task and the pain point that the feature solves.  Optionally, provide any background information such as standards followed, examples or recommended knowledge. Something that the readers must know or do prior to working with this feature.}
+{Use this section to provide the following: 
 
-{<Feature name> is a <core function of the feature> that enables you to <main use case>}.
+* A concise description of the new ODC or O11 capability and what it does.
+
+* The purpose of the capability and how it can solve the user’s problem.
+
+* The product’s intended audience, the type of developers or businesses that would benefit the most from this new ODC or O11 feature
+
+* (Optional) short overview videos that are engaging and provide information about key features of the product.
+
+{{Feature name} is a {core function of the feature} that enables you to {main use case}.
 (or)
-{With <feature name>, you can <describe what the user can do with this new capability and how it helps them solve their pain point>}.
+With {feature name}, you can {describe what the user can do with this new capability and how it helps them solve their pain point}}.
 
-**Example**  
+**Examples**  
 
-Use the cards widget to create the tiles on an employee directory portal. To express your brand personality, customize the text color inside the card widgets and match it to you brand color theme. For example, use color text on headlines to draw attention to an employee's name on a tile. 
+Log streaming is the process of continuously collecting and streaming log data to your Application Performance Monitoring (APM) or analytics tools in near real-time. With log streaming ,you can send a permanent stream of application and platform logs from O11 to various third-party APM tools for analysis, monitoring, storage, and alerting. 
+
 
 ## [Paragraph] *(Heading is optional)*  
 
-{If you prefer to use descriptive title, consider titles such as **Benefits of using <feature name>**,}
+{If you prefer to use descriptive title, consider titles such as **Benefits of using {capability name}**,}
 
-{List the most important benefits of this feature. Consider the benefits from the user's point of view. Describe how the feature benefits the user. You might ask yourself, “Why is this valuable? How does it benefit the user or business?”}
+{List the most important benefits of this new O11 or ODC capability. Consider the benefits from the user's point of view. Describe how the new capability benefits the user. You might ask yourself, “Why is this valuable? How does it benefit the user or business?”}
 
-With <feature name>, you can:
+With {capability name}, you can:
 * {Explain each benefit from the user's perspective}
 * ...
 * ...
@@ -29,7 +38,9 @@ With <feature name>, you can:
 
 **Example**  
 With log streaming, you can:
+
 * Proactively identify and address issues before they impact your end users, minimizing downtime, improving system reliability, and enhancing user experience.
+
 * Optimize your user experience and improve satisfaction ratings by closely monitoring when and where users' journeys are affected and why the problem occurred.
 
 ## [Paragraph] *(Heading is optional)* 
@@ -38,28 +49,38 @@ With log streaming, you can:
 
 {If you prefer to use descriptive title, consider titles such as **Where <feature name> can be used**, **Use cases**}
 
-{Use this section to identify real-world examples to help users grasp the practical applications of the feature.}
+{Use this section to identify real-world examples to help users grasp the practical applications of the new capability.}
 
 **Example**  
-Design an employee directory portal by dragging and dropping different widgets from the Service Studio Toolbox into an empty screen in your app. For a simple layout, use cards and images to display tiles on screen that contain the employee's picture, name, role, and location. This enables you to create and preview a quick demo of a functioning UI screen, which you can further customize to include things like a Search bar, filters, pagination, and much more.
 
-## How <feature name> works 
+You can use log streaming in the following scenarios:
+
+* Fraud Detection and Prevention – Stream transaction logs in real-time to identify suspicious activities, such as multiple rapid withdrawals or logins from different locations.
+
+* Sentiment Analysis for Customer Support – Stream live chat and support call transcripts to AI-powered analytics tools to analyze customer sentiment and detect frustration.
+
+* Secure API Monitoring – Stream logs to detect unauthorized API access attempts in open banking platforms and enhance security compliance.
+
+
+## How {capability name} works 
 
 {This section is optional}
 
-{You can modify the title depending on the feature you document. Some examples are **Implementing <feature name>}
+{You can modify the title depending on the O11 or ODC capability. Some examples are **Implementing {capability name}**
 
-{In this section, provide the following:
-* A high-level diagram to help readers gain overall understanding of how the feature works.
-* The different components of the feature and how each component is related to one another.
-* A high-level end-to-end workflow. Optionally, you can provide a link to the procedure.
+In this section, provide the following:
+* A high-level diagram to help readers gain overall understanding of how the capability works.
+
+* The different components of the capability and how each component is related to one another.
+
+* A high-level end-to-end workflow. Optionally, you can provide a link to the process.
 }
 
 ## Requirements for use
 
-{In this section list the prerequisites for using the feature.}
+{In this section list the prerequisites for using this new capability.}
 
-{Identify the different requirements for using the feature, such as licensing details, specific environment configuration, prerequisite software, and browser requirements.}
+{Identify the different requirements for using the capability, such as licensing details, specific environment configuration, prerequisite software, and browser requirements.}
 
 ## Restrictions and known limitations 
 
@@ -67,7 +88,7 @@ Design an employee directory portal by dragging and dropping different widgets f
 
 {List any known limitations or specific constraints of the product}
 
-## Further reading
+## Related resources
 
 {Use this section to share links to the training demos, conceptual information, procedures, external resources, or other parts of the documentation to allow readers to delve deeper into specific topics of interest.}
 

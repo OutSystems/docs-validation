@@ -1,5 +1,6 @@
 # [Concept title - use a noun] 
-**Example:** "UI screen design". Don’t use generic titles like “Introduction”, “Overview”, “Use cases” or “How it works”. Instead, use a more specific noun or phrase that someone would search for.
+
+**Example:** "About business processes". Don’t use generic titles like “Introduction”, “Overview”, “Use cases” or “How it works”. Instead, use a more specific noun or phrase that someone would search for.
 
 ## *[Optional Paragraph]*   
 *[Background information or recommended knowledge. Something people must know or do prior to working with this feature.]*  

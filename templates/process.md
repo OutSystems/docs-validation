@@ -2,15 +2,27 @@
 **Example:** "Creating a screen template"
 
 ## [Paragraph] *(No heading)*
-{An **intro sentence or paragraph** that describes in high-level  how a particular use case  is completed and the end result of that use case. A use case can comprise of multiple tasks.} 
+{An **intro sentence or paragraph** that describes in high-level how a particular use case  is completed and the end result of that use case. A use case can comprise of multiple tasks.} 
+
+
 
 **Example**  
 {Use OutSystems Screen Templates to create your own web and mobile screen templates with predefined layouts, widgets, styles, and logic. After cloning and publishing the template, customize it to your needs. Then, the template is available to reuse across any of your other apps and by other developers."}
 
-## [Paragraph] *(No heading)*  
-[**High-level tasks** that someone has to complete during this process.]  
+## Prerequisites
 
-[Use one or more paragraphs *OR* start with a lead-in sentence, followed by a bulleted or numbered list of **generic** tasks.]
+Before you {insert a brief description of the process}, ensure:
+* _Prerequisite 1_   
+* _Prerequisite 2_  
+* _Prerequisite 3_  
+
+
+## [Paragraph] *(No heading)*  
+
+{
+List the **High-level tasks** that you have to complete to accomplish a particular use case.
+
+Start with a lead-in sentence, followed by a bulleted or numbered list of the **high-level** tasks.
 
 * Describe the high-level tasks, not detailed step-by-step instructions.  
   Answer questions like:  
@@ -18,7 +30,7 @@
     * What is required to perform the process?    
 * Don't describe the user interface (UI) in detail. This is not a procedure.  
 * Add a diagram or image _directly after_ any step or paragraph that shows the process.  
-* Include the end result of the process.  
+* Include the end result of the process.  }
 
 **Example**  
 To create a custom screen template module, follow these steps in **Service Studio**: 
@@ -33,7 +45,21 @@ To create a custom screen template module, follow these steps in **Service Studi
 
 The template is available for use across multiple apps and by other developers who have access to the environment.  
 
+## Next steps
 
+{Include references and links to other related documentation such as the individual procedures users can follow. Ensure these references create a logical connection from the current process to guide users on their journey. This helps users easily find additional information or next steps to continue their task.
+
+* Procedure link 1
+* Procedure link 2
+* Troubleshooting link}
+
+## Related resources
+
+{Optional: Include links to concepts, blogs, or external resources that can help users accomplish the task or learn more about the feature. These additional resources provide users with further guidance and information to enhance their understanding and proficiency.
+
+* Concept
+* Relevant external link
+}
 _________________________________________________________________________________________________________________________________________________________________
 **DELETE THIS SECTION:**  
 For more information, go to the [TK Template Confluence](https://outsystemsrd.atlassian.net/wiki/spaces/TK/pages/2488336658/Technical+Knowledge+Templates#Process) page.
