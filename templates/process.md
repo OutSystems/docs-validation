@@ -2,10 +2,10 @@
 **Example:** "Creating a screen template"
 
 ## [Paragraph] *(No heading)*
-[An **intro sentence or paragraph** that describes how a task is completed and the end result of that process.]  
+{An **intro sentence or paragraph** that describes in high-level  how a particular use case  is completed and the end result of that use case. A use case can comprise of multiple tasks.} 
 
 **Example**  
-Use OutSystems Screen Templates to create your own web and mobile screen templates with predefined layouts, widgets, styles, and logic. After cloning and publishing the template, customize it to your needs. Then, the template is available to reuse across any of your other apps and by other developers.
+{Use OutSystems Screen Templates to create your own web and mobile screen templates with predefined layouts, widgets, styles, and logic. After cloning and publishing the template, customize it to your needs. Then, the template is available to reuse across any of your other apps and by other developers."}
 
 ## [Paragraph] *(No heading)*  
 [**High-level tasks** that someone has to complete during this process.]  
@@ -30,7 +30,10 @@ To create a custom screen template module, follow these steps in **Service Studi
 * Download, clone, rename, and publish the component that you want to use.  
 * From the **Development** tab, in the **Independent Modules** section, access and customize the template as you wish.  
 * Move the template to the application you want to use it in.  
-  The template is available for use across multiple apps and by other developers who have access to the environment.  
+
+The template is available for use across multiple apps and by other developers who have access to the environment.  
+
+
 _________________________________________________________________________________________________________________________________________________________________
 **DELETE THIS SECTION:**  
 For more information, go to the [TK Template Confluence](https://outsystemsrd.atlassian.net/wiki/spaces/TK/pages/2488336658/Technical+Knowledge+Templates#Process) page.

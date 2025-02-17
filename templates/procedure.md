@@ -56,12 +56,12 @@ When the process completes, select **Open in Browser** to view the screen. Next,
 
 ## Next steps
 
-{Include references and links to other related documentation such as other procedures users can follow. Ensure these references create a logical connection from the current procedure to guide users on their journey. This helps users easily find additional information or next steps to continue their workflow.
+{Include references and links to other related documentation such as other procedures users can follow. Ensure these references create a logical connection from the current procedure to guide users on their journey. This helps users easily find additional information or next steps to continue their task.
 
 * Procedure link
 * Troubleshooting link}
 
-## Additional resources
+## Related resources
 
 {Optional: Include links to concepts, blogs, or external resources that can help users accomplish the task or learn more about the feature. These additional resources provide users with further guidance and information to enhance their understanding and proficiency.
 
