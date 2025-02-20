@@ -1,10 +1,10 @@
 # [Concept title - use a noun] 
 **Example:** "UI screen design". Don’t use generic titles like “Introduction”, “Overview”, “Use cases” or “How it works”. Instead, use a more specific noun or phrase that someone would search for.
 
-## *[Optional Paragraph]*   
+**[Optional Paragraph]**   
 *[Background information or recommended knowledge. Something people must know or do prior to working with this feature.]*  
 
-## [Paragraph] *(Heading is optional)*  
+[Paragraph] *(Heading is optional)*  
 [**A high-level statement** about **how people can use the feature** to accomplish common tasks, instead of what a feature does.]
 
 **Example**  

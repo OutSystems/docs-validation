@@ -25,16 +25,16 @@ Log streaming is the process of continuously collecting and streaming log data t
 
 ## [Paragraph] *(Heading is optional)*  
 
-{If you prefer to use descriptive title, consider titles such as **Benefits of using {capability name}**,}
+If you prefer to use descriptive title, consider titles such as **Benefits of using {capability name}**
 
-{List the most important benefits of this new O11 or ODC capability. Consider the benefits from the user's point of view. Describe how the new capability benefits the user. You might ask yourself, “Why is this valuable? How does it benefit the user or business?”}
+{List the most important benefits of this new O11 or ODC capability. Consider the benefits from the user's point of view. Describe how the new capability benefits the user. You might ask yourself, “Why is this valuable? How does it benefit the user or business?”
 
 With {capability name}, you can:
 * {Explain each benefit from the user's perspective}
 * ...
 * ...
 
-{Consider including screenshots or short videos to make your overview more engaging and memorable, therefore increasing the likelihood that readers will understand and remember the information better.}
+Consider including screenshots or short videos to make your overview more engaging and memorable, therefore increasing the likelihood that readers will understand and remember the information better.}
 
 **Example**  
 With log streaming, you can:
@@ -47,7 +47,7 @@ With log streaming, you can:
 
 {This section is optional}
 
-{If you prefer to use descriptive title, consider titles such as **Where {capability name} can be used**, **Use cases**}
+{If you prefer to use descriptive title, consider titles such as **Where {capability name} can be used**, or **Use cases**}
 
 {Use this section to identify real-world examples to help users grasp the practical applications of the new capability.}
 
@@ -64,7 +64,7 @@ You can use log streaming in the following scenarios:
 
 ## How {capability name} works 
 
-{This section is optional}
+{This section is optional.}
 
 {You can modify the title depending on the O11 or ODC capability. Some examples are **Implementing {capability name}**
 
@@ -77,6 +77,8 @@ In this section, provide the following:
 }
 
 ## Requirements for use
+
+{This section is optional.}
 
 {In this section list the prerequisites for using this new capability.}
 
