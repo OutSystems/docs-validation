@@ -4,7 +4,7 @@
 
 **[Optional Paragraph]**  
 
-{Use this section to provide the following: 
+Use this section to provide the following: 
 
 * A concise description of the new ODC or O11 capability and what it does.
 
@@ -55,11 +55,14 @@ With log streaming, you can:
 
 You can use log streaming in the following scenarios:
 
-* Fraud Detection and Prevention – Stream transaction logs in real-time to identify suspicious activities, such as multiple rapid withdrawals or logins from different locations.
+* Fraud Detection and Prevention
+ Stream transaction logs in real-time to identify suspicious activities, such as multiple rapid withdrawals or logins from different locations.
 
-* Sentiment Analysis for Customer Support – Stream live chat and support call transcripts to AI-powered analytics tools to analyze customer sentiment and detect frustration.
+* Sentiment Analysis for Customer Support 
+Stream live chat and support call transcripts to AI-powered analytics tools to analyze customer sentiment and detect frustration.
 
-* Secure API Monitoring – Stream logs to detect unauthorized API access attempts in open banking platforms and enhance security compliance.
+* Secure API Monitoring 
+Stream logs to detect unauthorized API access attempts in open banking platforms and enhance security compliance.
 
 
 ## How {capability name} works 
