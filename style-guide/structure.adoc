@@ -120,10 +120,6 @@ Documentation for Technical Preview (TP) features is typically self-contained. H
 * *Technical Preview infobox*. Place an infobox at the beginning of the page clarifying that it's a Technical Preview feature. The default message is: "Read https://success.outsystems.com/Support/Enterprise_Customers/Upgrading/Technical_Preview_features[how features in Technical Preview work]. We encourage you to try these features out and to http://example.com/[send us your feedback].". Check with the Technical Knowledge team where the "send us your feedback" should link to, or if the message should be different.
 * *Table of contents listing*. Check with the Technical Knowledge team if you should include the page in the table of contents or to have it accessible as a direct link only.
 
-*Example*
-
-See https://success.outsystems.com/Documentation/11/Managing_the_Applications_Lifecycle/Deploy_Applications/Technical_Preview-_Configure_Site_Properties_During_Deployment[Technical Preview - Configure Site Properties During Deployment].
-
 == Structure in training
 
 How to structure videos in training to make them useful and engaging.
