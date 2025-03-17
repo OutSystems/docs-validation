@@ -2,7 +2,7 @@
 **Example:** "Creating a screen template"
 
 ## [Paragraph] *(No heading)*
-{An **intro sentence or paragraph** that describes in high-level how a particular use case  is completed and the end result of that use case. A use case can comprise of multiple tasks.} 
+{An **intro sentence or paragraph** that describes at a high level how a particular use case is completed and the end result of that use case. A use case can comprise multiple tasks.} 
 
 
 
@@ -20,7 +20,7 @@ Before you {insert a brief description of the process}, ensure:
 ## [Paragraph] *(No heading)*  
 
 {
-List the **High-level tasks** that you have to complete to accomplish a particular use case.
+List the **high-level tasks** you have to complete to accomplish a particular use case.
 
 Start with a lead-in sentence, followed by a bulleted or numbered list of the **high-level** tasks.
 
