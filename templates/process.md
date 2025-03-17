@@ -41,7 +41,7 @@ To create a custom screen template module, follow these steps in **Service Studi
     * [Custom Screen Templates Traditional Web](https://www.outsystems.com/forge/component-overview/5089/custom-screen-templates-web) for Traditional Web Apps.  
 * Download, clone, rename, and publish the component that you want to use.  
 * From the **Development** tab, in the **Independent Modules** section, access and customize the template as you wish.  
-* Move the template to the application you want to use it in.  
+* Move the template to the app you want to use it in.  
 
 The template is available for use across multiple apps and by other developers who have access to the environment.  
 
