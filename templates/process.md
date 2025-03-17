@@ -12,9 +12,9 @@
 ## Prerequisites
 
 Before you {insert a brief description of the process}, ensure:
-* _Prerequisite 1_   
-* _Prerequisite 2_  
-* _Prerequisite 3_  
+* Prerequisite 1   
+* Prerequisite 2  
+* Prerequisite 3
 
 
 ## [Paragraph] *(No heading)*  
