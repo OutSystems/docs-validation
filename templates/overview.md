@@ -1,6 +1,6 @@
 # [Overview title - use a noun] 
 
-**Example:** "Introduction to UI screen design" or "About log streaming" or "Workflows in ODC". Don’t use generic titles like “Introduction”, “Overview”. Instead, use a more specific noun or phrase that someone would search for.
+**Example:** "Introduction to UI screen design" or "About log streaming" or "Workflows in ODC". Don't use generic titles like "Introduction" or "Overview". Instead, use a more specific noun or phrase that someone would search for.
 
 **[Optional Paragraph]**  
 
@@ -10,9 +10,9 @@ Use this section to provide the following:
 
 * The purpose of the capability and how it can solve the user’s problem.
 
-* The product’s intended audience, the type of developers or businesses that would benefit the most from this new ODC or O11 feature
+* The product's intended audience, the type of developers or businesses that would benefit the most from this new ODC or O11 feature
 
-* (Optional) short overview videos that are engaging and provide information about key features of the product.
+* (Optional) Short overview videos that are engaging and provide information about key features of the product.
 
 {{Feature name} is a {core function of the feature} that enables you to {main use case}.
 (or)
@@ -20,16 +20,17 @@ With {feature name}, you can {describe what the user can do with this new capabi
 
 **Examples**  
 
-Log streaming is the process of continuously collecting and streaming log data to your Application Performance Monitoring (APM) or analytics tools in near real-time. With log streaming ,you can send a permanent stream of application and platform logs from O11 to various third-party APM tools for analysis, monitoring, storage, and alerting. 
+Log streaming is the process of continuously collecting and streaming log data to your Application Performance Monitoring (APM) or analytics tools in near real-time. With log streaming, you can send a permanent stream of application and platform logs from O11 to various third-party APM tools for analysis, monitoring, storage, and alerting. 
 
 
 ## [Paragraph] *(Heading is optional)*  
 
-If you prefer to use descriptive title, consider titles such as **Benefits of using {capability name}**
+If you prefer to use descriptive titles, consider titles such as **Benefits of using {capability name}**
 
-{List the most important benefits of this new O11 or ODC capability. Consider the benefits from the user's point of view. Describe how the new capability benefits the user. You might ask yourself, “Why is this valuable? How does it benefit the user or business?”
+{List the most important benefits of this new O11 or ODC capability. Consider the benefits from the user's point of view. Describe how the new capability benefits the user. You might ask yourself, "Why is this valuable? How does it benefit the user or business?”
 
 With {capability name}, you can:
+
 * {Explain each benefit from the user's perspective}
 * ...
 * ...
@@ -37,6 +38,7 @@ With {capability name}, you can:
 Consider including screenshots or short videos to make your overview more engaging and memorable, therefore increasing the likelihood that readers will understand and remember the information better.}
 
 **Example**  
+
 With log streaming, you can:
 
 * Proactively identify and address issues before they impact your end users, minimizing downtime, improving system reliability, and enhancing user experience.
@@ -47,7 +49,7 @@ With log streaming, you can:
 
 {This section is optional}
 
-{If you prefer to use descriptive title, consider titles such as **Where {capability name} can be used**, or **Use cases**}
+{If you prefer to use descriptive titles, consider titles such as **Where {capability name} can be used**, or **Use cases**}
 
 {Use this section to identify real-world examples to help users grasp the practical applications of the new capability.}
 
@@ -72,7 +74,7 @@ Stream logs to detect unauthorized API access attempts in open banking platforms
 {You can modify the title depending on the O11 or ODC capability. Some examples are **Implementing {capability name}**
 
 In this section, provide the following:
-* A high-level diagram to help readers gain overall understanding of how the capability works.
+* A high-level diagram to help readers gain an overall understanding of how the capability works.
 
 * The different components of the capability and how each component is related to one another.
 
@@ -83,7 +85,7 @@ In this section, provide the following:
 
 {This section is optional.}
 
-{In this section list the prerequisites for using this new capability.}
+{In this section, list the prerequisites for using this new capability.}
 
 {Identify the different requirements for using the capability, such as licensing details, specific environment configuration, prerequisite software, and browser requirements.}
 
