@@ -201,9 +201,9 @@ No: Bootstrap an Entity Using an Excel File
 
 === Avoid overusing parentheses
 
-Unfortunately, some readers ignore any information that appears in parentheses, so don't put important information in parentheses.
+Don't put important information in parentheses. Unfortunately, some readers ignore any information that appears in parentheses. 
 
-Whenever you're inclined to use parentheses, consider whether they're necessary. Maybe the sentence or paragraph might work just as well if you remove the parentheses and set off the phrase or sentence by using commas, dashes, or periods.
+Whenever you're inclined to use parentheses, consider whether they're necessary. Maybe the sentence might work just as well if you remove the parentheses and set off the phrase or sentence by using commas, dashes, or periods.
 
 If you need to include parentheses in the middle of a sentence, keep the information in the parentheses short. Otherwise, consider using two sentences.
 
