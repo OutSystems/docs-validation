@@ -21,11 +21,13 @@ The following are types of technical documents you can include in your document 
 * *Procedure* - is a series of related steps users follow to complete a task. These steps must be followed in the order specified. Screenshots help explain the sequence of steps readers follow to reach the goal.  
 ** Prerequisites should be at the top of the document below the introduction. 
 ** If the procedure doesn't immediately follow the introduction, then write a lead-in sentence, such as *To install an app, follow these steps*:
-** Use numbered steps to indicate the order in which, users complete a task. 
-** Write the step following the 3W rule (Where, What, and Why - the result)
-. Where positions the user the so they know where the item is located that they need to select. 
+** Use numbered steps to indicate the order in which users complete a task. 
+** Write the step following the 3W rule (Why, Where, and What)
+. Why (the result) indicates the objective of the user's action. Not all steps have a Why. It is optional.
+. Where positions the user so they know where the item is located that they need to select. 
 . What indicates what the user needs to select, such as the name of a link or button. 
-. Why (the result) indicates the objective of the users action. 
+*Example*: To add a button, from the Toolbox, drag the *Button* widget to your screen. 
+
 ** To name a procedural document, use an active verb and noun such as *Create a screen*.
 
 === Include an introduction / overview
@@ -38,7 +40,7 @@ The introduction, should be the first paragraph of your document.
 
 === Place prerequisites near the top
 
-Place prerequisites at the beginning of the document. This sets the users' expectations because they immediately know if they can use this document or not. Keep in mind that prerequisites might end up as preview snippets in search engines’ results page.
+Place prerequisites at the beginning of the document. This sets the users' expectations because they immediately know if they can use this document or not. Keep in mind that prerequisites might end up as preview snippets in search engines' results page.
 
 === Use infoboxes sparingly
 
