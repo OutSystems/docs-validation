@@ -61,7 +61,7 @@ Esc
 
 F1
 
-To select all files, use *Ctrl+A*.
+To select all files, select *Ctrl+A*.
 
 === Code examples
 
