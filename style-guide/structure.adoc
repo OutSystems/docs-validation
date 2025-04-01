@@ -26,7 +26,7 @@ The following are types of technical documents you can include in your document 
 . Why (the result) indicates the objective of the user's action. Not all steps have a Why. It is optional.
 . Where positions the user so they know where the item is located that they need to select. 
 . What indicates what the user needs to select, such as the name of a link or button. 
-  *Example*: To add a button, from the Toolbox, drag the *Button* widget to your screen. 
+*** *Example*: To add a button, from the Toolbox, drag the *Button* widget to your screen. 
 
 ** To name a procedural document, use an active verb and noun such as *Create a screen*.
 
