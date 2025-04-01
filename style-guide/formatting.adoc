@@ -46,8 +46,8 @@ Use bold for variable values when the user selects the variable value, for examp
 
 *Example*
 
-To restrict the elements to internal network access, set the *Internal Access* property to `Yes`.
-To restrict the elements to internal network access, from the *Internal Access* dropdown, select *Yes*. 
+* To restrict the elements to internal network access, in the *Internal Access* property, enter `Yes`.
+* To restrict the elements to internal network access, from the *Internal Access* dropdown, select *Yes*. 
 
 === Keyboard shortcuts
 
