@@ -61,7 +61,7 @@ Esc
 
 F1
 
-To select all files, select *Ctrl+A*.
+To open a new window, select *Ctrl+N*.
 
 === Code examples
 
