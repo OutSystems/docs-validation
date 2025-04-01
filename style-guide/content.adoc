@@ -199,15 +199,29 @@ Yes: Bootstrap an Entity using an Excel file
 
 No: Bootstrap an Entity Using an Excel File
 
+=== Avoid overusing parentheses
+
+Unfortunately, some readers ignore any information that appears in parentheses, so don't put important information in parentheses.
+
+Whenever you're inclined to use parentheses, consider whether they're necessary. Maybe the sentence or paragraph might work just as well if you remove the parentheses and set off the phrase or sentence by using commas, dashes, or periods.
+
+If you need to include parentheses in the middle of a sentence, keep the information in the parentheses short. Otherwise, consider using two sentences.
+
+*Examples*
+
+Yes: Enter a six-digit hex number, and then click *OK*. For example, if you want the color forest green, enter `228B22`.
+
+No: Enter a six-digit hex number (for example, if you want the color forest green, enter `228B22`), and then click *OK*.
+
 === Use a comma to separate three or more items
 
-When the coordinating conjunctions "and" or "or" precede the last item in a series, use a comma before the conjunction. The serial comma helps avoid confusion in cases where the last item in a series is a pair. If the items in the series are difficult to read or there's more than three, consider using a list.
+When the coordinating conjunctions "and" or "or" precede the last item in a series, use a comma before the conjunction. The serial comma helps avoid confusion in cases where the last item in a series is a pair. If the items in the series are difficult to read or there are more than three, consider using a list.
 
 *Examples*
 
 Yes: Consider an infrastructure with the following environments: development, preproduction, and production.
 
-No: Consider an infrastructure with the following environments: development, preproduction and production. (It may seem that there are two environments, the first running the apps in "development", and the second in "preproduction and production". However, there are three different environments.)
+No: Consider an infrastructure with the following environments: development, preproduction, and production. (It may seem that there are two environments, the first running the apps in "development" and the second in "preproduction and production". However, there are three different environments.)
 
 ''''
 
@@ -225,7 +239,7 @@ Yes: Service Center provides a set of metrics regarding a specific environment. 
 * Business processes
 * Security audits
 
-No: Service Center provides a set of metrics regarding a specific environment. It provides access to application logs and errors, web and mobile requests, integration calls, business processes, and security audits. (There are many items and a list works better here.)
+No: Service Center provides a set of metrics regarding a specific environment. It provides access to application logs and errors, web and mobile requests, integration calls, business processes, and security audits. (There are many items, and a list works better here.)
 
 === Keep it international and straightforward to translate
 
