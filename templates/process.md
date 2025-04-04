@@ -2,15 +2,27 @@
 **Example:** "Creating a screen template"
 
 ## [Paragraph] *(No heading)*
-[An **intro sentence or paragraph** that describes how a task is completed and the end result of that process.]  
+{An **intro sentence or paragraph** that describes at a high level how a particular use case is completed and the end result of that use case. A use case can comprise multiple tasks.} 
+
+
 
 **Example**  
-Use OutSystems Screen Templates to create your own web and mobile screen templates with predefined layouts, widgets, styles, and logic. After cloning and publishing the template, customize it to your needs. Then, the template is available to reuse across any of your other apps and by other developers.
+{Use OutSystems Screen Templates to create your own web and mobile screen templates with predefined layouts, widgets, styles, and logic. After cloning and publishing the template, customize it to your needs. Then, the template is available to reuse across any of your other apps and by other developers."}
+
+## Prerequisites
+
+Before you {insert a brief description of the process}, ensure:
+* Prerequisite 1   
+* Prerequisite 2  
+* Prerequisite 3
+
 
 ## [Paragraph] *(No heading)*  
-[**High-level tasks** that someone has to complete during this process.]  
 
-[Use one or more paragraphs *OR* start with a lead-in sentence, followed by a bulleted or numbered list of **generic** tasks.]
+{
+List the **high-level tasks** you have to complete to accomplish a particular use case.
+
+Start with a lead-in sentence, followed by a bulleted or numbered list of the **high-level** tasks.
 
 * Describe the high-level tasks, not detailed step-by-step instructions.  
   Answer questions like:  
@@ -18,7 +30,7 @@ Use OutSystems Screen Templates to create your own web and mobile screen templat
     * What is required to perform the process?    
 * Don't describe the user interface (UI) in detail. This is not a procedure.  
 * Add a diagram or image _directly after_ any step or paragraph that shows the process.  
-* Include the end result of the process.  
+* Include the end result of the process.  }
 
 **Example**  
 To create a custom screen template module, follow these steps in **Service Studio**: 
@@ -29,8 +41,25 @@ To create a custom screen template module, follow these steps in **Service Studi
     * [Custom Screen Templates Traditional Web](https://www.outsystems.com/forge/component-overview/5089/custom-screen-templates-web) for Traditional Web Apps.  
 * Download, clone, rename, and publish the component that you want to use.  
 * From the **Development** tab, in the **Independent Modules** section, access and customize the template as you wish.  
-* Move the template to the application you want to use it in.  
-  The template is available for use across multiple apps and by other developers who have access to the environment.  
+* Move the template to the app you want to use it in.  
+
+The template is available for use across multiple apps and by other developers who have access to the environment.  
+
+## Next steps
+
+{Include references and links to other related documentation such as the individual procedures users can follow. Ensure these references create a logical connection from the current process to guide users on their journey. This helps users easily find additional information or next steps to continue their task.
+
+* Procedure link 1
+* Procedure link 2
+* Troubleshooting link}
+
+## Related resources
+
+{Optional: Include links to concepts, blogs, or external resources that can help users accomplish the task or learn more about the feature. These additional resources provide users with further guidance and information to enhance their understanding and proficiency.
+
+* Concept
+* Relevant external link
+}
 _________________________________________________________________________________________________________________________________________________________________
 **DELETE THIS SECTION:**  
 For more information, go to the [TK Template Confluence](https://outsystemsrd.atlassian.net/wiki/spaces/TK/pages/2488336658/Technical+Knowledge+Templates#Process) page.
