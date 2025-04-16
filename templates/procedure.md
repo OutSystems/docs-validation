@@ -15,8 +15,8 @@ Create an empty screen when you want to build your app UI from scratch.
 ## [Paragraph with step-by-step instructions] *(No heading)*  
 [If you add prerequisites, start this paragraph with a **lead-in sentence** in this format: "To do this task, follow these steps:". Otherwise, use the **short intro sentence** as the lead-in to the steps.]
 1. Add simple and self-contained steps.
-1. Use this step format: [Where is the location on screen], [what is the action], [why do the action].  
-   Example: “In the **New Screen** window, select **Empty** to display a preview of the empty screen.“
+1. Use this step format: [Why do the action], [where is the location on screen], and [what is the action].  
+   Example: “To display a preview of the empty screen, in the **New Screen** window, select **Empty**.“
 1. Add screenshots *directly after* the step that describes what the screenshot contains. *(Only for complex steps)*
 1. Stick to max. 7-10 steps to avoid overloading readers. If the procedure needs more than 10 steps, break the steps into two procedures.
 *[Procedure result. Next steps.]* *(Optional)*  
