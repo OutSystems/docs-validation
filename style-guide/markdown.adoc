@@ -172,6 +172,20 @@ Some content.
 Some content.
 ----
 
+=== Links to other repositories
+
+To link to articles in other repositories, do not use relative links. Instead, use the following format:
+
+`https://www.outsystems.com/tk/redirect?g=GUID`
+
+Replace `GUID` with the unique identifier of the target article.
+
+*Example*
+
+To link to an article, use the following URL:
+
+`https://www.outsystems.com/tk/redirect?g=e9f6f711-2df2-42a0-90c1-3b9bc8b3926b`
+
 
 === Writing body text
 
