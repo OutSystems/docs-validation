@@ -96,6 +96,10 @@ A Markdown snippet with an anchor on a heading:
 [source, markdown]
 ----
 ## Overview { #overview }
+
+## AI models { #ai-models }
+
+When the heading is more than one word, instead of a space use a hyphen. 
 ----
 
 Check the links section for examples on how to link to an anchor on a subtopic.
