@@ -36,9 +36,9 @@ Use the present tense whenever possible. Using the present tense helps make sent
 
 *Example*
 
-Yes: From time to time, OutSystems performs maintenance on the PaaS of their Customers.
+Yes: Click the Save button. The data updates immediately.
 
-No: From time to time, OutSystems will perform maintenance on the PaaS of their Customers.
+No: Click the Save button. The data will be updated.
 
 === Use contractions
 
@@ -74,9 +74,9 @@ Yes: After you validate the new SQL element, delete or deactivate the original A
 
 No: The original Aggregate is kept in the flow editor for your manual deletion after validating the new SQL element.
 
-=== Be careful with the modal verbs
+=== Be careful with modal verbs
 
-This section applies to the modal verbs can, could, may, might, will, shall, would, should, must. Modal verbs describe what you believe or think of the product, or they denote an ability or obligation. In contrast, technical content confidently describes what the product does. Using a modal instead of a stronger structure creates a weak and wordy sentence. It also makes your readers less confident about the content.
+This section applies to the modal verbs can, could, may, might, will, shall, would, should, and must. Modal verbs describe what you believe or think of the product, or they denote an ability or obligation. In contrast, technical content confidently describes what the product does. Using a modal instead of a stronger structure creates a weak and wordy sentence. It also makes your readers less confident about the content.
 
 *Examples*
 
@@ -100,25 +100,20 @@ No: OutSystems handles unforeseen or unhandled errors that might occur in applic
 
 Use the second person "you" to address the reader or readers. However, don't overuse it.
 
-Exceptions: You can use "we" when you're referring to OutSystems as a company. Use "I" in FAQs.
+Exceptions:  Use "I" in FAQs.
+
+When referring to OutSystems, don't use we.
 
 *Examples*
 
-Yes: Review the configuration in Service Center.
+Yes: You can deploy and manage apps from the ODC Portal.
+
+No: Deployment and app management are handled through the ODC Portal.
+
+''''
+Yes: You can review the configuration in Service Center.
 
 No: Let us review the configuration in Service Center.
-
-''''
-
-Yes: In OutSystems, you model enumerates as Static Entity.
-
-No: In OutSystems, we model enumerates as Static Entity. ("We" only loosely denotes OutSystems as a company. Compare to: "To focus our engineering resources innovative capabilities, we establish a cut-off date to end support for older code.")
-
-''''
-
-Yes: Keep in mind that, for a successful adoption of containers technology, you need skills in administering container infrastructures.
-
-No: Keep in mind that, for a successful adoption of containers technology, customers will need skills in the administration of container infrastructures.
 
 ''''
 
@@ -126,15 +121,21 @@ Yes: How can I prevent accidental activations?
 
 No: How can a developer prevent accidental activations? (This is from an FAQ section, where "I" fits well as it's a developer who's asking the question.)
 
+Yes: OutSystems recommends backing up your data every 3 months. 
+
+No: We recommend backing up your data every 3 months.
+
+''''
+
 === Be clear and precise
 
-The language in technical content must be clear and precise. Clarity and precision make content useful to the audience. Check out the examples that demonstrate how being vague, blaming users, or taking their time and skills for granted weakens clarity.
+The language in technical content must be clear and precise. Clarity and precision make content useful for the audience. Check out the examples that demonstrate how being vague, blaming users, or taking their time and skills for granted weakens clarity.
 
 *Examples*
 
 Yes: Do the following in all of your apps.
 
-No: Some tasks must be used as a rule of the thumb (they apply to all kinds of applications). ("Some" and "all kinds of" are vague.)
+No: Some tasks must be used as a rule of thumb (they apply to all kinds of applications). ("Some" and "all kinds of" are vague.)
 
 ''''
 
@@ -144,15 +145,15 @@ No: With this approach, you're not forcing things that people may not want in a 
 
 ''''
 
-Yes: Error. The library uses the API that's not available.
+Yes: Error. The library uses an API that's not available.
 
-No: Error. The library might be using the API that's not available. ("Might" introduces doubt and doesn't make it clear whether the API is available or not.)
+No: Error. The library might be using an API that's not available. ("Might" introduces doubt and doesn't make it clear whether the API is available or not.)
 
 ''''
 
-Yes: You must create a package with all the applications, and deploy the package to your enterprise infrastructure.
+Yes: You must create a package with all the apps, and deploy the package to your enterprise infrastructure.
 
-No: Just create a package with all the applications, and deploy it to your enterprise infrastructure. ("Just" makes this task appear quicker to do than it seems. Using "simply" would imply the same false assumption.)
+No: Just create a package with all the apps, and deploy it to your enterprise infrastructure. ("Just" makes this task appear quicker to do than it seems. Using "simply" would imply the same false assumption.)
 
 ''''
 
@@ -167,25 +168,30 @@ Your content should be accessible to all people, to those without and with disab
 * How you refer to people with disabilities. Use inclusive language.
 * How you describe interactions with the user interface. Consider providing alternative methods or steps.
 * How you use words to indicate a location (left, right, top, below, up, down) on screen. Provide more context for people using screen-readers.
-* How you use the words "easy" and "simple". What may be simple to do for some people, it may not be simple to do for all.
+* How you use the words "easy" and "simple". What may be simple to do for some people may not be simple to do for all.
 
-See https://docs.microsoft.com/en-us/style-guide/accessibility/writing-all-abilities[Writing for all abilities] from Microsoft for more information.
+Yes: For more information about accessibility, refer to [Writing for all abilities](https://docs.microsoft.com/en-us/style-guide/accessibility/writing-all-abilities).
+No: For more information about accessibility, see [Writing for all abilities](https://docs.microsoft.com/en-us/style-guide/accessibility/writing-all-abilities).
 
-=== Avoid the words "sorry" and "please"
+=== Don't use the words "sorry" and "please"
 
-Only use "sorry" for defects or situations related to OutSystems products, when there's, for example, a blocking error or a data loss. Only use "please" when you're asking users to do something that requires an extra effort.
+ *Examples*
+
+Yes: To view the document, click *View*.
+
+No: To view the document, please click *View*.
+
+''''
 
 === Use sentence case for titles
 
 Capitalize the first letter in titles.
 
-Consult with the Technical Knowledge team if you're editing the main title of an already published article, as changes may affect the URL and make the page unavailable.
-
 *Examples*
 
-Yes: Configure application settings after deployment
+Yes: Configure application settings after deployment.
 
-No: Configure Application Settings After Deployment
+No: Configure Application Settings After Deployment.
 
 ''''
 
@@ -213,15 +219,15 @@ Yes: Enter a six-digit hex number, and then click *OK*. For example, if you want
 
 No: Enter a six-digit hex number (for example, if you want the color forest green, enter `228B22`), and then click *OK*.
 
-=== Use a comma to separate three or more items
+=== Serial comma
 
-When the coordinating conjunctions "and" or "or" precede the last item in a series, use a comma before the conjunction. The serial comma helps avoid confusion in cases where the last item in a series is a pair. If the items in the series are difficult to read or there are more than three, consider using a list.
+WIn a series of three or more items, use a comma before the final and or or to avoid potentially changing the meaning of the sentence. This comma is called a *serial comma*.
 
 *Examples*
 
 Yes: Consider an infrastructure with the following environments: development, preproduction, and production.
 
-No: Consider an infrastructure with the following environments: development, preproduction, and production. (It may seem that there are two environments, the first running the apps in "development" and the second in "preproduction and production". However, there are three different environments.)
+No: Consider an infrastructure with the following environments: development, preproduction and production. (It may seem that there are two environments, the first running the apps in "development" and the second in "preproduction and production". However, there are three different environments.)
 
 ''''
 
@@ -243,20 +249,20 @@ No: Service Center provides a set of metrics regarding a specific environment. I
 
 === Keep it international and straightforward to translate
 
-Ensure your content is accessible to people of different cultures and with speakers of various levels of the English language. The following are some guidelines to help you with that:
+Ensure your content is accessible to people of different cultures and speakers of various levels of the English language. The following are some guidelines to help you with that:
 
 * Use plain English.
 * Be consistent.
 * Be inclusive. Inclusiveness also implies creating accessible content.
 * When providing examples, whether visual or textual, be aware that not all examples work well across different cultures.
 * Don't try to be funny. Humor doesn't work well in technical content.
-* Don't use idioms. Idioms are difficult to translate and not all people know them.
+* Don't use idioms. Idioms are difficult to translate, and not all people know them.
 
 *Example*
 
 Here's an example of a copy: "It takes 23 years to become a Jedi, but it takes a lot less to master OutSystems - and it won't cost you an arm and a leg, or even a hand."
 
-In Japan, the translators and editors removed the idiom "cost an arm and leg", and the humorous addition "or even a hand". They kept the Jedi reference, as it works well for their audience: "It takes 23 years to become a Jedi, but learning OutSystems takes less time. And you don't have to make a big sacrifice."
+In Japan, the translators and editors removed the idiom "cost an arm and a leg" and the humorous addition "or even a hand". They kept the Jedi reference, as it works well for their audience: "It takes 23 years to become a Jedi, but learning OutSystems takes less time. And you don't have to make a big sacrifice."
 
 === Use gender-inclusive language
 
@@ -275,12 +281,6 @@ Yes:
 No:
 
 * When a developer downloads a Forge component, he can install it in Service Studio. (Service Studio is not used exclusively by male developers or developers who identify as men.)
-
-''''
-
-Yes: We hope you'll join us for the upcoming User Group, and feel free to bring a guest.
-
-No: We hope you'll join us for the upcoming User Group, and feel free to bring your husbands. (When you use the word "husband", you  assume someone is married.)
 
 ''''
 
