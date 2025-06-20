@@ -282,12 +282,6 @@ No:
 
 * When a developer downloads a Forge component, he can install it in Service Studio. (Service Studio is not used exclusively by male developers or developers who identify as men.)
 
-''''
-
-Yes: We'd like to thank everyone in the community for such a great spirit.
-
-No:  We'd like to thank our lady developers for making the community much more cheerful. (This is a discriminatory statement.)
-
 === Use standardized example domains
 
 When providing examples of domain names, use one of the domains reserved for such use. For example, example.com. Don't use other domains nor any of our customer domains.
@@ -302,7 +296,7 @@ No: Enter the email address, for example, john.smith@outsystems.com.
 
 === Check the readability scores
 
-A readability score shows an estimated education level needed to understand a given text. Our content should be understood by high-school graduates.
+A readability score shows the estimated education level needed to understand a given text. Our content should be understood by high school graduates.
 
 === Don't announce features and updates
 
@@ -310,11 +304,9 @@ Don't use documentation, training videos, or other technical content to inform u
 
 *Example*
 
-Yes: This feature currently has the following limitations. Check the release notes page for information about the updates.
+Yes: This feature has the following limitations. For more information about updates, refer to the release notes.
 
 No: This feature currently has the following limitations that will be removed next month, in version 11.9.
-
-
 
 === Avoid Latin abbreviations
 
@@ -322,9 +314,9 @@ Use "that is" instead of "i.e." and "for example" or "such as" instead of "e.g."
 
 *Examples*
 
-Yes: Design the behavior of the process (that is, the process flow) using the Process Flow.
+Yes: Design the process behavior, that is, the process flow.
 
-No: Design the behavior of the process (i.e., the process flow) using the Process Flow.
+No: Design the process behavior, i.e., the process flow.
 
 ''''
 
