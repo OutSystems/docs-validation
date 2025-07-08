@@ -27,31 +27,28 @@ Before you {insert a brief description of the task}, ensure:
 Start  with a **lead-in sentence** in this format: "To do this task, follow these steps:". Otherwise, use the **short intro sentence** as the lead-in to the steps.
 
 
-1. Add simple and self-contained steps.
+* Add simple and self-contained steps.
 
-1. Use this step format: 
-{Use a verb to start.}
-{Optional: Explanatory text}
 {Optional: Code sample or screenshot that helps your users complete this step.}
 {Optional: The result of completing this step.}
 
-1. Stick to max. 7-10 steps to avoid overloading readers. If the procedure needs more than 10 steps, break the steps into two procedures.
+* Stick to max. 7-10 steps. If the procedure needs more than 10 steps, break the steps into two procedures.
 
-2. Do not explain concepts.
+* Do not explain concepts.
 
-3. Sometimes it's helpful to occasionally provide links to supporting pieces of documentation for more information.Especially, when the user might need a link to supporting background or conceptual information and/or reference materials. However, avoid providing too many links within the guide. Keep your users on a single page as much as possible and provide links to additional resources at the bottom of the page.
+* Sometimes it's helpful to occasionally provide links to supporting pieces of documentation for more information.Especially, when the user might need a link to supporting background or conceptual information and/or reference materials. However, avoid providing too many links within the guide. Keep your users on a single page as much as possible and provide links to additional resources at the bottom of the page.
 
-4. For describing the actions on screen, follow this format:
-[Where is the location on screen], [what is the action], [why do the action].  
-   Example: “In the **New Screen** window, select **Empty** to display a preview of the empty screen.“
+1. For describing the actions on screen, follow this format:
+[why do the action] [Where is the location on screen], [what is the action], .  
+   Example: “To display a preview of the empty screen, in the **New Screen** window, select **Empty**"
 1. Add screenshots *directly after* the step that describes what the screenshot contains. *(Only for complex steps)*
 *[Procedure result. Next steps.]* *(Optional)*  
 
-**Example 1**    
+**Example**    
 To create an empty screen, follow these steps:  
 1. From **Service Studio**, go to the **Interface** tab and expand the **UI Flows** folder.  
 1. From the **UI Flows** folder, select **MainFlow** > **Add Screen**.  
-1. In the **New Screen** window, select **Empty** to display a preview of the empty screen.
+1. To display a preview of the empty screen, in the **New Screen** window, select **Empty** .
 1. Select **Create Screen** and **Publish**.  
 When the process completes, select **Open in Browser** to view the screen. Next, customize it by adding widgets to the empty screen from the **Service Studio** **Interface** tab **Toolbox**.  
 
@@ -64,7 +61,7 @@ When the process completes, select **Open in Browser** to view the screen. Next,
 
 ## Related resources
 
-{Optional: Include links to concepts, blogs, or external resources that can help users accomplish the task or learn more about the feature. These additional resources provide users with further guidance and information to enhance their understanding and proficiency.
+{Optional: Include links to OutSystems resources, external resources that are  original providers of the tech/framework that can help users accomplish the task or learn more about the feature. These additional resources provide users with further guidance and information to enhance their understanding and proficiency. If there are multiple resources, consider grouping them by content type and include a short introductory sentence.
 
 * Concept
 * Relevant external link
