@@ -1,6 +1,8 @@
 # [Procedure title - starts with an active verb]  
 **Example:** “Create an empty screen”
 
+{A procedure provides clear step-by-step instructions to complete a task}
+
 ## [Paragraph] *(No heading)*    
 
 {This article explains how to {insert a brief description of the task}. }

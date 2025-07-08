@@ -1,42 +1,42 @@
 # [Process title - starts with verb+ing]
 **Example:** "Streaming log data or Authenticating REST API"
 
-{A process document describes in high-level the steps needed to complete a task end-to-end. For example, the process to set up log streaming involves the following steps:
+{A process document describes the high-level end-to-end tasks needed to implement, set up, or configure a capability in your app. For example, the process to set up log streaming can involve the following tasks:
 1. Retrieve the APM server tool authentication credentials.
-2. (Optional) Set up OpenTelemetry collector.
-3. Configure LifeTime.
+1. (Optional) Set up OpenTelemetry collector.
+1. Configure LifeTime.
 
-Some of these steps can be separate procedures.
+Some of these tasks can be separate procedures with detailed steps.
 
 The process document helps developers to quickly understand the overall workflow, the sequence of major tasks, and the end result. It also serve as a bridge between conceptual information and detailed procedures, offering essential context and guidance for successfully implementing a capability.}
 
 ## [Paragraph] *(No heading)*
-{ An intro sentence or paragraph that provides a summary of steps needed to complete the task. For example, To set up the log streaming, you must retrieve the APM server authentication details then if needed set up the OpenTelemetry collector and configure log streaming in LifeTime with these details.  } 
+{ An intro sentence or paragraph that provides a summary of tasks needed to implement the capability. For example, To set up the log streaming, you must retrieve the APM server authentication details then if needed set up the OpenTelemetry collector and configure log streaming in LifeTime with these details.  } 
 
 ## Prerequisites
 
-Before you {insert a brief description of the process}, ensure:
+Before you {insert a brief description of the capability}, ensure:
 * Prerequisite 1   
 * Prerequisite 2  
 * Prerequisite 3
 
 
-## High-level process to {describe the task}
+## High-level process to {describe the capability}
 
 **Example:** "High-level process to set up log streaming", "High-level process to authenticate ODC REST API"
 
 {
 
-* Add a high-level diagram such as sequence diagram, flow charts, process flow that describes the steps to complete the task end-to-end.
+* Add a high-level diagram such as sequence diagram, flow charts, process flow that describes the tasks involved in implementing the capability.
   
-* List the high-level steps to complete the task.
+* List the high-level steps to implement the capability.
 
-Start with a lead-in sentence, followed by a bulleted or numbered list of the high-level steps or procedures.
+Start with a lead-in sentence, followed by a bulleted or numbered list of the high-level tasks or procedures.
 
-* Describe the high-level steps, not detailed step-by-step instructions.  
+* Describe the high-level tasks, not detailed step-by-step instructions.  
   Answer questions like:  
-    * What are the steps needed to complete the task?  
-    * Why do you need those steps?
+    * What are the tasks needed to implement the capability?  
+    * Why do you need those tasks?
  
 }
 
