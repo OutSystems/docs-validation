@@ -1,10 +1,8 @@
 # [Overview title - use a noun] 
 
-<<<<<<< HEAD
-{**Example:** "Introduction to UI screen design" or "Log streaming in ODC" or "Workflows in ODC". Don’t use generic titles like “Introduction”, “Overview”. Instead, use a more specific noun or phrase that someone would search for.
-=======
-**Example:** "Introduction to UI screen design" or "About log streaming" or "Workflows in ODC". Don't use generic titles like "Introduction" or "Overview". Instead, use a more specific noun or phrase that someone would search for.
->>>>>>> 5ba2c91324481160b3329c9f7c026cccb69bdb48
+**Example:** "Introduction to UI screen design" or "Log streaming in ODC" or "Workflows in ODC". Don't use generic titles like "Introduction" or "Overview". Instead, use a more specific noun or phrase that someone would search for.
+
+{An overview provides birds-eye view of the new capability explaining its key features, use cases, and a high-level summary of how the capability works without getting into the specifics. It helps tech leads, developers, decision makers who want a quick introduction to the new OutSystems capability.}
 
 **[Optional Paragraph]**  
 
@@ -27,11 +25,9 @@ With {feature name}, you can {describe what the user can do with this new capabi
 Log streaming is the process of continuously collecting and streaming log data to your Application Performance Monitoring (APM) or analytics tools in near real-time. With log streaming, you can send a permanent stream of application and platform logs from O11 to various third-party APM tools for analysis, monitoring, storage, and alerting. 
 
 
-## [Paragraph] *(Heading is optional)*  
+## Benefits of using {capability name}
 
-If you prefer to use descriptive titles, consider titles such as **Benefits of using {capability name}**
-
-{List the most important benefits of this new O11 or ODC capability. Consider the benefits from the user's point of view. Describe how the new capability benefits the user. You might ask yourself, "Why is this valuable? How does it benefit the user or business?”
+{List the most important benefits of this new O11 or ODC capability. Consider the benefits from the user's point of view. Describe how the new capability benefits the user. You might ask yourself, "Why is this valuable? How does it benefit the user or business?. Base on rule of 3 principle, avoid listing more than the top 3 benefits.”
 
 With {capability name}, you can:
 
@@ -39,7 +35,7 @@ With {capability name}, you can:
 * ...
 * ...
 
-Consider including screenshots or short videos to make your overview more engaging and memorable, therefore increasing the likelihood that readers will understand and remember the information better.}
+}
 
 **Example**  
 
@@ -49,17 +45,15 @@ With log streaming, you can:
 
 * Optimize your user experience and improve satisfaction ratings by closely monitoring when and where users' journeys are affected and why the problem occurred.
 
-## [Paragraph] *(Heading is optional)* 
+## Use cases
 
 {This section is optional}
-
-{If you prefer to use descriptive titles, consider titles such as **Where {capability name} can be used**, or **Use cases**}
 
 {Use this section to identify real-world examples to help users grasp the practical applications of the new capability.}
 
 **Example**  
 
-You can use log streaming in the following scenarios:
+{You can use log streaming in the following scenarios:
 
 * Fraud Detection and Prevention
  Stream transaction logs in real-time to identify suspicious activities, such as multiple rapid withdrawals or logins from different locations.
@@ -68,7 +62,7 @@ You can use log streaming in the following scenarios:
 Stream live chat and support call transcripts to AI-powered analytics tools to analyze customer sentiment and detect frustration.
 
 * Secure API Monitoring 
-Stream logs to detect unauthorized API access attempts in open banking platforms and enhance security compliance.
+Stream logs to detect unauthorized API access attempts in open banking platforms and enhance security compliance.}
 
 
 ## How {capability name} works 
@@ -85,14 +79,6 @@ In this section, provide the following:
 * A high-level end-to-end workflow. Optionally, you can provide a link to the process.
 }
 
-## Prerequisites
-
-{This section is optional.}
-
-{In this section, list the prerequisites for using this new capability.}
-
-{Identify the different requirements for using the capability, such as licensing details, specific environment configuration, prerequisite software, and browser requirements.}
-
 ## Restrictions and known limitations 
 
 {This section is optional.}
@@ -101,13 +87,12 @@ In this section, provide the following:
 
 ## Related resources
 
-{Use this section to share links to the training demos, conceptual information, procedures, external resources, or other parts of the documentation to allow readers to delve deeper into specific topics of interest.}
+{Optional: Include links to OutSystems resources, external resources that are  original providers of the tech/framework that can help users accomplish the task or learn more about the feature. These additional resources provide users with further guidance and information to enhance their understanding and proficiency. If there are multiple resources, consider grouping them by content type and include a short introductory sentence.
 
 Here are some additional resources, guides, links, and related articles:
 
-Demos
-* Demo 1
-* Demo 2
+Getting started
+*Item 1
 
 Procedures 
 * Item 1
@@ -120,3 +105,4 @@ Concepts
 External resources
 * Item 1
 * Item 2
+}
