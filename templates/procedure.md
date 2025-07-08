@@ -1,7 +1,7 @@
 # [Procedure title - starts with an active verb]  
-**Example:** “Create an empty screen”
+**Example:** "Set up OpenTelemetry Collector”
 
-{A procedure provides clear step-by-step instructions to complete a task}
+{A procedure provides clear step-by-step instructions to complete a task. For example, a procedure on how to set up OpenTelemetry collector.}
 
 ## [Paragraph] *(No heading)*    
 
@@ -12,7 +12,7 @@
  * The intended audience with pre-existing knowledge (if any) for this task}
 
 **Example**  
-This article explains how to create an empty screen when you want to build your app UI from scratch. It is intended for app developers who have good working knowledge of using OutSystems O11 for app development.
+This article explains how to set up OpenTelemetry collector to stream logs from your app to an APM tool. It is intended for developers who have have a good understanding of OpenTelemetry standard.
 
 ## Prerequisites
 
@@ -21,9 +21,8 @@ Before you {insert a brief description of the task}, ensure:
 * _Prerequisite 2_  
 * _Prerequisite 3_  
 
-##  {Task name}
-
-{Optional: Provide a concise description of the purpose of this task. Only include this if the purpose is not clear from the task title.}
+## How to {Task name}
+**Example:** "How to set up OpenTelemetry Collector”
 
 Start  with a **lead-in sentence** in this format: "To do this task, follow these steps:". Otherwise, use the **short intro sentence** as the lead-in to the steps.
 
@@ -38,11 +37,11 @@ Start  with a **lead-in sentence** in this format: "To do this task, follow thes
 
 1. Stick to max. 7-10 steps to avoid overloading readers. If the procedure needs more than 10 steps, break the steps into two procedures.
 
-1. Do not explain concepts.
+2. Do not explain concepts.
 
-1. Sometimes it's helpful to occasionally provide links to supporting pieces of documentation for more information.Especially, when the user might need a link to supporting background or conceptual information and/or reference materials. However, avoid providing too many links within the guide. Keep your users on a single page as much as possible and provide links to additional resources at the bottom of the page.
+3. Sometimes it's helpful to occasionally provide links to supporting pieces of documentation for more information.Especially, when the user might need a link to supporting background or conceptual information and/or reference materials. However, avoid providing too many links within the guide. Keep your users on a single page as much as possible and provide links to additional resources at the bottom of the page.
 
-1. For describing the actions on screen, follow this format:
+4. For describing the actions on screen, follow this format:
 [Where is the location on screen], [what is the action], [why do the action].  
    Example: “In the **New Screen** window, select **Empty** to display a preview of the empty screen.“
 1. Add screenshots *directly after* the step that describes what the screenshot contains. *(Only for complex steps)*

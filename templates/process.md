@@ -61,11 +61,10 @@ To set up log streaming, follow these steps:
 
 ## Related resources
 
-{Optional: Include links to concepts or external resources that can help users accomplish the task or learn more about the feature. These additional resources provide users with further guidance and information to enhance their understanding and proficiency. If there are multiple resources, consider grouping them by content type and include a short introductory sentence.
+
+{Optional: Include links to OutSystems resources, external resources that are  original providers of the tech/framework that can help users accomplish the task or learn more about the feature. These additional resources provide users with further guidance and information to enhance their understanding and proficiency. If there are multiple resources, consider grouping them by content type and include a short introductory sentence.
 
 * Concept
 * Relevant external link
 }
-_________________________________________________________________________________________________________________________________________________________________
-**DELETE THIS SECTION:**  
-For more information, go to the [TK Template Confluence](https://outsystemsrd.atlassian.net/wiki/spaces/TK/pages/2488336658/Technical+Knowledge+Templates#Process) page.
+________________________________________________________________________________________________________________________________________________________________
