@@ -1,5 +1,7 @@
 # [Concept title - use a noun] 
 
+{**Example:** About business processes, About event-driven architecture
+}
 {A concept document serves as a comprehensive guide, offering clear, concise, and consistent information on a specific technology, theory, or a standard that form the backbone of the new OutSystems' capability. It provides essential background knowledge and explains the principles that drive the new capability. For example, a conceptual document on event driven architecture can help the readers gain more context on how EDA principles can be used to build apps.}
 
 **[Introductory Paragraph]** *(Heading is optional)*  

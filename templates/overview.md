@@ -1,6 +1,6 @@
 # [Overview title - use a noun] 
 
-**Example:** "Introduction to UI screen design" or "About log streaming" or "Workflows in ODC". Don’t use generic titles like “Introduction”, “Overview”. Instead, use a more specific noun or phrase that someone would search for.
+{**Example:** "Introduction to UI screen design" or "Log streaming in ODC" or "Workflows in ODC". Don’t use generic titles like “Introduction”, “Overview”. Instead, use a more specific noun or phrase that someone would search for.
 
 **[Optional Paragraph]**  
 
@@ -79,7 +79,7 @@ In this section, provide the following:
 * A high-level end-to-end workflow. Optionally, you can provide a link to the process.
 }
 
-## Requirements for use
+## Prerequisites
 
 {This section is optional.}
 
