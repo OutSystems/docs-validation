@@ -1,5 +1,5 @@
 # [Process title - starts with verb+ing]
-**Example:** "Creating a screen template"
+**Example:** "Streaming log data or Authenticating REST API"
 
 {A process document describes in high-level the steps needed to complete a task end-to-end. For example, the process to set up log streaming involves the following steps:
 1. Retrieve the APM server tool authentication credentials.
