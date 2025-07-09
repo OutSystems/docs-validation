@@ -16,10 +16,6 @@ Use this section to provide the following:
 
 * (Optional) Short overview videos that are engaging and provide information about key features of the product.
 
-{{Feature name} is a {core function of the feature} that enables you to {main use case}.
-(or)
-With {feature name}, you can {describe what the user can do with this new capability and how it helps them solve their pain point}}.
-
 **Examples**  
 
 Log streaming is the process of continuously collecting and streaming log data to your Application Performance Monitoring (APM) or analytics tools in near real-time. With log streaming, you can send a permanent stream of application and platform logs from O11 to various third-party APM tools for analysis, monitoring, storage, and alerting. 
@@ -27,7 +23,7 @@ Log streaming is the process of continuously collecting and streaming log data t
 
 ## Benefits of using {capability name}
 
-{List the most important benefits of this new O11 or ODC capability. Consider the benefits from the user's point of view. Describe how the new capability benefits the user. You might ask yourself, "Why is this valuable? How does it benefit the user or business?. Base on rule of 3 principle, avoid listing more than the top 3 benefits.”
+{List the most important benefits of this new O11 or ODC capability. Consider the benefits from the user's point of view. Describe how the new capability benefits the user. You might ask yourself, "Why is this valuable? How does it benefit the user or business?. Based on [rule of three](https://en.wikipedia.org/wiki/Rule_of_three_(writing)) principle, list only the top 3 benefits of the capability.
 
 With {capability name}, you can:
 
@@ -44,6 +40,8 @@ With log streaming, you can:
 * Proactively identify and address issues before they impact your end users, minimizing downtime, improving system reliability, and enhancing user experience.
 
 * Optimize your user experience and improve satisfaction ratings by closely monitoring when and where users' journeys are affected and why the problem occurred.
+
+* Build advanced application monitoring capabilities with easy application and platform log data availability.
 
 ## Use cases
 
@@ -77,6 +75,11 @@ In this section, provide the following:
 * The different components of the capability and how each component is related to one another.
 
 * A high-level end-to-end workflow. Optionally, you can provide a link to the process.
+
+**Example**
+
+[Streaming log data](https://success.outsystems.com/documentation/11/monitoring_and_troubleshooting_apps/introduction_to_log_streaming/)
+
 }
 
 ## Restrictions and known limitations 
