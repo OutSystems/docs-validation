@@ -26,7 +26,7 @@ The following are the OutSystems product names. Use them verbatim.
   * Workflow Builder
 
 * For ODC:
-  * ODC, OutSystems Developer Cloud
+  * ODC. Use the abbreviation. OutSystems Developer Cloud gets redudant. 
   * ODC Studio
   * ODC Portal, Portal
 

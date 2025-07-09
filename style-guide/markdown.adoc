@@ -96,6 +96,10 @@ A Markdown snippet with an anchor on a heading:
 [source, markdown]
 ----
 ## Overview { #overview }
+
+## AI models { #ai-models }
+
+When the heading is more than one word, instead of a space use a hyphen. 
 ----
 
 Check the links section for examples on how to link to an anchor on a subtopic.
@@ -171,6 +175,20 @@ Some content.
 
 Some content.
 ----
+
+=== Links to other repositories
+
+To link to articles in other repositories, do not use relative links. Instead, use the following format:
+
+`https://www.outsystems.com/tk/redirect?g=GUID`
+
+Replace `GUID` with the unique identifier of the target article.
+
+*Example*
+
+To link to an article, use the following URL:
+
+`https://www.outsystems.com/tk/redirect?g=e9f6f711-2df2-42a0-90c1-3b9bc8b3926b`
 
 
 === Writing body text
@@ -428,7 +446,7 @@ Check the following code sample:
 
 === Warning and information sections
 
-To insert a warning or information box, use a HTML `<div>` element with `class="warning"` or `class="info"`. Include a `markdown="1"` attribute in the `<div>` element so that the build script parses the text as Markdown-formatted content.
+To insert a warning or information box, use a HTML `<div>` element with `class="warning"` or `class="info"`. Include a `markdown="1"` attribute in the `<div>` element so that the build script parses the text as Markdown-formatted content. Avoid using a **Note:** section. 
 
 Add a blank newline after the opening `<div>` tag and before the corresponding closing tag so that the VS Code previewer parses the `<div>` content as Markdown.
 

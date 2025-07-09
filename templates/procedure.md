@@ -22,6 +22,7 @@ Before you {insert a brief description of the task}, ensure:
 * _Prerequisite 3_  
 
 ## How to {Task name}
+
 **Example:** "How to set up OpenTelemetry Collector”
 
 Start  with a **lead-in sentence** in this format: "To do this task, follow these steps:". Otherwise, use the **short intro sentence** as the lead-in to the steps.
@@ -39,10 +40,8 @@ Start  with a **lead-in sentence** in this format: "To do this task, follow thes
 * Sometimes it's helpful to occasionally provide links to supporting pieces of documentation for more information.Especially, when the user might need a link to supporting background or conceptual information and/or reference materials. However, avoid providing too many links within the guide. Keep your users on a single page as much as possible and provide links to additional resources at the bottom of the page.
 
 1. For describing the actions on screen, follow this format:
-[why do the action] [Where is the location on screen], [what is the action], .  
+[Why do the action] [Where is the location on screen], [what is the action], .  
    Example: “To display a preview of the empty screen, in the **New Screen** window, select **Empty**"
-1. Add screenshots *directly after* the step that describes what the screenshot contains. *(Only for complex steps)*
-*[Procedure result. Next steps.]* *(Optional)*  
 
 **Example**    
 To create an empty screen, follow these steps:  
