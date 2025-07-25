@@ -102,7 +102,7 @@ Use the second person "you" to address the reader or readers. However, don't ove
 
 Exceptions:  Use "I" in FAQs.
 
-When referring to OutSystems, don't use we.
+When referring to OutSystems, don't use "we." Replace "we" with "OutSystems" when the sentence describes what the company, product, or platform does, recommends, or provides.
 
 *Examples*
 
@@ -124,6 +124,18 @@ No: How can a developer prevent accidental activations? (This is from an FAQ sec
 Yes: OutSystems recommends backing up your data every 3 months. 
 
 No: We recommend backing up your data every 3 months.
+
+''''
+
+Yes: OutSystems provides built-in security features.
+
+No: We provide built-in security features.
+
+''''
+
+Yes: OutSystems supports multiple deployment options.
+
+No: We support multiple deployment options.
 
 ''''
 
@@ -323,6 +335,86 @@ No: Design the process behavior, i.e., the process flow.
 Yes: Make sure the Textarea Input has the Name property set (for example, myTextArea).
 
 No: Make sure the Textarea Input has the Name property set (e.g., myTextArea).
+
+=== Numbers
+
+Use consistent formatting for numbers to improve readability and clarity.
+
+==== Spell out numbers one through nine
+
+Spell out numbers from one through nine in body text. Use numerals for 10 and greater.
+
+*Examples*
+
+Yes: You have three options to configure the app.
+
+No: You have 3 options to configure the app.
+
+''''
+
+Yes: The process takes 15 minutes to complete.
+
+No: The process takes fifteen minutes to complete.
+
+''''
+
+Yes: Choose one of the five available templates.
+
+No: Choose 1 of the 5 available templates.
+
+==== Use numerals for specific cases
+
+Always use numerals for the following, even when the number is less than 10:
+
+* Version numbers (version 3, OutSystems 11)
+* Technical quantities (8 GB RAM, 5 API calls per second)
+* Measurements and dimensions (3 pixels, 192x192)
+* Page numbers, step numbers, and chapter references
+* Percentages (5%, not five percent)
+* Currency ($3, not three dollars)
+* Numbers in ranges (3-5 days, not three to five days)
+* Numbers that start with decimals (0.5 seconds)
+* Numbers in the same sentence when some are 10 or greater
+
+*Examples*
+
+Yes: The system supports 3 to 15 concurrent users.
+
+No: The system supports three to 15 concurrent users.
+
+''''
+
+Yes: Set the timeout to 5 seconds and the retry limit to 10 attempts.
+
+No: Set the timeout to five seconds and the retry limit to 10 attempts.
+
+==== Spell out numbers that start sentences
+
+When a number starts a sentence, spell it out. If this makes the sentence awkward, consider restructuring it.
+
+*Examples*
+
+Yes: Fifteen applications are deployed automatically.
+
+Better: The system automatically deploys 15 applications.
+
+''''
+
+Yes: Three environments are available: development, staging, and production.
+
+No: 3 environments are available: development, staging, and production.
+
+==== Use commas for large numbers
+
+Use commas to separate groups of three digits in numbers of four digits or more, following American formatting standards.
+
+*Examples*
+
+Yes: The database contains 1,500 records.
+
+Yes: Process up to 100,000 requests per day.
+
+No: The database contains 1500 records.
 
 === Limit the git commit subject line to 50 characters
 
