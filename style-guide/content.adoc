@@ -416,6 +416,130 @@ Yes: Process up to 100,000 requests per day.
 
 No: The database contains 1500 records.
 
+=== Lists
+
+Use consistent formatting and structure for lists to improve readability and clarity.
+
+==== Use parallel structure
+
+Use the same syntax and structure for all list items in a given list. This creates a consistent reading experience.
+
+*Examples*
+
+Yes: The API supports the following actions:
+
+* Create an item
+* Update an item  
+* Delete an item
+
+No: The API supports the following actions:
+
+* Create an item
+* Updating items
+* You can delete items
+
+''''
+
+Yes: Before you begin, ensure that you have:
+
+* A valid API key
+* Access to the development environment
+* The required permissions
+
+No: Before you begin, ensure that you have:
+
+* A valid API key
+* You need access to the development environment
+* Required permissions are granted
+
+==== Introduce lists properly
+
+Introduce a list with a complete sentence that provides context. The introductory sentence can end with a colon or period.
+
+*Examples*
+
+Yes: You can configure the following settings:
+
+No: You can configure:
+
+''''
+
+Yes: The system supports three authentication methods.
+
+No: The system supports:
+
+==== Capitalize and punctuate consistently
+
+Start each list item with a capital letter. Add end punctuation based on the content:
+
+* If the item is a complete sentence, end with a period
+* If the item is a single word or phrase without a verb, don't add punctuation
+* If the item is entirely code, don't add punctuation
+
+*Examples*
+
+Yes: The following words are adjectives:
+
+* Large
+* Small  
+* Efficient
+
+''''
+
+Yes: You can perform the following actions:
+
+* Create a new application.
+* Update an existing application.
+* Delete an application.
+
+''''
+
+Yes: The system supports the following data types:
+
+* `string`
+* `integer`
+* `boolean`
+
+==== Use numbered lists for sequences
+
+Use numbered lists when the order matters, such as step-by-step procedures or prioritized items.
+
+*Examples*
+
+Yes: To create a new app, follow these steps:
+
+1. Click the **Create** button.
+2. Enter a name for your app.
+3. Select the app type.
+4. Click **Save**.
+
+No: To create a new app:
+
+* Click the **Create** button
+* Enter a name for your app
+* Select the app type  
+* Click **Save**
+
+==== Use bullet points for non-sequential items
+
+Use bullet points for items where order doesn't matter, such as features, options, or examples.
+
+*Examples*
+
+Yes: The platform includes the following features:
+
+* Real-time monitoring
+* Automated scaling
+* Built-in security
+
+''''
+
+Yes: You can deploy to any of these environments:
+
+* Development
+* Staging
+* Production
+
 === Limit the git commit subject line to 50 characters
 
 When writing git commit messages, be brief and limit the subject line (often the first line) to 50 characters. The subject line is visible in many places, and it's useful to know what the changes are by reading a one-line summary.
