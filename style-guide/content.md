@@ -293,7 +293,7 @@ Use "that is" instead of "i.e." and "for example" or "such as" instead of "e.g."
 
 When writing git commit messages, be brief and limit the subject line (often the first line) to 50 characters. The subject line is visible in many places, and it's useful to know what the changes are by reading a one-line summary.
 
-### Timeless documentation
+## Timeless documentation
 
 - Avoiding time-based words and phrases: Do not use words like new, now, currently, latest, or future when describing a product's features. These words quickly become outdated and require maintenance.
 - Focusing on the current state: The documentation should describe how a product works as if it is the current, stable state, not a recent change.
@@ -306,3 +306,30 @@ When writing git commit messages, be brief and limit the subject line (often the
 **No:** There's now a new accelerator to configure LinkedIn as your Identity Provider.
 
 Avoid documenting future features or products, even in innocuous ways. Don't pre-announce anything in documentation.
+
+## Rules for Pronouns
+
+### Use "you" to address the reader
+The primary voice for documentation should be the second person ("you") to speak directly to the user. Avoid using "we" or "I."
+* **Yes:** "You can upload files up to 90 MB when creating an external library."
+* **No:** "We have made it possible to upload files up to 90 MB."
+
+### Use singular "they" as a gender-neutral pronoun
+When referring to a generic person, such as a user, use "they," "them," or "their." This avoids gender-specific pronouns like "he" or "she."
+**Yes:** "When a user logs in, they can access their assigned resources."
+**No:** "When a user logs in, he can access his resources."
+
+### Ensure pronoun references are unambiguous
+A pronoun should clearly refer to a specific noun (antecedent). If there is any potential for confusion, restate the noun.
+**Yes:** "If you are using the Data Grid, you can change the view in ODC Portal. This new feature simplifies the process."
+**No:** "If you are using the Data Grid, you can change the view in ODC Portal. It is a new feature."
+
+### Use `that` and `which` correctly
+Use `that` for restrictive clauses (information essential to the meaning of the sentence). Use `which` for nonrestrictive clauses (information that can be removed without changing the core meaning).
+* **Yes:** "The platform service that handles all requests to the services is the Platform Load Balancer."
+* **Yes:** "OutSystems, which is a low-code development platform, helps you create apps."
+
+### Use "who" for people
+The pronoun `who` should be used when referring to a person or people.
+* **Yes:** "The person who configures the security settings should be an administrator."
+* **No:** "The person that configures the security settings should be an administrator."
