@@ -8,27 +8,25 @@ For a task-based heading, start with a [*bare infinitive*](https://wikipedia.org
 
 Task-based headings are frequently used in procedures
 
-**Recommended:** Create an app
+**Yes:** Create an app
 
-**Not recommended:** Creating an app
+**No:** Creating an app
 
 For a conceptual and overview or non-task-based heading, use a [*noun phrase*](https://wikipedia.org/wiki/Noun_phrase) that doesn't start with an *\-ing* verb.
 
 Noun-phrase headings are frequently used in concept documentation.
 
-**Recommended:** Workflows in ODC
+**Yes:** Workflows in ODC
 
-**Not recommended:**  Using workflows in ODC
+**No:**  Using workflows in ODC
 
 When possible, avoid using *\-ing* verb forms as the first word in any heading or title.
 
-**Recommended**: Transfer data sets
+**Yes**: Transfer data sets
 
-**Not recommended**: Transferring data sets
+**No**: Transferring data sets
 
 An *\-ing* verb form is a present participle or gerund. These verb forms are inconsistently translated when they're used as the first word in a title, and they increase character count in limited spaces.
-
-## 
 
 ## Heading and title format
 
@@ -48,6 +46,39 @@ An *\-ing* verb form is a present participle or gerund. These verb forms are inc
 * Use a heading hierarchy and take the following items under consideration:  
   * Ensure that each page in your project includes a unique level-1 heading.   
   * Don't skip levels of the heading hierarchy. For example, put an `<h3>` tag only under an `<h2>` tag.
+  * Use heading levels to show the relationship of ideas and to enable readers to easily scan and read selectively. Limit headings to three levels. Avoid using more than three levels of headings. If you think that you need more levels to structure the content, consider separating the content into smaller documents. 
+* Add at least a sentence between a heading and an image or table, describing what follows. Introduce images and tables, so users know what they are looking at.  
+
+### Headings in markdown
+
+Headings are defined using one or more # (hash) characters placed in the first column of a given line. The number of # characters define the heading level.
+
+General rules for headings:
+
+* Use only one Heading 1 in a topic, because Heading 1 defines the topic title. Titles must only contain letters from the English alphabet, numbers, dashes, and periods.
+  
+* Don't skip heading levels. For example, don't use a Heading 3 right after a Heading 1, without a Heading 2 in-between.
+  
+* Always leave an empty line before and after a heading line.
+
+*Example*
+
+A Markdown snippet with three headings:
+
+[source, markdown]
+----
+# Heading 1
+
+This is content under Heading 1.
+
+## Heading 2
+
+This is content under Heading 2.
+
+### Heading 3
+
+This is content under Heading 3.
+
 
 ## Paragraphs
 
@@ -110,7 +141,7 @@ Introduce a list with the appropriate context. In most cases, precede a list wit
 
 If the list doesn't need any additional context other than the heading that immediately precedes the list, it's OK to not introduce a list with an introductory sentence.
 
-**Recommended:**
+**Yes:**
 
 To stream logs to Datadog, follow these steps:
 
@@ -124,7 +155,7 @@ Here are some examples of events that can occur in an app:
 * A customer is submitting a loan application.  
 * A server reaching 80% of its capacity.
 
-**Not recommended:**
+**No:**
 
 To stream logs to Datadog, 
 
@@ -136,7 +167,7 @@ To stream logs to Datadog,
 
 Use the same syntax/structure for all list items in a given list, if possible.
 
-**Recommended:**
+**Yes:**
 
 You can use the Data Grid component to:
 
@@ -144,7 +175,7 @@ You can use the Data Grid component to:
 * Enable users to filter, sort, and group data.  
 * Edit data directly within the grid.
 
-**Not recommended:**
+**No:**
 
 You can use the Data Grid component to:
 
@@ -171,11 +202,11 @@ When you write a list in a paragraph, use [serial commas](https://developers.goo
 
 Avoid ending a list with *etc.* or phrases like *and so on*. Instead, introduce the list in a way that makes it clear that the list isn't all-inclusive.
 
-**Recommended**: The service processes data such as event logs, clickstream data, social network interactions, and e-commerce transactions.
+**Yes**: The service processes data such as event logs, clickstream data, social network interactions, and e-commerce transactions.
 
-**Not recommended**: The service processes data like event logs, clickstream data, social network interactions, e-commerce transactions, etc.
+**No**: The service processes data like event logs, clickstream data, social network interactions, e-commerce transactions, etc.
 
-**Not recommended**: The service processes data such as event logs, clickstream data, social network interactions and e-commerce transactions.
+**No**: The service processes data such as event logs, clickstream data, social network interactions and e-commerce transactions.
 
 ## Write descriptive link text
 
@@ -193,7 +224,7 @@ For your link text, use either the exact page title or a descriptive phrase, as 
 
 One option for effective link text is to match the link text to the page title or heading that you're referencing.
 
-**Recommended**: For more information, refer to [Worflows in ODC](https://success.outsystems.com/documentation/outsystems_developer_cloud/building_apps/about_business_processes/workflows_in_odc/).
+**Yes**: For more information, refer to [Worflows in ODC](https://success.outsystems.com/documentation/outsystems_developer_cloud/building_apps/about_business_processes/workflows_in_odc/).
 
 #### Descriptive phrases as link text
 
@@ -205,9 +236,9 @@ When you write a descriptive phrase as link text, help readers quickly determine
 * Don't use the same link text in the same document for different target pages.  
 * Keep link text short where possible. Don't write lengthy link text such as a sentence or short paragraph.
 
-**Recommended**: You can [configure log streaming to DataDog tool](https://success.outsystems.com/documentation/11/monitoring_and_troubleshooting_apps/introduction_to_log_streaming/configuring_the_log_streaming_service_in_lifetime/stream_logs_to_datadog/) from your O11 app.
+**Yes**: You can [configure log streaming to DataDog tool](https://success.outsystems.com/documentation/11/monitoring_and_troubleshooting_apps/introduction_to_log_streaming/configuring_the_log_streaming_service_in_lifetime/stream_logs_to_datadog/) from your O11 app.
 
-**Not recommended**: To configure log streaming to Datadog tool, see [this article](https://success.outsystems.com/documentation/11/monitoring_and_troubleshooting_apps/introduction_to_log_streaming/configuring_the_log_streaming_service_in_lifetime/stream_logs_to_datadog/).
+**No**: To configure log streaming to Datadog tool, see [this article](https://success.outsystems.com/documentation/11/monitoring_and_troubleshooting_apps/introduction_to_log_streaming/configuring_the_log_streaming_service_in_lifetime/stream_logs_to_datadog/).
 
 ### Avoid vague link text
 
@@ -223,11 +254,11 @@ Don't use *on* instead of *about*.
 
 Use *refer to* to refer to links and cross-references. For more information, refer to …
 
-**Recommended**: For more information, refer to [Worflows in ODC](https://success.outsystems.com/documentation/outsystems_developer_cloud/building_apps/about_business_processes/workflows_in_odc/).
+**Yes**: For more information, refer to [Worflows in ODC](https://success.outsystems.com/documentation/outsystems_developer_cloud/building_apps/about_business_processes/workflows_in_odc/).
 
-**Recommended**: For more information about building event-driven apps in ODC, refer to [Implement events in ODC](https://success.outsystems.com/documentation/outsystems_developer_cloud/building_apps/about_event_driven_architecture/implement_events_in_odc/).
+**Yes**: For more information about building event-driven apps in ODC, refer to [Implement events in ODC](https://success.outsystems.com/documentation/outsystems_developer_cloud/building_apps/about_event_driven_architecture/implement_events_in_odc/).
 
-**Not recommended**: For more information on workflows, see [Worflows in ODC](https://success.outsystems.com/documentation/outsystems_developer_cloud/building_apps/about_business_processes/workflows_in_odc/).
+**No**: For more information on workflows, see [Worflows in ODC](https://success.outsystems.com/documentation/outsystems_developer_cloud/building_apps/about_business_processes/workflows_in_odc/).
 
 ## Clarify the purpose of a link
 
@@ -235,7 +266,7 @@ Make sure that the surrounding context or the link text itself clearly indicates
 
 If you're introducing a cross-reference with "For more information..." phrasing, then you can do this by adding an "about..." phrase. 
 
-**Recommended**: For more information about OAuth authentication and authorization, refer to
+**Yes**: For more information about OAuth authentication and authorization, refer to
 
 ## 
 
@@ -259,12 +290,12 @@ When you create placeholders follow this general guidance around using the lette
 
 **Use uppercase characters with underscore delimiters.**
 
-**Recommended**:
+**Yes**:
 
 * `.../*API_NAME*`  
 * `.../*METHOD_NAME*`
 
-**Not Recommended**:
+**No**:
 
 * `.../*API-NAME*`  
 * `.../*METHOD NAME*`
@@ -273,7 +304,7 @@ If the context in which your placeholders appear makes using uppercase character
 
 **Don't include possessive adjectives in placeholders.**
 
-**Not recommended**:
+**No**:
 
 * `.../<var>MY_API_NAME</var>`  
 * `.../<var>YOUR_API_NAME</var>`
@@ -282,4 +313,3 @@ If the context in which your placeholders appear makes using uppercase character
 
 When you use a placeholder in text or code, explain the placeholder the first time you use it.
 
-## `***********************************************************************`
