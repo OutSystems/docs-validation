@@ -1,10 +1,9 @@
-# Grammar and content
 
-## Grammar and content
+# Grammar and content
 
 Write clearly and consistently.
 
-### Tone and voice
+## Tone and voice
 
 Use the appropriate tone and voice in your content. Your content must be:
 
@@ -13,7 +12,7 @@ Use the appropriate tone and voice in your content. Your content must be:
 - Inclusive and respectful
 - Free of jargon and sales talk
 
-### Be brief and concise
+## Be brief and concise
 
 Write short sentences and well-structured paragraphs. Don't repeat yourself.
 
@@ -23,11 +22,11 @@ Write short sentences and well-structured paragraphs. Don't repeat yourself.
 
 **No:** The Style Guide is a document with your brand theme colors and patterns ready to use to create a consistent user experience on your applications. It is an essential piece to ensure adherence to your brand rules, user interface consistency, and foster usability. It is designed to guide you through all delivery assets to optimize the development process and user experience.
 
-### Use American English
+## Use American English
 
 Use American English. This applies to spelling, word use, and writing dates.
 
-### Use the present tense
+## Use the present tense
 
 Use the present tense whenever possible. Using the present tense helps make sentences clear and straightforward to understand.
 
@@ -37,7 +36,7 @@ Use the present tense whenever possible. Using the present tense helps make sent
 
 **No:** Click the Save button. The data will be updated.
 
-### Use contractions
+## Use contractions
 
 Use common contractions instead of full forms. Some of the common contractions you need are: it's, doesn't, there's, can't/cannot.
 
@@ -57,7 +56,7 @@ Contractions help create friendlier and informal sentences, as full forms are ge
 
 **No:** LifeTime's an OutSystems management console. (No contractions with a noun, here a product name.)
 
-### Use the active voice
+## Use the active voice
 
 The active voice makes the sentence dynamic and clear. It also makes it clear who (the user, the system, and so forth) is doing what.
 
@@ -67,7 +66,7 @@ The active voice makes the sentence dynamic and clear. It also makes it clear wh
 
 **No:** The original Aggregate is kept in the flow editor for your manual deletion after validating the new SQL element.
 
-### Be careful with modal verbs
+## Be careful with modal verbs
 
 This section applies to the modal verbs can, could, may, might, will, shall, would, should, and must. Modal verbs describe what you believe or think of the product, or they denote an ability or obligation. In contrast, technical content confidently describes what the product does. Using a modal instead of a stronger structure creates a weak and wordy sentence. It also makes your readers less confident about the content.
 
@@ -85,7 +84,7 @@ This section applies to the modal verbs can, could, may, might, will, shall, wou
 
 **No:** OutSystems handles unforeseen or unhandled errors that might occur in applications. (If errors do happen, there's nothing hypothetical about their existence.)
 
-### Use second person
+## Use second person
 
 Use the second person "you" to address the reader or readers. However, don't overuse it.
 
@@ -111,7 +110,7 @@ When referring to OutSystems, don't use we.
 
 **No:** We recommend backing up your data every 3 months.
 
-### Be clear and precise
+## Be clear and precise
 
 The language in technical content must be clear and precise. Clarity and precision make content useful for the audience. Check out the examples that demonstrate how being vague, blaming users, or taking their time and skills for granted weakens clarity.
 
@@ -137,7 +136,7 @@ The language in technical content must be clear and precise. Clarity and precisi
 
 **No:** By activating this option, it's possible that the debugger will feel slower. (Using the verb "feel" is claiming that the slower performance is a subjective observation. It's not subjective.)
 
-### Keep accessibility in mind
+## Keep accessibility in mind
 
 Your content should be accessible to all people, to those without and with disabilities. Be mindful of:
 
@@ -150,7 +149,7 @@ Your content should be accessible to all people, to those without and with disab
 
 **No:** For more information about accessibility, see [Writing for all abilities](https://docs.microsoft.com/en-us/style-guide/accessibility/writing-all-abilities).
 
-### Don't use the words "sorry" and "please"
+## Don't use the words "sorry" and "please"
 
 **Examples**
 
@@ -158,7 +157,7 @@ Your content should be accessible to all people, to those without and with disab
 
 **No:** To view the document, please click *View*.
 
-### Use sentence case for titles
+## Use sentence case for titles
 
 Capitalize the first letter in titles.
 
@@ -176,7 +175,7 @@ Capitalize the first letter in titles.
 
 **No:** Bootstrap an Entity Using an Excel File
 
-### Avoid overusing parentheses
+## Avoid overusing parentheses
 
 Don't put important information in parentheses. Unfortunately, some readers ignore any information that appears in parentheses.
 
@@ -190,7 +189,7 @@ If you need to include parentheses in the middle of a sentence, keep the informa
 
 **No:** Enter a six-digit hex number (for example, if you want the color forest green, enter `228B22`), and then click *OK*.
 
-### Serial comma
+## Serial comma
 
 In a series of three or more items, use a comma before the final and or or to avoid potentially changing the meaning of the sentence. This comma is called a *serial comma*.
 
@@ -214,7 +213,7 @@ In a series of three or more items, use a comma before the final and or or to av
 
 **No:** Service Center provides a set of metrics regarding a specific environment. It provides access to application logs and errors, web and mobile requests, integration calls, business processes, and security audits. (There are many items, and a list works better here.)
 
-### Keep it international and straightforward to translate
+## Keep it international and straightforward to translate
 
 Ensure your content is accessible to people of different cultures and speakers of various levels of the English language. The following are some guidelines to help you with that:
 
@@ -231,7 +230,7 @@ Here's an example of a copy: "It takes 23 years to become a Jedi, but it takes a
 
 In Japan, the translators and editors removed the idiom "cost an arm and a leg" and the humorous addition "or even a hand". They kept the Jedi reference, as it works well for their audience: "It takes 23 years to become a Jedi, but learning OutSystems takes less time. And you don't have to make a big sacrifice."
 
-### Use gender-inclusive language
+## Use gender-inclusive language
 
 You should make the gender visible only if it's important to understand the content. This means you shouldn't use words like he/she, himself/herself, man/woman, unless you're referring to a particular individual. Instead, use a non-gender alternative, like plural forms and "they". Furthermore, you shouldn't use language that reinforces stereotypes.
 
@@ -249,7 +248,7 @@ For more details, see [Bias-free communication](https://docs.microsoft.com/en-us
 
 - When a developer downloads a Forge component, he can install it in Service Studio. (Service Studio is not used exclusively by male developers or developers who identify as men.)
 
-### Use standardized example domains
+## Use standardized example domains
 
 When providing examples of domain names, use one of the domains reserved for such use. For example, example.com. Don't use other domains nor any of our customer domains.
 
@@ -261,11 +260,11 @@ See [RFC 6761 - Special-Use Domain Names](https://tools.ietf.org/html/rfc6761) f
 
 **No:** Enter the email address, for example, john.smith@outsystems.com.
 
-### Check the readability scores
+## Check the readability scores
 
 A readability score shows the estimated education level needed to understand a given text. Our content should be understood by high school graduates.
 
-### Don't announce features and updates
+## Don't announce features and updates
 
 Don't use documentation, training videos, or other technical content to inform users about future developments. Users need support with the product that is available to them.
 
@@ -275,7 +274,7 @@ Don't use documentation, training videos, or other technical content to inform u
 
 **No:** This feature currently has the following limitations that will be removed next month, in version 11.9.
 
-### Avoid Latin abbreviations
+## Avoid Latin abbreviations
 
 Use "that is" instead of "i.e." and "for example" or "such as" instead of "e.g.".
 
@@ -289,7 +288,7 @@ Use "that is" instead of "i.e." and "for example" or "such as" instead of "e.g."
 
 **No:** Make sure the Textarea Input has the Name property set (e.g., myTextArea).
 
-### Limit the git commit subject line to 50 characters
+## Limit the git commit subject line to 50 characters
 
 When writing git commit messages, be brief and limit the subject line (often the first line) to 50 characters. The subject line is visible in many places, and it's useful to know what the changes are by reading a one-line summary.
 
