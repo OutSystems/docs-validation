@@ -233,7 +233,7 @@ No: Enter a six-digit hex number (for example, if you want the color forest gree
 
 === Serial comma
 
-WIn a series of three or more items, use a comma before the final and or or to avoid potentially changing the meaning of the sentence. This comma is called a *serial comma*.
+In a series of three or more items, use a comma before the final and or or to avoid potentially changing the meaning of the sentence. This comma is called a *serial comma*.
 
 *Examples*
 
@@ -335,6 +335,29 @@ No: Design the process behavior, i.e., the process flow.
 Yes: Make sure the Textarea Input has the Name property set (for example, myTextArea).
 
 No: Make sure the Textarea Input has the Name property set (e.g., myTextArea).
+
+=== Ellipsis (three dots) on the UI
+
+When documenting UI elements that contain an ellipsis, for example, **More options...**, don't include the ellipsis in your instructions. Instead, describe the element clearly.
+
+When referring to the ellipsis symbol itself in documentation, use the term **ellipsis** rather than **three dots**.
+
+*Examples*
+
+Yes: Click *More options*, and then select *Delete*.
+
+No: Click *More options...*, and then select *Delete*.
+
+''''
+
+Yes: Click the ellipsis next to the user name to see additional actions.
+
+No: Click the three dots next to the user name to see additional actions.
+
+''''
+Yes: The button displays an ellipsis (...) to indicate more options are available.
+
+No: The button displays three dots (...) to indicate more options are available.
 
 === Numbers
 
