@@ -6,22 +6,15 @@ Writing in Markdown
 
 We write our documentation using the Markdown markup language. It's a lightweight language, based on plain text, that lets us focus on the content while still being able to add formatting, structure, images, and tables. You can use HTML in your Markdown topics, but only if you have to, for complex tables or complex layouts.
 
-Content is king in Markdown. Pay attention to your content and the document structure, and not how the topic will display. If you're converting content from HTML or PDF, don't try to replicate all of the formatting, particularly complex tables and "decorative" elements.
+Content is king in Markdown. Pay attention to your content and the document structure, and not how the topic displays. If you're converting content from HTML or PDF, don't try to replicate all of the formatting, particularly complex tables and "decorative" elements.
 
-Keep it simple. Remember to let the text "breathe" — when in doubt, add empty lines between different document elements, for example, between headings, paragraphs, tables, and images. There are a few exceptions, mentioned throughout this chapter.
+Keep it simple. Use white space, to let the text "breathe." When in doubt, add blank lines between different document elements. For example, you can add lines between headings, paragraphs, tables, and images. There are a few exceptions mentioned throughout this chapter.
 
 See https://daringfireball.net/projects/markdown/syntax[Daring Fireball] for more information about Markdown syntax.
 
-=== Summary information
+=== Markdown files
 
-The following informaiton should be at the top of each Markdown file. Copy everything from the first --- to the ending ---.  Use the information below to enter your content in each field. 
-
-* summary:  Should be less than 160 characters and explain what the reader will learn.  
-* tags:  leave blank
-* locale: leave as en-us
-* guid:  must be unique for each file, press Ctrl + Shift + P and enter the guid
-* app_type: identifies the the type of app
-* platform version:odc or o11 
+When creating a new Markdown file, make sure you follow the structure and naming conventions described in link:./working-with-files.adoc[Working with files].
 
 === Basic formatting
 
@@ -44,12 +37,12 @@ Some *bold words* and some _italic words_.
 
 === Headings
 
-Headings are defined using one or more # (hash) characters placed at the first column of a given line. The number of # characters define the heading level.
+Headings are defined using one or more # (hash) characters placed in the first column of a given line. The number of # characters define the heading level.
 
 General rules for headings:
 
-* Use only one Heading 1 in a topic, because Heading 1 defines the topic title. Titles must only contain letters of the English alphabet , numbers, dashes, and periods.
-* Don't skip the heading levels. For example, don't use a Heading 3 right after a Heading 1, without a Heading 2 in-between.
+* Use only one Heading 1 in a topic, because Heading 1 defines the topic title. Titles must only contain letters from the English alphabet, numbers, dashes, and periods.
+* Don't skip heading levels. For example, don't use a Heading 3 right after a Heading 1, without a Heading 2 in-between.
 * Always leave an empty line before and after a heading line.
 
 *Example*
@@ -73,8 +66,7 @@ This is content under Heading 3.
 
 === The URL of the documentation pages
 
-By default, the URL of the topic is defined by the topic title. The topic title is the first Heading 1 line in the file.
-If you change the title of a topic, *you also change the final URL of the topic*. 
+By default, the URL of the topic is defined by the topic title. The topic title is the first Heading 1 line in the file. If you change the title of a topic, *you also change the final URL of the topic*. 
 
 *Example*
 
@@ -104,6 +96,10 @@ A Markdown snippet with an anchor on a heading:
 [source, markdown]
 ----
 ## Overview { #overview }
+
+## AI models { #ai-models }
+
+When the heading is more than one word, instead of a space use a hyphen. 
 ----
 
 Check the links section for examples on how to link to an anchor on a subtopic.
@@ -144,7 +140,7 @@ A markdown links demo.
 
 * This is an anchor to the [Subtopic](#subtopic).
 
-## Subtopic
+## Subtopic  { #subtopic }
 
 Some content.
 
@@ -171,14 +167,28 @@ A markdown links demo.
 * This is an anchor to a [subtopic](#subtopic-2-with-a-really-long-name).
 * This is an anchor to a [subtopic in another file](../../sample/sample.md#subtopic).
 
-## Subtopic 1
+## Subtopic 1  { #subtopic-1 }
 
 Some content.
 
-## Subtopic 2 with a really long name
+## Subtopic 2 with a really long name { subtopic-2-with-a-really-long-name }
 
 Some content.
 ----
+
+=== Links to other repositories
+
+To link to articles in other repositories, do not use relative links. Instead, use the following format:
+
+`https://www.outsystems.com/tk/redirect?g=GUID`
+
+Replace `GUID` with the unique identifier of the target article.
+
+*Example*
+
+To link to an article, use the following URL:
+
+`https://www.outsystems.com/tk/redirect?g=e9f6f711-2df2-42a0-90c1-3b9bc8b3926b`
 
 
 === Writing body text
@@ -312,10 +322,10 @@ A Markdown snippet with breaks in paragraphs:
 
 === Tables
 
-Most tables should be written using GFM Markdown syntax, since table notation isn't part of the Markdown basic syntax.
+Most tables should be written using GFM (GitHub Flavored Markdown) syntax, since table notation isn't part of the Markdown basic syntax.
 You can use Markdown Table Generator to generate the basic structure of the table you want to include in your Markdown document.
 
-GFM Markdown table syntax is straightforward and doesn't allow row or cell spanning or putting multi-line text in a cell. The first row is always the header, followed by an extra line with `-` (dashes) and optional `:` (colons) for forcing column alignment.
+GFM Markdown table syntax is straightforward and doesn't allow row or cell spanning or putting multi-line text in a cell. The first row is always the header, followed by an extra line with `-` (dashes) and optional `:` (colon) to force column alignment.
 
 [source, markdown]
 ----
@@ -436,7 +446,7 @@ Check the following code sample:
 
 === Warning and information sections
 
-To insert a warning or information box, use a HTML `<div>` element with `class="warning"` or `class="info"`. Include a `markdown="1"` attribute in the `<div>` element so that the build script parses the text as Markdown-formatted content.
+To insert a warning or information box, use a HTML `<div>` element with `class="warning"` or `class="info"`. Include a `markdown="1"` attribute in the `<div>` element so that the build script parses the text as Markdown-formatted content. Avoid using a **Note:** section. 
 
 Add a blank newline after the opening `<div>` tag and before the corresponding closing tag so that the VS Code previewer parses the `<div>` content as Markdown.
 
