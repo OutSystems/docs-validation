@@ -587,3 +587,17 @@ Yes: You can deploy to any of these environments:
 === Limit the git commit subject line to 50 characters
 
 When writing git commit messages, be brief and limit the subject line (often the first line) to 50 characters. The subject line is visible in many places, and it's useful to know what the changes are by reading a one-line summary.
+
+=== Timeless documentation
+
+Avoiding time-based words and phrases: Do not use words like new, now, currently, latest, or future when describing a product's features. These words quickly become outdated and require maintenance.
+
+Focusing on the current state: The documentation should describe how a product works as if it is the current, stable state, not a recent change.
+
+Providing a specific reference point (if necessary): If you absolutely must refer to a new feature, provide a specific reference point like a version number or a date.
+
+Yes: You can configure LinkedIn as your Identity Provider using the provided accelerator.
+
+Yes: From Lifetime Release 11.27.1, You can configure LinkedIn as your Identity Provider using the provided accelerator.
+
+No: There's now a new accelerator to configure LinkedIn as your Identity Provider."

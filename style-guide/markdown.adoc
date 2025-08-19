@@ -120,7 +120,7 @@ An example with a link to a file in the *same* folder:
 
 [source, markdown]
 ----
-For more information, see the [introduction](intro.md).
+For more information, refer to the [introduction](intro.md).
 ----
 
 An example with a link to a file in a *different* folder:
