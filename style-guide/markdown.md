@@ -20,7 +20,7 @@ Bold. Surround the words with ** (two asterisks), no spaces.
 
 Italic. Surround the words with _ (underscores), no spaces. You rarely, if ever, need italic.
 
-*Example*
+**Example**
 
 Markdown:
 
@@ -29,7 +29,7 @@ Markdown:
 Some **bold words** and some _italic words_.
 ----
 
-Result:
+**Result:**
 
 Some *bold words* and some _italic words_.
 
@@ -43,7 +43,7 @@ General rules for headings:
 * Don't skip heading levels. For example, don't use a Heading 3 right after a Heading 1, without a Heading 2 in-between.
 * Always leave an empty line before and after a heading line.
 
-*Example*
+**Example**
 
 A Markdown snippet with three headings:
 
@@ -66,7 +66,7 @@ This is content under Heading 3.
 
 By default, the URL of the topic is defined by the topic title. The topic title is the first Heading 1 line in the file. If you change the title of a topic, *you also change the final URL of the topic*. 
 
-*Example*
+**Example**
 
 Here's a sample Markdown snippet, with a file header and title.
 
@@ -112,7 +112,7 @@ Use relative paths to specify the destination. To help you build this path, use 
 
 Every relative link, if its destination is present in the toc.yml file, is validated when it is published. If the final URL of a relative link cannot be determined, and that link won't work, you get a warning message.
 
-*Examples*
+**Examples**
 
 An example with a link to a file in the *same* folder:
 
@@ -215,7 +215,7 @@ Include an image in a topic using the following syntax:
 
 WARNING: Setting the width like `my-image.png?width=<size>` is *deprecated*. Instead of forcing the image width, edit the image so it has the width you need.
 
-*Example*
+**Example**
 
 A Markdown snippet:
 
@@ -279,7 +279,7 @@ Second term here, after an empty line
 :   Definition of the second term.
 ----
 
-*Example*
+**Example**
 
 An example of a list definition you can create with our tools:
 
@@ -301,7 +301,7 @@ As a convention, indent the line right after the break with 4 spaces to make it 
 
 To add a second paragraph to the same list item, add an empty line between paragraphs and indent the second paragraph with 4 spaces per list level. For example, if you're adding a second paragraph to a list item in the first level of a list (not an element in a sub-list of that list), indent it with 4 spaces.
 
-*Examples*
+**Examples**
 
 A Markdown snippet with breaks in paragraphs:
 
@@ -357,7 +357,7 @@ IMPORTANT: Don't indent `<tr>/<th>/<td>` elements with four spaces when formatti
 
 To insert a list in a cell of Markdown table, format the list as one line of HTML.
 
-*Examples*
+**Examples**
 
 Unordered list:
 
@@ -387,7 +387,7 @@ To define a code block that spans one or more lines, use the code block syntax. 
 
 Optionally, put the programming language name at the beginning, to get syntax highlighting in the final document. The supported languages are: css, csharp, html, java, javascript, sql, xml. Use javascript for JSON blocks.
 
-*Examples*
+**Examples**
 
 In this sentence there is `some code`.
 
@@ -423,7 +423,7 @@ Indent the code text with at least four spaces more than the current indentation
 
 For example, in body text, indent any code with four spaces. Inside a level-1 list item, indent your code with eight spaces to obtain a code block formatting, since extra paragraphs for the list item are defined using four spaces. For list items in deeper levels, follow the same approach, adding four spaces to the required indentation for adding more paragraphs to the list item.
 
-*Example*
+**Example**
 
 A Markdown snippet with the alternative block syntax:
 
@@ -448,7 +448,7 @@ To insert a warning or information box, use a HTML `<div>` element with `class="
 
 Add a blank newline after the opening `<div>` tag and before the corresponding closing tag so that the VS Code previewer parses the `<div>` content as Markdown.
 
-*Examples*
+**Examples**
 
 An example of warning:
 
