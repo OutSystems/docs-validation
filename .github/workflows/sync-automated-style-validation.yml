@@ -28,23 +28,26 @@ jobs:
         id: branch
         run: echo "name=sync/automated-style-validation-$(uuidgen)" >> $GITHUB_OUTPUT
 
-      - name: Clone target repo and create branch
-        env:
-          PAT: ${{ secrets.TOOLS_PAT }}
+      - name: Checkout target repo
+        uses: actions/checkout@v4
+        with:
+          repository: ${{ matrix.repo }}
+          token: ${{ secrets.TOOLS_PAT }}
+          path: target-repo
+
+      - name: Create new branch in target repo
         run: |
-          git clone https://x-access-token:${PAT}@github.com/${{ matrix.repo }}.git target-repo
           cd target-repo
           git checkout -b ${{ steps.branch.outputs.name }}
-          cd ..
 
       - name: Sync automated-style-validation contents to target repo root
         run: |
           rsync -av --delete automated-style-validation/ target-repo/
 
       - name: Create PR in target repo
-        uses: peter-evans/create-pull-request@v6
-        working-directory: target-repo
+        uses: peter-evans/create-pull-request@v7
         with:
+          path: target-repo
           commit-message: "Sync automated-style-validation changes"
           branch: ${{ steps.branch.outputs.name }}
           title: "Sync automated-style-validation"
