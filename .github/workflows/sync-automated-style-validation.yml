@@ -59,6 +59,7 @@ jobs:
         uses: peter-evans/create-pull-request@v7
         with:
           path: target-repo
+          base: main
           commit-message: "Sync automated-style-validation changes"
           branch: ${{ steps.branch.outputs.name }}
           title: "Sync automated-style-validation"
