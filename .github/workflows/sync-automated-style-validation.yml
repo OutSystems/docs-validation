@@ -36,6 +36,16 @@ jobs:
           repository: ${{ matrix.repo }}
           token: ${{ secrets.TOOLS_PAT }}
 
+      - name: Debug folder structure
+        run: |
+          echo "Current working directory: $(pwd)"
+          echo "List root files:"
+          ls -la
+          echo "List source-repo folder:"
+          ls -la source-repo
+          echo "Check automated-style-validation exists:"
+          ls -la source-repo/automated-style-validation || echo "Folder does not exist"
+
       - name: Sync automated-style-validation contents to target repo root
         run: rsync -av --delete source-repo/automated-style-validation/ ./
 
