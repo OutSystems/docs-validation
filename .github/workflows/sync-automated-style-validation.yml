@@ -48,7 +48,7 @@ jobs:
           ls -la source-repo/automated-style-validation || echo "Folder does not exist"
 
       - name: Sync automated-style-validation contents to target repo root
-        run: rsync -av --delete source-repo/automated-style-validation/ target-repo/
+        run: rsync -av source-repo/automated-style-validation/ target-repo/
 
       - name: Create new branch in target repo
         run: git checkout -b ${{ steps.branch.outputs.name }}
