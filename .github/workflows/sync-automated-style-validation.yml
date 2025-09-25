@@ -1,0 +1,43 @@
+name: Sync Automated Style Validation
+
+on:
+  push:
+    paths:
+      - 'automated-style-validation/**'
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        repo: 
+          - OutSystems/style-guides-playground
+    permissions:
+      contents: write
+      pull-requests: write
+
+    steps:
+      - name: Checkout source repo
+        uses: actions/checkout@v4
+
+      - name: Clone target repo
+        run: |
+          git clone https://github.com/${{ matrix.repo }}.git target-repo
+          rsync -av --delete automated-style-validation/ target-repo/automated-style-validation/
+
+      - name: Generate branch name with UUID
+        id: branch
+        run: echo "name=sync/automated-style-validation-$(uuidgen)" >> $GITHUB_OUTPUT
+
+      - name: Create PR in target repo
+        uses: peter-evans/create-pull-request@v6
+        with:
+          path: target-repo
+          commit-message: "Sync automated-style-validation changes"
+          branch: ${{ steps.branch.outputs.name }}
+          title: "Sync automated-style-validation"
+          body: "This PR syncs changes on style validation files."
+          labels: |
+            skip-jira
+            auto-merge
+          token: ${{ secrets.GITHUB_TOKEN }}
