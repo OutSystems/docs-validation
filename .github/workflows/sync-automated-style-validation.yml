@@ -29,9 +29,11 @@ jobs:
         env:
           PAT: ${{ secrets.TOOLS_PAT }}
         run: |
-          git config --global url."https://${PAT}:@github.com/".insteadOf "https://github.com/"
-          git clone https://github.com/${{ matrix.repo }}.git target-repo
-          rsync -av --delete automated-style-validation/ target-repo/automated-style-validation/
+          git clone https://x-access-token:${PAT}@github.com/${{ matrix.repo }}.git target-repo
+          cd target-repo
+          git checkout -b sync/automated-style-validation-$(uuidgen)
+          cd ..
+          rsync -av --delete automated-style-validation/ target-repo/
 
       - name: Generate branch name with UUID
         id: branch
