@@ -51,11 +51,14 @@ jobs:
         run: rsync -av source-repo/automated-style-validation/ target-repo/
 
       - name: Create new branch in target repo
-        run: git checkout -b ${{ steps.branch.outputs.name }}
+          run: |
+            cd target-repo
+            git checkout -b ${{ steps.branch.outputs.name }}
 
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v7
         with:
+          path: target-repo
           commit-message: "Sync automated-style-validation changes"
           branch: ${{ steps.branch.outputs.name }}
           title: "Sync automated-style-validation"
