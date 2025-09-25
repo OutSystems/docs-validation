@@ -50,17 +50,19 @@ jobs:
       - name: Sync automated-style-validation contents to target repo root
         run: rsync -av source-repo/automated-style-validation/ target-repo/
 
-      - name: Create new branch in target repo
+      - name: Create branch, commit and push changes
         run: |
           cd target-repo
           git checkout -b ${{ steps.branch.outputs.name }}
+          git add .
+          git commit -m "Sync automated-style-validation changes"
+          git push origin ${{ steps.branch.outputs.name }}
 
-      - name: Create Pull Request
+      - name: Create PR in target repo
         uses: peter-evans/create-pull-request@v7
         with:
           path: target-repo
           base: main
-          commit-message: "Sync automated-style-validation changes"
           branch: ${{ steps.branch.outputs.name }}
           title: "Sync automated-style-validation"
           body: "This PR syncs changes on style validation files."
