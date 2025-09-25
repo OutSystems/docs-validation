@@ -14,7 +14,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        repo: 
+        repo:
           - OutSystems/style-guides-playground
     permissions:
       contents: write
@@ -23,6 +23,8 @@ jobs:
     steps:
       - name: Checkout source repo
         uses: actions/checkout@v4
+        with:
+          path: source-repo
 
       - name: Generate branch name with UUID
         id: branch
@@ -33,21 +35,16 @@ jobs:
         with:
           repository: ${{ matrix.repo }}
           token: ${{ secrets.TOOLS_PAT }}
-          path: target-repo
 
-      - name: Sync automated-style-validation contents to root
-        run: |
-          rsync -av --delete automated-style-validation/ target-repo/
+      - name: Sync automated-style-validation contents to target repo root
+        run: rsync -av --delete source-repo/automated-style-validation/ ./
 
       - name: Create new branch in target repo
-        run: |
-          cd target-repo
-          git checkout -b ${{ steps.branch.outputs.name }}
+        run: git checkout -b ${{ steps.branch.outputs.name }}
 
-      - name: Create PR in target repo
+      - name: Create Pull Request
         uses: peter-evans/create-pull-request@v7
         with:
-          path: target-repo
           commit-message: "Sync automated-style-validation changes"
           branch: ${{ steps.branch.outputs.name }}
           title: "Sync automated-style-validation"
