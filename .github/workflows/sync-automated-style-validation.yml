@@ -35,14 +35,14 @@ jobs:
           token: ${{ secrets.TOOLS_PAT }}
           path: target-repo
 
+      - name: Sync automated-style-validation contents to root
+        run: |
+          rsync -av --delete automated-style-validation/ target-repo/
+
       - name: Create new branch in target repo
         run: |
           cd target-repo
           git checkout -b ${{ steps.branch.outputs.name }}
-
-      - name: Sync automated-style-validation contents to target repo root
-        run: |
-          rsync -av --delete automated-style-validation/ target-repo/
 
       - name: Create PR in target repo
         uses: peter-evans/create-pull-request@v7
