@@ -37,15 +37,13 @@ jobs:
           token: ${{ secrets.TOOLS_PAT }}
           path: target-repo
 
-      - name: Debug folder structure
+      - name: Detect default branch
+        id: base-branch
         run: |
-          echo "Current working directory: $(pwd)"
-          echo "List root files:"
-          ls -la
-          echo "List source-repo folder:"
-          ls -la source-repo
-          echo "Check automated-style-validation exists:"
-          ls -la source-repo/automated-style-validation || echo "Folder does not exist"
+          cd target-repo
+          default_branch=$(git remote show origin | awk '/HEAD branch/ {print $NF}')
+          echo "base=$default_branch" >> $GITHUB_OUTPUT
+          cd ..
 
       - name: Sync automated-style-validation contents to target repo root
         run: rsync -av source-repo/automated-style-validation/ target-repo/
@@ -54,7 +52,7 @@ jobs:
         uses: peter-evans/create-pull-request@v7
         with:
           path: target-repo
-          base: main
+          base: ${{ steps.base-branch.outputs.base }}
           commit-message: "Sync automated-style-validation changes"
           branch: ${{ steps.branch.outputs.name }}
           title: "Sync automated-style-validation"
