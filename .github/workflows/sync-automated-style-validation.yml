@@ -1,6 +1,12 @@
 name: Sync Automated Style Validation
 
 on:
+
+  pull_request:
+  paths:
+    - 'automated-style-validation/**'
+  types: [opened, synchronize, reopened]
+
   push:
     paths:
       - 'automated-style-validation/**'
