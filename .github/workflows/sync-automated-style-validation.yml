@@ -7,6 +7,7 @@ on:
     paths:
       - 'automated-style-validation/**'
       - '.github/workflows/sync-automated-style-validation.yml'
+  workflow_dispatch:
 
 jobs:
   sync:
@@ -16,6 +17,8 @@ jobs:
         repo:
           - OutSystems/docs-next
           - OutSystems/training-internal
+          - OutSystems/docs-support-internal
+          - OutSystems/docs-product-internal
     permissions:
       contents: write
       pull-requests: write
