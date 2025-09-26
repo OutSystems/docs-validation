@@ -1,11 +1,9 @@
 name: Sync Automated Style Validation
 
 on:
-  pull_request:
-    types: [opened, synchronize, reopened]
-    paths:
-      - 'automated-style-validation/**'
   push:
+    branches:
+      - TK-18349-create-github-workflow-to-push-files-changed # TODO: Revert the branch back to "master" once testing is done 
     paths:
       - 'automated-style-validation/**'
 
