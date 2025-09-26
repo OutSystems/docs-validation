@@ -3,7 +3,7 @@ name: Sync Automated Style Validation
 on:
   push:
     branches:
-      - TK-18349-create-github-workflow-to-push-files-changed # TODO: Revert the branch back to "master" once testing is done 
+      - master
     paths:
       - 'automated-style-validation/**'
       - '.github/workflows/sync-automated-style-validation.yml'
@@ -14,7 +14,8 @@ jobs:
     strategy:
       matrix:
         repo:
-          - OutSystems/style-guides-playground
+          - OutSystems/docs-next
+          - OutSystems/training-internal
     permissions:
       contents: write
       pull-requests: write
