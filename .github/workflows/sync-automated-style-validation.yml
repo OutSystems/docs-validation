@@ -11,6 +11,7 @@ on:
 
 jobs:
   sync:
+    name: Synchronise style guide files with dependent repositories
     runs-on: ubuntu-latest
     strategy:
       matrix:
