@@ -6,6 +6,7 @@ on:
       - TK-18349-create-github-workflow-to-push-files-changed # TODO: Revert the branch back to "master" once testing is done 
     paths:
       - 'automated-style-validation/**'
+      - '.github/workflows/sync-automated-style-validation.yml'
 
 jobs:
   sync:
