@@ -82,9 +82,29 @@ on:
   pull_request:
 
 jobs:
+  get-changed-md:
+    name: Get changed .md files
+    runs-on: ubuntu-latest
+    outputs:
+      changed-md: ${{ steps.changed.outputs.all_changed_files }}
+    steps:
+      - uses: actions/checkout@v4
+      - name: Get changed markdown files
+        id: changed
+        uses: tj-actions/changed-files@v45
+        with:
+          files: |
+            **/*.md
+      - name: Debug changed files
+        run: echo "Changed MD files ${{ steps.changed.outputs.all_changed_files }}"
+
   call-markdownlint:
+    name: Run Markdownlint validation
+    needs: get-changed-md
+    if: ${{ needs.get-changed-md.outputs.changed-md != '' }}
     uses: OutSystems/tk-cicd/.github/workflows/style-guides-validation.yml@main
-      
+    with:
+      paths-to-lint: ${{ needs.get-changed-md.outputs.changed-md }}
     secrets:
       github-token: ${{ secrets.GITHUB_TOKEN }}
 ```
