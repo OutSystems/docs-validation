@@ -1,0 +1,67 @@
+name: Sync Automated Style Validation
+
+on:
+  push:
+    branches:
+      - master
+    paths:
+      - 'automated-style-validation/**'
+      - '.github/workflows/sync-automated-style-validation.yml'
+  workflow_dispatch:
+
+jobs:
+  sync:
+    name: Synchronise style guide files with dependent repositories
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        repo:
+          - OutSystems/docs-next
+          - OutSystems/training-internal
+          - OutSystems/docs-support-internal
+          - OutSystems/docs-product-internal
+    permissions:
+      contents: write
+      pull-requests: write
+
+    steps:
+      - name: Checkout source repo
+        uses: actions/checkout@v4
+        with:
+          path: source-repo
+
+      - name: Generate branch name with UUID
+        id: branch
+        run: echo "name=sync/automated-style-validation-$(uuidgen)" >> $GITHUB_OUTPUT
+
+      - name: Checkout target repo
+        uses: actions/checkout@v4
+        with:
+          repository: ${{ matrix.repo }}
+          token: ${{ secrets.TOOLS_PAT }}
+          path: target-repo
+
+      - name: Detect default branch
+        id: base-branch
+        run: |
+          cd target-repo
+          default_branch=$(git remote show origin | awk '/HEAD branch/ {print $NF}')
+          echo "base=$default_branch" >> $GITHUB_OUTPUT
+          cd ..
+
+      - name: Sync automated-style-validation contents to target repo root
+        run: rsync -av source-repo/automated-style-validation/ target-repo/
+
+      - name: Create Pull Request in target repo
+        uses: peter-evans/create-pull-request@v7
+        with:
+          path: target-repo
+          base: ${{ steps.base-branch.outputs.base }}
+          commit-message: "Sync automated-style-validation changes"
+          branch: ${{ steps.branch.outputs.name }}
+          title: "Sync automated-style-validation"
+          body: "This PR syncs changes on style validation files."
+          labels: |
+            skip-jira
+            auto-merge
+          token: ${{ secrets.TOOLS_PAT }}
