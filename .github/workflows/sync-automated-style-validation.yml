@@ -16,10 +16,7 @@ jobs:
     strategy:
       matrix:
         repo:
-          - OutSystems/docs-next
-          - OutSystems/training-internal
-          - OutSystems/docs-support-internal
-          - OutSystems/docs-product-internal
+          - OutSystems/style-guides-playground
     permissions:
       contents: write
       pull-requests: write
