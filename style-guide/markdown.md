@@ -454,21 +454,24 @@ An example of warning:
 
 [source, html]
 ----
+```
 <div class="warning" markdown="1">
  
 Include your warning text here.
  
 </div>
+'''
 ----
 
 An example of additional information:
 
 [source, html]
 ----
-
+```
 <div class="info" markdown="1">
  
 Include your informational text here.
  
 </div>
+'''
 ----
