@@ -3,7 +3,7 @@ name: Sync Automated Style Validation
 on:
   push:
     branches:
-      - master
+      - test-integration
     paths:
       - 'automated-style-validation/**'
       - '.github/workflows/sync-automated-style-validation.yml'
