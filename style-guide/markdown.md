@@ -466,9 +466,11 @@ An example of additional information:
 
 [source, html]
 ----
-```<div class="info" markdown="1">
+```
+<div class="info" markdown="1">
  
 Include your informational text here.
  
-</div>```
+</div>
+```
 ----
