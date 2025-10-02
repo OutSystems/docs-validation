@@ -52,6 +52,9 @@ jobs:
       - name: Sync automated-style-validation contents to target repo root
         run: rsync -av source-repo/automated-style-validation/ target-repo/
 
+      - name: Sync vale style guides contents to target repo style folder
+        run: rsync -av source-repo/styles-vale/ target-repo/style/
+
       - name: Create Pull Request in target repo
         uses: peter-evans/create-pull-request@v7
         with:
