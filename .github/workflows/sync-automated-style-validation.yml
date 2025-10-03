@@ -3,7 +3,7 @@ name: Sync Automated Style Validation
 on:
   push:
     branches:
-      - test-integration
+      - master
     paths:
       - 'automated-style-validation/**'
       - '.github/workflows/sync-automated-style-validation.yml'
@@ -17,7 +17,10 @@ jobs:
     strategy:
       matrix:
         repo:
-          - OutSystems/style-guides-playground
+          - OutSystems/docs-next
+          - OutSystems/training-internal
+          - OutSystems/docs-support-internal
+          - OutSystems/docs-product-internal
     permissions:
       contents: write
       pull-requests: write
