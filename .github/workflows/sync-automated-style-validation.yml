@@ -62,6 +62,7 @@ jobs:
           git add -f . || true
 
       - name: Create Pull Request in target repo
+        id: create-pr
         uses: peter-evans/create-pull-request@v7
         with:
           path: target-repo
@@ -70,7 +71,14 @@ jobs:
           branch: ${{ steps.branch.outputs.name }}
           title: "Sync automated-style-validation"
           body: "This PR syncs changes on style validation files."
-          labels: |
-            skip-jira
-            auto-merge
+          labels: skip-jira
           token: ${{ secrets.TOOLS_PAT }}
+
+      - name: Add auto-merge label
+        if: steps.cpr.outputs.pull-request-number != ''
+        uses: actions-ecosystem/action-add-labels@v1
+        with:
+          github_token: ${{ secrets.TOOLS_PAT }}
+          labels: auto-merge
+          number: ${{ steps.create-pr.outputs.pull-request-number }}
+          repo: ${{ matrix.repo }}
