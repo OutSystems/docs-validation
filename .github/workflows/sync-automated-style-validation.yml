@@ -51,12 +51,12 @@ jobs:
         run: rsync -av source-repo/automated-style-validation/ target-repo/
 
       - name: Sync vale style guides contents to target repo style folder
-        run: rsync -av source-repo/styles-vale/ target-repo/style/
+        run: rsync -av source-repo/styles-vale/ target-repo/styles/
 
-      - name: Force-add styles folder (overrides .gitignore)
+      - name: Force-add changed files (overrides target-repo .gitignore)
         run: |
           cd target-repo
-          git add -f styles/ || true
+          git add -f . || true
 
       - name: Create Pull Request in target repo
         uses: peter-evans/create-pull-request@v7
