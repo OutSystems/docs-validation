@@ -75,7 +75,7 @@ jobs:
           token: ${{ secrets.TOOLS_PAT }}
 
       - name: Add auto-merge label
-        if: steps.cpr.outputs.pull-request-number != ''
+        if: steps.create-pr.outputs.pull-request-number != ''
         uses: actions-ecosystem/action-add-labels@v1
         with:
           github_token: ${{ secrets.TOOLS_PAT }}
