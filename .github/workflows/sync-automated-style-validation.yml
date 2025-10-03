@@ -7,6 +7,7 @@ on:
     paths:
       - 'automated-style-validation/**'
       - '.github/workflows/sync-automated-style-validation.yml'
+      - 'styles-vale/**'
   workflow_dispatch:
 
 jobs:
@@ -54,6 +55,11 @@ jobs:
 
       - name: Sync vale style guides contents to target repo style folder
         run: rsync -av source-repo/styles-vale/ target-repo/styles/
+
+      - name: Force-add changed files (overrides target-repo .gitignore)
+        run: |
+          cd target-repo
+          git add -f . || true
 
       - name: Create Pull Request in target repo
         uses: peter-evans/create-pull-request@v7
