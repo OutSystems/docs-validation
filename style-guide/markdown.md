@@ -363,10 +363,13 @@ Unordered list:
 
 [source, markdown]
 ----
+
+```
 | First Header | Second Header                                   |
 | ------------ | ----------------------------------------------- |
 | Content Cell | <ul><li>Bullet one</li><li>Bullet two</li></ul> |
 | Content Cell | Content Cell                                    |
+```
 ----
 
 Ordered list:
