@@ -39,6 +39,7 @@ exceptions:
   - Mobile
   - Mobile Apps Build Service
   - Module
+  - OpenID Connect
   - Parameter
   - Personal
   - Process
